@@ -179,7 +179,9 @@ supabase = create_client(
     SUPABASE_URL,
     SUPABASE_KEY
 )
+import numpy as np
 
+result = result.replace({np.nan: None})
 records = result.to_dict("records")
 
 supabase.table(
