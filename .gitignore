@@ -6,3 +6,6 @@ __pycache__/
 
 *.pkl
 *.parquet
+
+html_samples/
+csv/Supabase Snippet Untitled query (1).csv
