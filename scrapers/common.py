@@ -1,15 +1,27 @@
 import re
-from datetime import datetime, timezone
-
-import requests
-import pandas as pd
-from bs4 import BeautifulSoup
-from dateutil.relativedelta import relativedelta
+from calendar import monthrange
+from datetime import datetime, timedelta, timezone
 
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0"
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/126.0.0.0 Safari/537.36"
+    ),
+    "Accept": (
+        "text/html,application/xhtml+xml,application/xml;"
+        "q=0.9,image/avif,image/webp,*/*;q=0.8"
+    ),
+    "Accept-Language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
 }
+
+RELATIVE_DATE_PATTERN = re.compile(
+    r"\b(\d+)\s+(menit|jam|hari|minggu|bulan|tahun)\s+(?:yang\s+)?lalu\b",
+    re.IGNORECASE,
+)
 
 ARTICLE_NOISE_SELECTORS = [
     "script",
@@ -66,28 +78,89 @@ INDONESIAN_MONTHS = {
 
 
 def cutoff_date(months=4):
-    return datetime.now() - relativedelta(months=months)
+    return shift_datetime(datetime.now(), months=-months)
+
+
+def shift_datetime(value, years=0, months=0, weeks=0, days=0, hours=0, minutes=0):
+    shifted = value + timedelta(
+        weeks=weeks,
+        days=days,
+        hours=hours,
+        minutes=minutes,
+    )
+
+    month_index = shifted.month - 1 + months + (years * 12)
+    year = shifted.year + month_index // 12
+    month = month_index % 12 + 1
+    day = min(shifted.day, monthrange(year, month)[1])
+
+    return shifted.replace(year=year, month=month, day=day)
 
 
 def scraped_at():
     return datetime.now(timezone.utc).isoformat()
 
 
-def fetch_html(url, verify=True):
+def parse_relative_date(value, now=None):
+    if not value:
+        return None
+
+    match = RELATIVE_DATE_PATTERN.search(str(value))
+
+    if not match:
+        return None
+
+    amount = int(match.group(1))
+    unit = match.group(2).lower()
+    now = now or datetime.now()
+
+    if unit == "menit":
+        return shift_datetime(now, minutes=-amount)
+
+    if unit == "jam":
+        return shift_datetime(now, hours=-amount)
+
+    if unit == "hari":
+        return shift_datetime(now, days=-amount)
+
+    if unit == "minggu":
+        return shift_datetime(now, weeks=-amount)
+
+    if unit == "bulan":
+        return shift_datetime(now, months=-amount)
+
+    if unit == "tahun":
+        return shift_datetime(now, years=-amount)
+
+    return None
+
+
+def fetch_html(url, verify=True, timeout=15):
+    from bs4 import BeautifulSoup
+
     return BeautifulSoup(
-        fetch_text(url, verify=verify),
+        fetch_text(url, verify=verify, timeout=timeout),
         "html.parser",
     )
 
 
-def fetch_text(url, verify=True):
+def fetch_text(url, verify=True, timeout=15):
+    print(f"HTTP GET start: {url}", flush=True)
+
+    import requests
+
     response = requests.get(
         url,
         headers=HEADERS,
-        timeout=30,
+        timeout=timeout,
         verify=verify,
     )
     response.raise_for_status()
+    print(
+        f"HTTP GET ok: {url} | status={response.status_code} | "
+        f"bytes={len(response.text)}",
+        flush=True,
+    )
 
     return response.text
 
@@ -112,7 +185,14 @@ def clean_lines(text):
         seen.add(line)
         cleaned.append(line)
 
-    return "\n".join(cleaned) if cleaned else None
+    if not cleaned:
+        return None
+
+    result = " ".join(cleaned)
+    result = re.sub(r"\s+([,.;:!?])", r"\1", result)
+    result = re.sub(r"([\(\{\[])\s+", r"\1", result)
+
+    return result
 
 
 def clean_article_soup(container):
@@ -165,14 +245,27 @@ def clean_article_text(text):
     cleaned = []
     seen = set()
     skip_next = 0
+    skip_table_of_contents = False
 
     for line in lines:
         normalized = re.sub(r"\s+", " ", line).strip()
+        normalized = re.sub(r"\s+([,.;:!?])", r"\1", normalized)
+        normalized = re.sub(r"([\(\{\[])\s+", r"\1", normalized)
         lower = normalized.lower()
 
         if skip_next:
             skip_next -= 1
             continue
+
+        if skip_table_of_contents:
+            if normalized == "-":
+                skip_table_of_contents = False
+                continue
+
+            if len(normalized) <= 80 and not re.search(r"[.!?]$", normalized):
+                continue
+
+            skip_table_of_contents = False
 
         if re.match(r"^baca\s+juga\s*:?\s*$", lower):
             skip_next = 1
@@ -190,6 +283,10 @@ def clean_article_text(text):
 
         if lower == "temukan lebih banyak":
             skip_next = 3
+            continue
+
+        if lower == "daftar isi":
+            skip_table_of_contents = True
             continue
 
         if lower in {
@@ -219,7 +316,14 @@ def clean_article_text(text):
         seen.add(lower)
         cleaned.append(normalized)
 
-    return "\n".join(cleaned) if cleaned else None
+    if not cleaned:
+        return None
+
+    result = " ".join(cleaned)
+    result = re.sub(r"\s+([,.;:!?])", r"\1", result)
+    result = re.sub(r"([\(\{\[])\s+", r"\1", result)
+
+    return result
 
 
 def parse_date(value):
@@ -231,7 +335,14 @@ def parse_date(value):
     if not text:
         return None
 
+    relative_date = parse_relative_date(text)
+
+    if relative_date:
+        return relative_date.replace(tzinfo=None)
+
     normalized = re.sub(r"\s+", " ", text)
+    normalized = re.sub(r"^[A-Za-zÀ-ž]+,\s*", "", normalized)
+    normalized = re.sub(r"\bWIB\b", "", normalized, flags=re.IGNORECASE).strip()
 
     for indonesian_month, english_month in INDONESIAN_MONTHS.items():
         normalized = re.sub(
@@ -248,6 +359,10 @@ def parse_date(value):
         "%B %d, %Y",
         "%b %d, %Y",
         "%d %B %Y",
+        "%d %B %Y %H:%M",
+        "%d %b %Y %H:%M",
+        "%d %B %y, %H:%M",
+        "%d %B %Y, %H:%M",
         "%d - %b - %Y, %H:%M",
         "%d - %B - %Y, %H:%M",
     ]
@@ -285,6 +400,8 @@ def is_older_than_cutoff(value, cutoff):
 
 
 def records_to_df(records, subset="url"):
+    import pandas as pd
+
     df = pd.DataFrame(records)
 
     if df.empty:

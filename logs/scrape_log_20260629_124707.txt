@@ -1,0 +1,24 @@
+Scrape log file: logs/scrape_log_20260629_124707.txt
+Traceback (most recent call last):
+  File "/Users/tsar/Library/Mobile Documents/com~apple~CloudDocs/main/college/pkl/project/main.py", line 41, in <module>
+    print("Importing pandas...", flush=True)
+    ^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsar/Library/Mobile Documents/com~apple~CloudDocs/main/college/pkl/project/.venv/lib/python3.13/site-packages/pandas/__init__.py", line 116, in <module>
+    from pandas.core.computation.api import eval
+  File "/Users/tsar/Library/Mobile Documents/com~apple~CloudDocs/main/college/pkl/project/.venv/lib/python3.13/site-packages/pandas/core/computation/api.py", line 2, in <module>
+    from pandas.core.computation.eval import eval
+  File "/Users/tsar/Library/Mobile Documents/com~apple~CloudDocs/main/college/pkl/project/.venv/lib/python3.13/site-packages/pandas/core/computation/eval.py", line 23, in <module>
+    from pandas.core.computation.engines import ENGINES
+  File "/Users/tsar/Library/Mobile Documents/com~apple~CloudDocs/main/college/pkl/project/.venv/lib/python3.13/site-packages/pandas/core/computation/engines.py", line 16, in <module>
+    from pandas.core.computation.ops import (
+    ...<2 lines>...
+    )
+  File "/Users/tsar/Library/Mobile Documents/com~apple~CloudDocs/main/college/pkl/project/.venv/lib/python3.13/site-packages/pandas/core/computation/ops.py", line 29, in <module>
+    from pandas.core.computation.scope import DEFAULT_GLOBALS
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1118, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1218, in get_data
+KeyboardInterrupt

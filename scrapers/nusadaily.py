@@ -15,12 +15,14 @@ from scrapers.common import (
 BASE_URL = "https://www.nusadaily.com/search"
 SOURCE = "nusadaily"
 OUTPUT_PATH = "csv/nusadaily_articles.csv"
+MAX_CONSECUTIVE_FETCH_ERRORS = 3
 
 
-def scrape_list(cutoff, max_pages=20):
+def scrape_list(cutoff, max_pages=200):
     articles = []
     page_num = 1
     stop = False
+    consecutive_fetch_errors = 0
 
     while not stop and page_num <= max_pages:
         url = f"{BASE_URL}?q=kabupaten+malang&page={page_num}"
@@ -29,14 +31,23 @@ def scrape_list(cutoff, max_pages=20):
 
         try:
             soup = fetch_html(url)
+            consecutive_fetch_errors = 0
         except Exception as error:
             print(f"Gagal buka NusaDaily page {page_num}: {error}")
-            break
+            consecutive_fetch_errors += 1
+
+            if consecutive_fetch_errors >= MAX_CONSECUTIVE_FETCH_ERRORS:
+                break
+
+            page_num += 1
+            continue
 
         cards = soup.select("div.post-item")
 
         if not cards:
             break
+
+        page_dates = []
 
         for card in cards:
             title_tag = card.select_one("h3.title a")
@@ -51,9 +62,11 @@ def scrape_list(cutoff, max_pages=20):
                 else None
             )
 
+            if published_date:
+                page_dates.append(published_date)
+
             if is_older_than_cutoff(published_date, cutoff):
-                stop = True
-                break
+                continue
 
             articles.append(
                 {
@@ -62,6 +75,12 @@ def scrape_list(cutoff, max_pages=20):
                     "published_date": published_date,
                 }
             )
+
+        if page_dates and all(
+            is_older_than_cutoff(date_value, cutoff)
+            for date_value in page_dates
+        ):
+            stop = True
 
         page_num += 1
 
@@ -94,9 +113,9 @@ def extract_article(row):
     }
 
 
-def scrape():
+def scrape(max_pages=200):
     cutoff = cutoff_date()
-    urls_df = scrape_list(cutoff)
+    urls_df = scrape_list(cutoff, max_pages=max_pages)
     articles = []
 
     for index, row in urls_df.iterrows():

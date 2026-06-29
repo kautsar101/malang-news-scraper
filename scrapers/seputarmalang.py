@@ -11,7 +11,7 @@ from scrapers.common import (
 )
 
 
-BASE_URL = "https://seputarmalang.com/pendidikan/"
+BASE_URL = "https://seputarmalang.com/lokasi/kabupaten-malang/"
 SOURCE = "seputar_malang"
 OUTPUT_PATH = "csv/seputar_malang_articles.csv"
 

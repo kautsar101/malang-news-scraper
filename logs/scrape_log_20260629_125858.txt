@@ -1,0 +1,3 @@
+Scrape log file: logs/scrape_log_20260629_125858.txt
+Startup ready. Heavy imports are lazy-loaded per step.
+main import ok

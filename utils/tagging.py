@@ -1,5 +1,8 @@
 import re
-import pandas as pd
+
+
+def is_missing(value):
+    return value is None or value != value
 
 KECAMATAN = {
     "Ampelgading": (-8.2583, 112.7667),
@@ -39,7 +42,7 @@ KECAMATAN = {
 
 def tag_kecamatan(text):
 
-    if pd.isna(text):
+    if is_missing(text):
 
         return None, None, None, None
 

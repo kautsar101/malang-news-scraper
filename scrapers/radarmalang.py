@@ -18,9 +18,10 @@ from scrapers.common import (
 )
 
 
-BASE_URL = "https://radarmalang.jawapos.com/pendidikan"
+BASE_URL = "https://radarmalang.jawapos.com/kabupaten-malang"
 SOURCE = "radar_malang"
 OUTPUT_PATH = "csv/radar_malang_articles.csv"
+MAX_CONSECUTIVE_FETCH_ERRORS = 3
 
 
 def extract_data_page(html_text):
@@ -47,10 +48,11 @@ def page_url(page_num):
     return f"{BASE_URL}?page={page_num}"
 
 
-def scrape_list(cutoff, max_pages=20):
+def scrape_list(cutoff, max_pages=200):
     articles = []
     page_num = 1
     stop = False
+    consecutive_fetch_errors = 0
 
     while not stop and page_num <= max_pages:
         url = page_url(page_num)
@@ -59,9 +61,16 @@ def scrape_list(cutoff, max_pages=20):
 
         try:
             html_text = fetch_text(url)
+            consecutive_fetch_errors = 0
         except Exception as error:
             print(f"Gagal buka Radar Malang page {page_num}: {error}")
-            break
+            consecutive_fetch_errors += 1
+
+            if consecutive_fetch_errors >= MAX_CONSECUTIVE_FETCH_ERRORS:
+                break
+
+            page_num += 1
+            continue
 
         page_data = extract_data_page(html_text)
 
@@ -79,15 +88,19 @@ def scrape_list(cutoff, max_pages=20):
         if not article_items:
             break
 
+        page_dates = []
+
         for article in article_items:
             published_date = article.get("date")
 
+            if published_date:
+                page_dates.append(published_date)
+
             if is_older_than_cutoff(published_date, cutoff):
-                stop = True
-                break
+                continue
 
             article_url = (
-                "https://radarmalang.jawapos.com/pendidikan/"
+                f"{BASE_URL}/"
                 f"{article['article_id']}/"
                 f"{article['slug']}"
             )
@@ -99,6 +112,12 @@ def scrape_list(cutoff, max_pages=20):
                     "published_date": published_date,
                 }
             )
+
+        if page_dates and all(
+            is_older_than_cutoff(date_value, cutoff)
+            for date_value in page_dates
+        ):
+            stop = True
 
         page_num += 1
 
@@ -136,14 +155,12 @@ def extract_article(row):
 
     clean_article_soup(content_soup)
 
-    category = article.get("category")
-
     return {
         "title": article.get("title") or row["title"],
         "published_date": normalize_date(article.get("date") or row["published_date"]),
         "scraped_at": scraped_at(),
         "author": author,
-        "category": category.get("name") if isinstance(category, dict) else None,
+        "category": None,
         "content": clean_article_text(
             content_soup.get_text(separator="\n", strip=True)
         ),
@@ -177,7 +194,7 @@ def extract_article_from_dom(html_text, row):
         "published_date": normalize_date(row["published_date"]),
         "scraped_at": scraped_at(),
         "author": None,
-        "category": "Pendidikan",
+        "category": None,
         "content": clean_article_text(
             content_box.get_text(separator="\n", strip=True)
         ),
@@ -188,9 +205,9 @@ def extract_article_from_dom(html_text, row):
     }
 
 
-def scrape():
+def scrape(max_pages=200):
     cutoff = cutoff_date()
-    urls_df = scrape_list(cutoff)
+    urls_df = scrape_list(cutoff, max_pages=max_pages)
     articles = []
 
     for index, row in urls_df.iterrows():

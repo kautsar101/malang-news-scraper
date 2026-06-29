@@ -14,6 +14,7 @@ from scrapers.common import (
 BASE_URL = "https://malangposcomedia.id/category/kabupaten-malang"
 SOURCE = "malangposco"
 OUTPUT_PATH = "csv/malangposco_articles.csv"
+MAX_CONSECUTIVE_FETCH_ERRORS = 3
 
 
 def page_url(page_num):
@@ -23,10 +24,14 @@ def page_url(page_num):
     return f"{BASE_URL}/page/{page_num}/"
 
 
-def scrape_list(cutoff, max_pages=20):
+def scrape_list(cutoff, max_pages=200):
     articles = []
     page_num = 1
     stop = False
+    reached_cutoff = False
+    consecutive_fetch_errors = 0
+
+    print(f"Malang Posco list max_pages={max_pages}, cutoff={cutoff.date()}")
 
     while not stop and page_num <= max_pages:
         url = page_url(page_num)
@@ -35,14 +40,23 @@ def scrape_list(cutoff, max_pages=20):
 
         try:
             soup = fetch_html(url)
+            consecutive_fetch_errors = 0
         except Exception as error:
             print(f"Gagal buka Malang Posco page {page_num}: {error}")
-            break
+            consecutive_fetch_errors += 1
+
+            if consecutive_fetch_errors >= MAX_CONSECUTIVE_FETCH_ERRORS:
+                break
+
+            page_num += 1
+            continue
 
         cards = soup.select("div.tdb_module_loop")
 
         if not cards:
             break
+
+        page_dates = []
 
         for card in cards:
             title_tag = card.select_one("p.entry-title a")
@@ -55,9 +69,12 @@ def scrape_list(cutoff, max_pages=20):
 
             published_date = date_tag.get("datetime") if date_tag else None
 
+            if published_date:
+                page_dates.append(published_date)
+
             if is_older_than_cutoff(published_date, cutoff):
-                stop = True
-                break
+                reached_cutoff = True
+                continue
 
             image_url = None
 
@@ -72,6 +89,8 @@ def scrape_list(cutoff, max_pages=20):
                     "title": title_tag.get_text(strip=True),
                     "url": title_tag["href"],
                     "published_date": published_date,
+                    "page_num": page_num,
+                    "list_page_url": url,
                     "image_url": image_url,
                     "excerpt": (
                         excerpt_tag.get_text(" ", strip=True)
@@ -81,7 +100,19 @@ def scrape_list(cutoff, max_pages=20):
                 }
             )
 
+        if page_dates and all(
+            is_older_than_cutoff(date_value, cutoff)
+            for date_value in page_dates
+        ):
+            stop = True
+            reached_cutoff = True
+
         page_num += 1
+
+    if reached_cutoff:
+        print(f"Stopped at page {page_num}: reached cutoff date.")
+    elif page_num > max_pages:
+        print(f"Stopped at page {max_pages}: reached max_pages limit.")
 
     return records_to_df(articles)
 
@@ -120,9 +151,9 @@ def extract_article(row):
     }
 
 
-def scrape():
+def scrape(max_pages=200):
     cutoff = cutoff_date()
-    urls_df = scrape_list(cutoff)
+    urls_df = scrape_list(cutoff, max_pages=max_pages)
     articles = []
 
     for index, row in urls_df.iterrows():

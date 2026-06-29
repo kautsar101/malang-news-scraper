@@ -1,0 +1,7 @@
+Scrape log file: logs/scrape_log_20260629_125919.txt
+Startup ready. Heavy imports are lazy-loaded per step.
+Pipeline started at: 2026-06-29T12:59:19.304652
+Upload target table: raw_news_articles_test
+
+Running beritamalang_media...
+beritamalang_media: importing scraper module scrapers.beritamalang

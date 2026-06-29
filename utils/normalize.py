@@ -1,17 +1,6 @@
-import pandas as pd
 from datetime import datetime, timezone
 
 from scrapers.common import clean_article_text
-
-
-def normalize_category_from_url(url):
-    if pd.isna(url):
-        return None
-
-    if "/pendidikan" in str(url).lower():
-        return "pendidikan"
-
-    return None
 
 
 def normalize_news(
@@ -44,7 +33,7 @@ def normalize_news(
     if "category" not in df.columns:
         df["category"] = None
 
-    df["category"] = df["url"].apply(normalize_category_from_url)
+    df["category"] = None
 
     df["source"] = source
     df["text"] = (

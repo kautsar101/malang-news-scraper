@@ -1,0 +1,382 @@
+Scrape log file: logs/scrape_log_20260629_132511.txt
+Startup ready. Heavy imports are lazy-loaded per step.
+Pipeline started at: 2026-06-29T13:25:11.319664
+Upload target table: raw_news_articles_test
+
+Running beritamalang_media...
+beritamalang_media: importing scraper module scrapers.beritamalang
+Scraping Berita Malang page 1
+HTTP GET start: https://beritamalang.media/category/berita/
+HTTP GET ok: https://beritamalang.media/category/berita/ | status=200 | bytes=81853
+HTTP GET start: https://beritamalang.media/kapolres-batu-gelar-turnamen-billiard-kapolres-cup-sambut-hut-bhayangkara-ke-80/
+HTTP GET ok: https://beritamalang.media/kapolres-batu-gelar-turnamen-billiard-kapolres-cup-sambut-hut-bhayangkara-ke-80/ | status=200 | bytes=73031
+[1] Kapolres Batu Gelar Turnamen Billiard Kapolres Cup Sambut HUT Bhayangkara ke-80
+HTTP GET start: https://beritamalang.media/sepiring-berkah-dari-ladang-sendiri-hangatnya-atur-pisungsung-di-desa-tulungrejo/
+HTTP GET ok: https://beritamalang.media/sepiring-berkah-dari-ladang-sendiri-hangatnya-atur-pisungsung-di-desa-tulungrejo/ | status=200 | bytes=70517
+[2] Sepiring Berkah dari Ladang Sendiri: Hangatnya Atur Pisungsung di Desa Tulungrejo
+HTTP GET start: https://beritamalang.media/festival-jenang-suro-bumiaji-perkuat-gotong-royong-dan-ekonomi-lokal/
+HTTP GET ok: https://beritamalang.media/festival-jenang-suro-bumiaji-perkuat-gotong-royong-dan-ekonomi-lokal/ | status=200 | bytes=71889
+[3] Festival Jenang Suro Bumiaji Perkuat Gotong Royong dan Ekonomi Lokal
+HTTP GET start: https://beritamalang.media/dpkp-kebut-penyelesaian-60-psu-perumahan-di-kota-batu-belum-diserahterimakan/
+HTTP GET ok: https://beritamalang.media/dpkp-kebut-penyelesaian-60-psu-perumahan-di-kota-batu-belum-diserahterimakan/ | status=200 | bytes=70766
+[4] DPKP Kebut Penyelesaian 60 PSU Perumahan di Kota Batu Belum Diserahterimakan
+HTTP GET start: https://beritamalang.media/desa-sumberejo-gelar-semarak-selamatan-ke-116-hadirkan-ragam-kesenian-dan-ritual-adat-selama-6-pekan/
+HTTP GET ok: https://beritamalang.media/desa-sumberejo-gelar-semarak-selamatan-ke-116-hadirkan-ragam-kesenian-dan-ritual-adat-selama-6-pekan/ | status=200 | bytes=71238
+[5] Desa Sumberejo Gelar Semarak Selamatan ke-116, Hadirkan Ragam Kesenian dan Ritual Adat Selama 6 Pekan
+HTTP GET start: https://beritamalang.media/polres-batu-gelar-layanan-on-the-spot-di-cfd-sambut-hari-bhayangkara-ke-80/
+HTTP GET ok: https://beritamalang.media/polres-batu-gelar-layanan-on-the-spot-di-cfd-sambut-hari-bhayangkara-ke-80/ | status=200 | bytes=68150
+[6] Polres Batu Gelar Layanan On the Spot di CFD Sambut Hari Bhayangkara ke-80
+HTTP GET start: https://beritamalang.media/cegah-kebutaan-sejak-dini-klinik-mata-batu-ajak-warga-cek-kesehatan-mata-di-cfd/
+HTTP GET ok: https://beritamalang.media/cegah-kebutaan-sejak-dini-klinik-mata-batu-ajak-warga-cek-kesehatan-mata-di-cfd/ | status=200 | bytes=71610
+[7] Cegah Kebutaan Sejak Dini, Klinik Mata Batu Ajak Warga Cek Kesehatan Mata di CFD
+HTTP GET start: https://beritamalang.media/satlantas-polres-batu-buka-layanan-sim-dan-samsat-keliling-spesial-di-cfd-hut-bhayangkara-ke-80/
+HTTP GET ok: https://beritamalang.media/satlantas-polres-batu-buka-layanan-sim-dan-samsat-keliling-spesial-di-cfd-hut-bhayangkara-ke-80/ | status=200 | bytes=69008
+[8] Satlantas Polres Batu Buka Layanan SIM dan Samsat Keliling Spesial di CFD HUT Bhayangkara ke-80
+HTTP GET start: https://beritamalang.media/31-anak-terpilih-jadi-anggota-pocil-polres-batu-siap-wakili-kota-batu-di-lomba-polda-juni-2026/
+HTTP GET ok: https://beritamalang.media/31-anak-terpilih-jadi-anggota-pocil-polres-batu-siap-wakili-kota-batu-di-lomba-polda-juni-2026/ | status=200 | bytes=70122
+[9] 31 Anak Terpilih Jadi Anggota Pocil Polres Batu, Siap Wakili Kota Batu di Lomba Polda Juni 2026
+HTTP GET start: https://beritamalang.media/sambut-hut-bhayangkara-ke-80-polres-batu-buka-layanan-sim-dan-pajak-di-cfd/
+HTTP GET ok: https://beritamalang.media/sambut-hut-bhayangkara-ke-80-polres-batu-buka-layanan-sim-dan-pajak-di-cfd/ | status=200 | bytes=68152
+[10] Sambut HUT Bhayangkara ke-80, Polres Batu Buka Layanan SIM dan Pajak di CFD
+Scraping Berita Malang page 2
+HTTP GET start: https://beritamalang.media/category/berita/page/2/
+HTTP GET ok: https://beritamalang.media/category/berita/page/2/ | status=200 | bytes=81936
+HTTP GET start: https://beritamalang.media/kebakaran-pabrik-di-junrejo-batu-dipadamkan-setelah-3-jam-dugaan-awal-dari-mesin-produksi-sirup/
+HTTP GET ok: https://beritamalang.media/kebakaran-pabrik-di-junrejo-batu-dipadamkan-setelah-3-jam-dugaan-awal-dari-mesin-produksi-sirup/ | status=200 | bytes=69233
+[11] Kebakaran Pabrik di Junrejo Batu Dipadamkan Setelah 3 Jam, Dugaan Awal dari Mesin Produksi Sirup
+HTTP GET start: https://beritamalang.media/satresnarkoba-polres-batu-gencarkan-edukasi-anti-narkoba-untuk-siswa-sd/
+HTTP GET ok: https://beritamalang.media/satresnarkoba-polres-batu-gencarkan-edukasi-anti-narkoba-untuk-siswa-sd/ | status=200 | bytes=69827
+[12] Satresnarkoba Polres Batu Gencarkan Edukasi Anti-Narkoba untuk Siswa SD
+HTTP GET start: https://beritamalang.media/ngopi-bareng-media-kasat-reskrim-batu-bahas-kemitraan-lawan-hoax/
+HTTP GET ok: https://beritamalang.media/ngopi-bareng-media-kasat-reskrim-batu-bahas-kemitraan-lawan-hoax/ | status=200 | bytes=67882
+[13] Ngopi Bareng Media, Kasat Reskrim Batu Bahas Kemitraan Lawan Hoax
+HTTP GET start: https://beritamalang.media/akp-kevin-ibrahim-pamit-dari-polres-batu-tinggalkan-kenangan-dan-harapan-lalu-lintas-lancar/
+HTTP GET ok: https://beritamalang.media/akp-kevin-ibrahim-pamit-dari-polres-batu-tinggalkan-kenangan-dan-harapan-lalu-lintas-lancar/ | status=200 | bytes=68915
+[14] AKP Kevin Ibrahim Pamit dari Polres Batu: Tinggalkan Kenangan dan Harapan Lalu Lintas Lancar
+HTTP GET start: https://beritamalang.media/sertijab-pejabat-utama-polres-batu-akbp-aris-pesan-kamtibmas-kota-wisata-harus-siaga/
+HTTP GET ok: https://beritamalang.media/sertijab-pejabat-utama-polres-batu-akbp-aris-pesan-kamtibmas-kota-wisata-harus-siaga/ | status=200 | bytes=68636
+[15] Sertijab Pejabat Utama Polres Batu, AKBP Aris Pesan Kamtibmas Kota Wisata Harus Siaga
+HTTP GET start: https://beritamalang.media/fasilitas-baru-dongkrak-kunjungan-selecta-tembus-5-700-orang-sehari/
+HTTP GET ok: https://beritamalang.media/fasilitas-baru-dongkrak-kunjungan-selecta-tembus-5-700-orang-sehari/ | status=200 | bytes=70127
+[16] Fasilitas Baru Dongkrak Kunjungan Selecta Tembus 5.700 Orang Sehari
+HTTP GET start: https://beritamalang.media/7-cafe-batu-hadirkan-kopi-pitutur-jawa-ramai-dikunjungi-150-orang-per-hari/
+HTTP GET ok: https://beritamalang.media/7-cafe-batu-hadirkan-kopi-pitutur-jawa-ramai-dikunjungi-150-orang-per-hari/ | status=200 | bytes=68526
+[17] 7 Cafe Batu Hadirkan Kopi + Pitutur Jawa, Ramai Dikunjungi 150 Orang Per Hari
+HTTP GET start: https://beritamalang.media/wisata-ke-kota-batu-aman-polres-gencar-patroli-sosialisasi-call-110/
+HTTP GET ok: https://beritamalang.media/wisata-ke-kota-batu-aman-polres-gencar-patroli-sosialisasi-call-110/ | status=200 | bytes=67728
+[18] Wisata ke Kota Batu Aman, Polres Gencar Patroli + Sosialisasi Call 110
+HTTP GET start: https://beritamalang.media/lippo-plaza-batu-peduli-320-paket-daging-kurban-dibagikan-kepada-warga-dan-driver-ojol/
+HTTP GET ok: https://beritamalang.media/lippo-plaza-batu-peduli-320-paket-daging-kurban-dibagikan-kepada-warga-dan-driver-ojol/ | status=200 | bytes=68806
+[19] Lippo Plaza Batu Peduli, 320 Paket Daging Kurban Dibagikan kepada Warga dan Driver Ojol
+HTTP GET start: https://beritamalang.media/dpc-pdi-perjuangan-kota-batu-terima-5-ekor-sapi-kurban-dari-dpd-jatim/
+HTTP GET ok: https://beritamalang.media/dpc-pdi-perjuangan-kota-batu-terima-5-ekor-sapi-kurban-dari-dpd-jatim/ | status=200 | bytes=71191
+[20] DPC PDI Perjuangan Kota Batu Terima 5 Ekor Sapi Kurban dari DPD Jatim
+Scraping Berita Malang page 3
+HTTP GET start: https://beritamalang.media/category/berita/page/3/
+HTTP GET ok: https://beritamalang.media/category/berita/page/3/ | status=200 | bytes=82608
+HTTP GET start: https://beritamalang.media/polres-batu-sembelih-39-hewan-kurban-distribusikan-ke-warga-dan-ponpes-sekitar/
+HTTP GET ok: https://beritamalang.media/polres-batu-sembelih-39-hewan-kurban-distribusikan-ke-warga-dan-ponpes-sekitar/ | status=200 | bytes=69586
+[21] Polres Batu Sembelih 39 Hewan Kurban, Distribusikan ke Warga dan Ponpes Sekitar
+HTTP GET start: https://beritamalang.media/polda-jawa-timur-matangkan-komunikasi-publik-lewat-rakernis-humas/
+HTTP GET ok: https://beritamalang.media/polda-jawa-timur-matangkan-komunikasi-publik-lewat-rakernis-humas/ | status=200 | bytes=72445
+[22] Polda Jawa Timur Matangkan Komunikasi Publik Lewat Rakernis Humas
+HTTP GET start: https://beritamalang.media/kekerasan-terhadap-jurnalis-saat-liputan-pengacara-desak-penangkapan-pelaku/
+HTTP GET ok: https://beritamalang.media/kekerasan-terhadap-jurnalis-saat-liputan-pengacara-desak-penangkapan-pelaku/ | status=200 | bytes=68664
+[23] Kekerasan Terhadap Jurnalis Saat Liputan, Pengacara Desak Penangkapan Pelaku
+HTTP GET start: https://beritamalang.media/kasus-dugaan-penganiayaan-di-kalipare-diproses-kuasa-hukum-apresiasi-kerja-satreskrim-polres-malang/
+HTTP GET ok: https://beritamalang.media/kasus-dugaan-penganiayaan-di-kalipare-diproses-kuasa-hukum-apresiasi-kerja-satreskrim-polres-malang/ | status=200 | bytes=69074
+[24] Kasus Dugaan Penganiayaan di Kalipare Diproses, Kuasa Hukum Apresiasi Kerja Satreskrim Polres Malang
+HTTP GET start: https://beritamalang.media/polres-batu-dan-dinas-pupr-jatim-bangun-pagar-pengaman-di-jembatan-cangar-cegah-aksi-bunuh-diri/
+HTTP GET ok: https://beritamalang.media/polres-batu-dan-dinas-pupr-jatim-bangun-pagar-pengaman-di-jembatan-cangar-cegah-aksi-bunuh-diri/ | status=200 | bytes=71352
+[25] Polres Batu dan Dinas PUPR Jatim Bangun Pagar Pengaman di Jembatan Cangar, Cegah Aksi Bunuh Diri
+HTTP GET start: https://beritamalang.media/mengenal-tatanan-jenggolo-manik-filosofi-jawa-yang-hidup-lewat-cerita-lisan/
+HTTP GET ok: https://beritamalang.media/mengenal-tatanan-jenggolo-manik-filosofi-jawa-yang-hidup-lewat-cerita-lisan/ | status=200 | bytes=68691
+[26] Mengenal Tatanan Jenggolo Manik: Filosofi Jawa yang Hidup Lewat Cerita Lisan
+HTTP GET start: https://beritamalang.media/kasat-reskrim-polres-batu-kasus-judi-online-lanjut-tersangka-wajib-lapor/
+HTTP GET ok: https://beritamalang.media/kasat-reskrim-polres-batu-kasus-judi-online-lanjut-tersangka-wajib-lapor/ | status=200 | bytes=69476
+[27] Kasat Reskrim Polres Batu: Kasus Judi Online Lanjut, Tersangka Wajib Lapor
+HTTP GET start: https://beritamalang.media/geber-malang-hijaukan-lawang-ratusan-pohon-ditanam-lintas-elemen/
+HTTP GET ok: https://beritamalang.media/geber-malang-hijaukan-lawang-ratusan-pohon-ditanam-lintas-elemen/ | status=200 | bytes=69251
+[28] GEBER Malang Hijaukan Lawang: Ratusan Pohon Ditanam Lintas Elemen
+HTTP GET start: https://beritamalang.media/pelatihan-karyawan-aumkes-kota-malang-perkuat-ideologi-dan-komitmen-dakwah-di-era-disrupsi/
+HTTP GET ok: https://beritamalang.media/pelatihan-karyawan-aumkes-kota-malang-perkuat-ideologi-dan-komitmen-dakwah-di-era-disrupsi/ | status=200 | bytes=71336
+[29] Pelatihan Karyawan AUMKes Kota Malang: Perkuat Ideologi dan Komitmen Dakwah di Era Disrupsi
+HTTP GET start: https://beritamalang.media/inovasi-hijau-tiga-ptn-bersatu-kembangkan-pelindung-siku-dan-lutut-dari-serat-rami-dan-limbah-sawit/
+HTTP GET ok: https://beritamalang.media/inovasi-hijau-tiga-ptn-bersatu-kembangkan-pelindung-siku-dan-lutut-dari-serat-rami-dan-limbah-sawit/ | status=200 | bytes=73171
+[30] Inovasi Hijau: Tiga PTN Bersatu Kembangkan Pelindung Siku dan Lutut dari Serat Rami dan Limbah Sawit
+Scraping Berita Malang page 4
+HTTP GET start: https://beritamalang.media/category/berita/page/4/
+HTTP GET ok: https://beritamalang.media/category/berita/page/4/ | status=200 | bytes=82505
+HTTP GET start: https://beritamalang.media/dibilang-nepotisme-gp-parmusi-kepala-dlh-kabupaten-malang-punya-rekam-jejak-jelas/
+HTTP GET ok: https://beritamalang.media/dibilang-nepotisme-gp-parmusi-kepala-dlh-kabupaten-malang-punya-rekam-jejak-jelas/ | status=200 | bytes=68990
+[31] Dibilang Nepotisme, GP Parmusi: Kepala DLH Kabupaten Malang Punya Rekam Jejak Jelas
+HTTP GET start: https://beritamalang.media/jalan-tebu-maut-di-kalipare-warga-geram-pengendara-sudah-jatuh-10-tahun-tak-disentuh/
+HTTP GET ok: https://beritamalang.media/jalan-tebu-maut-di-kalipare-warga-geram-pengendara-sudah-jatuh-10-tahun-tak-disentuh/ | status=200 | bytes=68841
+[32] Jalan Tebu Maut di Kalipare: Warga Geram, Pengendara Sudah Jatuh, 10 Tahun Tak Disentuh
+HTTP GET start: https://beritamalang.media/kopi-embongan-batu-jadi-wadah-baru-musisi-disabilitas-berkarya/
+HTTP GET ok: https://beritamalang.media/kopi-embongan-batu-jadi-wadah-baru-musisi-disabilitas-berkarya/ | status=200 | bytes=71159
+[33] Kopi Embongan Batu Jadi Wadah Baru Musisi Disabilitas Berkarya
+HTTP GET start: https://beritamalang.media/camat-bumiaji-kopi-embongan-wadah-keren-musisi-disabilitas/
+HTTP GET ok: https://beritamalang.media/camat-bumiaji-kopi-embongan-wadah-keren-musisi-disabilitas/ | status=200 | bytes=75766
+[34] Camat Bumiaji: Kopi Embongan Wadah Keren Musisi Disabilitas
+HTTP GET start: https://beritamalang.media/tni-manunggal-dengan-rakyat-komando-kewilayahan-jadi-ujung-tombak-pertahanan-dan-solusi-kesulitan-warga/
+HTTP GET ok: https://beritamalang.media/tni-manunggal-dengan-rakyat-komando-kewilayahan-jadi-ujung-tombak-pertahanan-dan-solusi-kesulitan-warga/ | status=200 | bytes=69666
+[35] TNI Manunggal dengan Rakyat: Komando Kewilayahan Jadi Ujung Tombak Pertahanan dan Solusi Kesulitan Warga
+HTTP GET start: https://beritamalang.media/solid-dan-bersaudara-grib-jaya-malang-potong-tumpeng-hut-ke-15/
+HTTP GET ok: https://beritamalang.media/solid-dan-bersaudara-grib-jaya-malang-potong-tumpeng-hut-ke-15/ | status=200 | bytes=73500
+[36] Solid dan Bersaudara: GRIB JAYA Malang Potong Tumpeng HUT ke-15
+HTTP GET start: https://beritamalang.media/kondisi-memprihatinkan-warga-minta-bupati-prioritaskan-perbaikan-jalan-kalirejo/
+HTTP GET ok: https://beritamalang.media/kondisi-memprihatinkan-warga-minta-bupati-prioritaskan-perbaikan-jalan-kalirejo/ | status=200 | bytes=69748
+[37] Kondisi Memprihatinkan, Warga Minta Bupati Prioritaskan Perbaikan Jalan Kalirejo
+HTTP GET start: https://beritamalang.media/pt-telkomsel-beri-penghargaan-ke-satreskrim-polres-batu-atas-pengungkapan-vandalisme-jaringan/
+HTTP GET ok: https://beritamalang.media/pt-telkomsel-beri-penghargaan-ke-satreskrim-polres-batu-atas-pengungkapan-vandalisme-jaringan/ | status=200 | bytes=71839
+[38] PT Telkomsel Beri Penghargaan ke Satreskrim Polres Batu atas Pengungkapan Vandalisme Jaringan
+HTTP GET start: https://beritamalang.media/satresnarkoba-polres-batu-ringkus-pengedar-dengan-40-butir-pil-ekstasi-di-oro-oro-ombo-kota-batu/
+HTTP GET ok: https://beritamalang.media/satresnarkoba-polres-batu-ringkus-pengedar-dengan-40-butir-pil-ekstasi-di-oro-oro-ombo-kota-batu/ | status=200 | bytes=71793
+[39] Satresnarkoba Polres Batu Ringkus Pengedar dengan 40 Butir Pil Ekstasi di Oro-Oro Ombo, Kota Batu
+HTTP GET start: https://beritamalang.media/test/
+HTTP GET ok: https://beritamalang.media/test/ | status=200 | bytes=62272
+[40] Test
+Scraping Berita Malang page 5
+HTTP GET start: https://beritamalang.media/category/berita/page/5/
+HTTP GET ok: https://beritamalang.media/category/berita/page/5/ | status=200 | bytes=81523
+HTTP GET start: https://beritamalang.media/kelangkaan-gas-melon-3-kg-dikeluhkan-warga-desa-junrejo-pemkot-batu-pastikan-stok-kembali-normal/
+HTTP GET ok: https://beritamalang.media/kelangkaan-gas-melon-3-kg-dikeluhkan-warga-desa-junrejo-pemkot-batu-pastikan-stok-kembali-normal/ | status=200 | bytes=71859
+[41] Kelangkaan Gas Melon 3 Kg Dikeluhkan Warga Desa Junrejo, Pemkot Batu Pastikan Stok Kembali Normal
+HTTP GET start: https://beritamalang.media/workshop-media-campaign-kim-kota-batu-langkah-awal-menuju-komunikasi-publik-yang-lebih-baik/
+HTTP GET ok: https://beritamalang.media/workshop-media-campaign-kim-kota-batu-langkah-awal-menuju-komunikasi-publik-yang-lebih-baik/ | status=200 | bytes=69676
+[42] Workshop Media Campaign KIM Kota Batu, Langkah Awal Menuju Komunikasi Publik yang Lebih Baik
+HTTP GET start: https://beritamalang.media/mikutopia-berinovasi-tambah-wahana-baru-untuk-wisatawan/
+HTTP GET ok: https://beritamalang.media/mikutopia-berinovasi-tambah-wahana-baru-untuk-wisatawan/ | status=200 | bytes=69200
+[43] Mikutopia Berinovasi, Tambah Wahana Baru untuk Wisatawan
+HTTP GET start: https://beritamalang.media/iklan-hari-raya-idul-fitri-6/
+HTTP GET ok: https://beritamalang.media/iklan-hari-raya-idul-fitri-6/ | status=200 | bytes=63369
+Konten Berita Malang kosong, skip: https://beritamalang.media/iklan-hari-raya-idul-fitri-6/
+HTTP GET start: https://beritamalang.media/iklan-hari-raya-idul-fitri-5/
+HTTP GET ok: https://beritamalang.media/iklan-hari-raya-idul-fitri-5/ | status=200 | bytes=63369
+Konten Berita Malang kosong, skip: https://beritamalang.media/iklan-hari-raya-idul-fitri-5/
+HTTP GET start: https://beritamalang.media/iklan-hari-raya-idul-fitri-4/
+HTTP GET ok: https://beritamalang.media/iklan-hari-raya-idul-fitri-4/ | status=200 | bytes=63369
+Konten Berita Malang kosong, skip: https://beritamalang.media/iklan-hari-raya-idul-fitri-4/
+HTTP GET start: https://beritamalang.media/iklan-hari-raya-idul-fitri-3/
+HTTP GET ok: https://beritamalang.media/iklan-hari-raya-idul-fitri-3/ | status=200 | bytes=64201
+Konten Berita Malang kosong, skip: https://beritamalang.media/iklan-hari-raya-idul-fitri-3/
+HTTP GET start: https://beritamalang.media/kontroversi-pemulangan-pasien-rs-hikmah-makassar-nyawa-melayang-kurang-dari-22-jam/
+HTTP GET ok: https://beritamalang.media/kontroversi-pemulangan-pasien-rs-hikmah-makassar-nyawa-melayang-kurang-dari-22-jam/ | status=200 | bytes=73645
+[44] Kontroversi Pemulangan Pasien RS Hikmah Makassar, Nyawa Melayang Kurang dari 22 Jam
+HTTP GET start: https://beritamalang.media/personel-polres-batu-evakuasi-penemuan-jenazah-di-bawah-jembatan-cangar-kota-batu/
+HTTP GET ok: https://beritamalang.media/personel-polres-batu-evakuasi-penemuan-jenazah-di-bawah-jembatan-cangar-kota-batu/ | status=200 | bytes=80583
+[45] Personel Polres Batu Evakuasi Penemuan Jenazah di Bawah Jembatan Cangar Kota Batu
+HTTP GET start: https://beritamalang.media/sindikat-pengedar-uang-palsu-di-batu-diringkus-polisi-gunakan-modus-kenalan-di-michat/
+HTTP GET ok: https://beritamalang.media/sindikat-pengedar-uang-palsu-di-batu-diringkus-polisi-gunakan-modus-kenalan-di-michat/ | status=200 | bytes=71964
+[46] Sindikat Pengedar Uang Palsu di Batu Diringkus Polisi, Gunakan Modus Kenalan di MiChat
+Scraping Berita Malang page 6
+HTTP GET start: https://beritamalang.media/category/berita/page/6/
+HTTP GET ok: https://beritamalang.media/category/berita/page/6/ | status=200 | bytes=81913
+HTTP GET start: https://beritamalang.media/kolaborasi-seru-selecta-dan-mikutopia-naikkan-pamor-wisata/
+HTTP GET ok: https://beritamalang.media/kolaborasi-seru-selecta-dan-mikutopia-naikkan-pamor-wisata/ | status=200 | bytes=70499
+[47] Kolaborasi Seru: Selecta dan Mikutopia Naikkan Pamor Wisata
+HTTP GET start: https://beritamalang.media/mengakhiri-dengan-damai-10-refleksi-tentang-perpisahan-yang-bijak/
+HTTP GET ok: https://beritamalang.media/mengakhiri-dengan-damai-10-refleksi-tentang-perpisahan-yang-bijak/ | status=200 | bytes=69186
+[48] Mengakhiri dengan Damai: 10 Refleksi tentang Perpisahan yang Bijak
+HTTP GET start: https://beritamalang.media/pantau-objek-wisata-kapolres-batu-pastikan-keamanan-terjaga/
+HTTP GET ok: https://beritamalang.media/pantau-objek-wisata-kapolres-batu-pastikan-keamanan-terjaga/ | status=200 | bytes=70844
+[49] Pantau Objek Wisata, Kapolres Batu Pastikan Keamanan Terjaga
+HTTP GET start: https://beritamalang.media/kecelakaan-maut-di-jalan-rajekwesi-satu-orang-tewas/
+HTTP GET ok: https://beritamalang.media/kecelakaan-maut-di-jalan-rajekwesi-satu-orang-tewas/ | status=200 | bytes=68421
+[50] Kecelakaan Maut di Jalan Rajekwesi, Satu Orang Tewas
+HTTP GET start: https://beritamalang.media/jamin-kelancaran-mudik-2026-dirlantas-polda-jatim-tinjau-kota-batu/
+HTTP GET ok: https://beritamalang.media/jamin-kelancaran-mudik-2026-dirlantas-polda-jatim-tinjau-kota-batu/ | status=200 | bytes=70687
+[51] Jamin Kelancaran Mudik 2026, Dirlantas Polda Jatim Tinjau Kota Batu
+HTTP GET start: https://beritamalang.media/patroli-sidik-satlantas-polres-batu-berhasil-bantu-mobil-mogok/
+HTTP GET ok: https://beritamalang.media/patroli-sidik-satlantas-polres-batu-berhasil-bantu-mobil-mogok/ | status=200 | bytes=68739
+[52] Patroli Sidik Satlantas Polres Batu Berhasil Bantu Mobil Mogok
+HTTP GET start: https://beritamalang.media/wilson-lalengke-take-down-berita-adalah-kejahatan-jurnalistik/
+HTTP GET ok: https://beritamalang.media/wilson-lalengke-take-down-berita-adalah-kejahatan-jurnalistik/ | status=200 | bytes=74027
+[53] Wilson Lalengke: Take Down Berita adalah Kejahatan Jurnalistik
+HTTP GET start: https://beritamalang.media/kesiapsiagaan-personel-polres-batu-berhasil-cegah-kemacetan/
+HTTP GET ok: https://beritamalang.media/kesiapsiagaan-personel-polres-batu-berhasil-cegah-kemacetan/ | status=200 | bytes=70798
+[54] Kesiapsiagaan Personel Polres Batu Berhasil Cegah Kemacetan
+HTTP GET start: https://beritamalang.media/kapolres-dan-walikota-batu-ajak-masyarakat-jaga-kamtibmas-di-idul-fitri/
+HTTP GET ok: https://beritamalang.media/kapolres-dan-walikota-batu-ajak-masyarakat-jaga-kamtibmas-di-idul-fitri/ | status=200 | bytes=70306
+[55] Kapolres dan Walikota Batu Ajak Masyarakat Jaga Kamtibmas di Idul Fitri
+HTTP GET start: https://beritamalang.media/lippo-plaza-batu-jadi-tujuan-belanja-favorit-saat-ramadhan-dan-hari-raya-idul-fitri-1-syawal-1447-h/
+HTTP GET ok: https://beritamalang.media/lippo-plaza-batu-jadi-tujuan-belanja-favorit-saat-ramadhan-dan-hari-raya-idul-fitri-1-syawal-1447-h/ | status=200 | bytes=71020
+[56] Lippo Plaza Batu Jadi Tujuan Belanja Favorit Saat Ramadhan dan Hari Raya Idul Fitri 1 Syawal 1447 H
+Scraping Berita Malang page 7
+HTTP GET start: https://beritamalang.media/category/berita/page/7/
+HTTP GET ok: https://beritamalang.media/category/berita/page/7/ | status=200 | bytes=82608
+HTTP GET start: https://beritamalang.media/satlantas-polres-batu-siapkan-mobil-sahabat-pemudik-bantu-keselamatan-dan-kenyamanan-selama-perjalanan/
+HTTP GET ok: https://beritamalang.media/satlantas-polres-batu-siapkan-mobil-sahabat-pemudik-bantu-keselamatan-dan-kenyamanan-selama-perjalanan/ | status=200 | bytes=70217
+[57] Satlantas Polres Batu Siapkan Mobil Sahabat Pemudik, Bantu Keselamatan dan Kenyamanan Selama Perjalanan
+HTTP GET start: https://beritamalang.media/tips-mudik-sehat-aman-dan-nyaman-dari-dinkes-kota-batu/
+HTTP GET ok: https://beritamalang.media/tips-mudik-sehat-aman-dan-nyaman-dari-dinkes-kota-batu/ | status=200 | bytes=70359
+[58] Tips Mudik Sehat, Aman, dan Nyaman dari Dinkes Kota Batu
+HTTP GET start: https://beritamalang.media/sekber-lipan-ri-bagikan-ratusan-takjil-gratis-di-kota-batu-aries-pratomo-berbagi-kebahagiaan-di-bulan-ramadhan/
+HTTP GET ok: https://beritamalang.media/sekber-lipan-ri-bagikan-ratusan-takjil-gratis-di-kota-batu-aries-pratomo-berbagi-kebahagiaan-di-bulan-ramadhan/ | status=200 | bytes=81213
+[59] SEKBER LIPAN-RI Bagikan Ratusan Takjil Gratis di Kota Batu, Aries Pratomo: Berbagi Kebahagiaan di Bulan Ramadhan
+HTTP GET start: https://beritamalang.media/dinkes-kota-batu-sosialisasi-strategi-optimaisasi-kepersertaan-aktif-jkn/
+HTTP GET ok: https://beritamalang.media/dinkes-kota-batu-sosialisasi-strategi-optimaisasi-kepersertaan-aktif-jkn/ | status=200 | bytes=80635
+[60] Dinkes Kota Batu Sosialisasi Strategi Optimalisasi Kepersertaan Aktif JKN
+HTTP GET start: https://beritamalang.media/satreskrim-polres-batu-ringkus-pelaku-penganiayaan-di-bumiaji-dalam-waktu-kurang-dari-dua-jam/
+HTTP GET ok: https://beritamalang.media/satreskrim-polres-batu-ringkus-pelaku-penganiayaan-di-bumiaji-dalam-waktu-kurang-dari-dua-jam/ | status=200 | bytes=72315
+[61] Satreskrim Polres Batu Ringkus Pelaku Penganiayaan di Bumiaji dalam Waktu Kurang dari Dua Jam
+HTTP GET start: https://beritamalang.media/gratis-uji-coba-mikutopia-untuk-semua-warga-indonesia/
+HTTP GET ok: https://beritamalang.media/gratis-uji-coba-mikutopia-untuk-semua-warga-indonesia/ | status=200 | bytes=80222
+[62] Gratis! Uji Coba Mikutopia untuk Semua Warga Indonesia
+HTTP GET start: https://beritamalang.media/kapolres-batu-pimpin-gelar-apel-pasukan-ketupat-2026-untuk-pelayanan-perayaan-idul-fitri-1447-h/
+HTTP GET ok: https://beritamalang.media/kapolres-batu-pimpin-gelar-apel-pasukan-ketupat-2026-untuk-pelayanan-perayaan-idul-fitri-1447-h/ | status=200 | bytes=71472
+[63] Kapolres Batu Pimpin Gelar Apel Pasukan “Ketupat 2026” untuk Pelayanan Perayaan Idul Fitri 1447 H
+HTTP GET start: https://beritamalang.media/waroeng-bamboe-sidomulyo-hadirkan-promo-spesial-ramadan-idul-fitri/
+HTTP GET ok: https://beritamalang.media/waroeng-bamboe-sidomulyo-hadirkan-promo-spesial-ramadan-idul-fitri/ | status=200 | bytes=80183
+[64] Waroeng Bamboe Sidomulyo Hadirkan Promo Spesial Ramadan & Idul Fitri
+HTTP GET start: https://beritamalang.media/jatim-park-group-rayakan-25-tahun-berkarya-untuk-bangsa/
+HTTP GET ok: https://beritamalang.media/jatim-park-group-rayakan-25-tahun-berkarya-untuk-bangsa/ | status=200 | bytes=80680
+[65] Jatim Park Group Rayakan 25 Tahun Berkarya Untuk Bangsa
+HTTP GET start: https://beritamalang.media/kurang-dari-24-jam-pelaku-pencuri-mobil-avanza-berhasil-diringkus-tim-resmob-satreskrim-polres-batu/
+HTTP GET ok: https://beritamalang.media/kurang-dari-24-jam-pelaku-pencuri-mobil-avanza-berhasil-diringkus-tim-resmob-satreskrim-polres-batu/ | status=200 | bytes=71948
+[66] Kurang dari 24 Jam Pelaku Pencuri Mobil Avanza Berhasil Diringkus Tim Resmob Satreskrim Polres Batu
+Scraping Berita Malang page 8
+HTTP GET start: https://beritamalang.media/category/berita/page/8/
+HTTP GET ok: https://beritamalang.media/category/berita/page/8/ | status=200 | bytes=82101
+
+Saved 66 Berita Malang articles
+beritamalang_media: scraped 66 rows
+beritamalang_media scraped [1/66] date=2026-06-28 | title=Kapolres Batu Gelar Turnamen Billiard Kapolres Cup Sambut HUT Bhayangkara ke-80
+beritamalang_media scraped [2/66] date=2026-06-27 | title=Sepiring Berkah dari Ladang Sendiri: Hangatnya Atur Pisungsung di Desa Tulungrejo
+beritamalang_media scraped [3/66] date=2026-06-26 | title=Festival Jenang Suro Bumiaji Perkuat Gotong Royong dan Ekonomi Lokal
+beritamalang_media scraped [4/66] date=2026-06-25 | title=DPKP Kebut Penyelesaian 60 PSU Perumahan di Kota Batu Belum Diserahterimakan
+beritamalang_media scraped [5/66] date=2026-06-17 | title=Desa Sumberejo Gelar Semarak Selamatan ke-116, Hadirkan Ragam Kesenian dan Ritual Adat ...
+beritamalang_media scraped [6/66] date=2026-06-14 | title=Polres Batu Gelar Layanan On the Spot di CFD Sambut Hari Bhayangkara ke-80
+beritamalang_media scraped [7/66] date=2026-06-14 | title=Cegah Kebutaan Sejak Dini, Klinik Mata Batu Ajak Warga Cek Kesehatan Mata di CFD
+beritamalang_media scraped [8/66] date=2026-06-14 | title=Satlantas Polres Batu Buka Layanan SIM dan Samsat Keliling Spesial di CFD HUT Bhayangka...
+beritamalang_media scraped [9/66] date=2026-06-14 | title=31 Anak Terpilih Jadi Anggota Pocil Polres Batu, Siap Wakili Kota Batu di Lomba Polda J...
+beritamalang_media scraped [10/66] date=2026-06-12 | title=Sambut HUT Bhayangkara ke-80, Polres Batu Buka Layanan SIM dan Pajak di CFD
+beritamalang_media scraped [11/66] date=2026-06-12 | title=Kebakaran Pabrik di Junrejo Batu Dipadamkan Setelah 3 Jam, Dugaan Awal dari Mesin Produ...
+beritamalang_media scraped [12/66] date=2026-06-12 | title=Satresnarkoba Polres Batu Gencarkan Edukasi Anti-Narkoba untuk Siswa SD
+beritamalang_media scraped [13/66] date=2026-06-09 | title=Ngopi Bareng Media, Kasat Reskrim Batu Bahas Kemitraan Lawan Hoax
+beritamalang_media scraped [14/66] date=2026-06-03 | title=AKP Kevin Ibrahim Pamit dari Polres Batu: Tinggalkan Kenangan dan Harapan Lalu Lintas L...
+beritamalang_media scraped [15/66] date=2026-06-03 | title=Sertijab Pejabat Utama Polres Batu, AKBP Aris Pesan Kamtibmas Kota Wisata Harus Siaga
+beritamalang_media scraped [16/66] date=2026-06-02 | title=Fasilitas Baru Dongkrak Kunjungan Selecta Tembus 5.700 Orang Sehari
+beritamalang_media scraped [17/66] date=2026-05-31 | title=7 Cafe Batu Hadirkan Kopi + Pitutur Jawa, Ramai Dikunjungi 150 Orang Per Hari
+beritamalang_media scraped [18/66] date=2026-05-30 | title=Wisata ke Kota Batu Aman, Polres Gencar Patroli + Sosialisasi Call 110
+beritamalang_media scraped [19/66] date=2026-05-28 | title=Lippo Plaza Batu Peduli, 320 Paket Daging Kurban Dibagikan kepada Warga dan Driver Ojol
+beritamalang_media scraped [20/66] date=2026-05-27 | title=DPC PDI Perjuangan Kota Batu Terima 5 Ekor Sapi Kurban dari DPD Jatim
+beritamalang_media scraped [21/66] date=2026-05-27 | title=Polres Batu Sembelih 39 Hewan Kurban, Distribusikan ke Warga dan Ponpes Sekitar
+beritamalang_media scraped [22/66] date=2026-05-21 | title=Polda Jawa Timur Matangkan Komunikasi Publik Lewat Rakernis Humas
+beritamalang_media scraped [23/66] date=2026-05-20 | title=Kekerasan Terhadap Jurnalis Saat Liputan, Pengacara Desak Penangkapan Pelaku
+beritamalang_media scraped [24/66] date=2026-05-20 | title=Kasus Dugaan Penganiayaan di Kalipare Diproses, Kuasa Hukum Apresiasi Kerja Satreskrim ...
+beritamalang_media scraped [25/66] date=2026-05-04 | title=Polres Batu dan Dinas PUPR Jatim Bangun Pagar Pengaman di Jembatan Cangar, Cegah Aksi B...
+beritamalang_media scraped [26/66] date=2026-04-27 | title=Mengenal Tatanan Jenggolo Manik: Filosofi Jawa yang Hidup Lewat Cerita Lisan
+beritamalang_media scraped [27/66] date=2026-04-26 | title=Kasat Reskrim Polres Batu: Kasus Judi Online Lanjut, Tersangka Wajib Lapor
+beritamalang_media scraped [28/66] date=2026-04-24 | title=GEBER Malang Hijaukan Lawang: Ratusan Pohon Ditanam Lintas Elemen
+beritamalang_media scraped [29/66] date=2026-04-24 | title=Pelatihan Karyawan AUMKes Kota Malang: Perkuat Ideologi dan Komitmen Dakwah di Era Disr...
+beritamalang_media scraped [30/66] date=2026-04-23 | title=Inovasi Hijau: Tiga PTN Bersatu Kembangkan Pelindung Siku dan Lutut dari Serat Rami dan...
+beritamalang_media scraped [31/66] date=2026-04-23 | title=Dibilang Nepotisme, GP Parmusi: Kepala DLH Kabupaten Malang Punya Rekam Jejak Jelas
+beritamalang_media scraped [32/66] date=2026-04-22 | title=Jalan Tebu Maut di Kalipare: Warga Geram, Pengendara Sudah Jatuh, 10 Tahun Tak Disentuh
+beritamalang_media scraped [33/66] date=2026-04-21 | title=Kopi Embongan Batu Jadi Wadah Baru Musisi Disabilitas Berkarya
+beritamalang_media scraped [34/66] date=2026-04-21 | title=Camat Bumiaji: Kopi Embongan Wadah Keren Musisi Disabilitas
+beritamalang_media scraped [35/66] date=2026-04-19 | title=TNI Manunggal dengan Rakyat: Komando Kewilayahan Jadi Ujung Tombak Pertahanan dan Solus...
+beritamalang_media scraped [36/66] date=2026-04-19 | title=Solid dan Bersaudara: GRIB JAYA Malang Potong Tumpeng HUT ke-15
+beritamalang_media scraped [37/66] date=2026-04-17 | title=Kondisi Memprihatinkan, Warga Minta Bupati Prioritaskan Perbaikan Jalan Kalirejo
+beritamalang_media scraped [38/66] date=2026-04-15 | title=PT Telkomsel Beri Penghargaan ke Satreskrim Polres Batu atas Pengungkapan Vandalisme Ja...
+beritamalang_media scraped [39/66] date=2026-04-15 | title=Satresnarkoba Polres Batu Ringkus Pengedar dengan 40 Butir Pil Ekstasi di Oro-Oro Ombo,...
+beritamalang_media scraped [40/66] date=2026-04-14 | title=Test
+beritamalang_media scraped [41/66] date=2026-04-13 | title=Kelangkaan Gas Melon 3 Kg Dikeluhkan Warga Desa Junrejo, Pemkot Batu Pastikan Stok Kemb...
+beritamalang_media scraped [42/66] date=2026-04-09 | title=Workshop Media Campaign KIM Kota Batu, Langkah Awal Menuju Komunikasi Publik yang Lebih...
+beritamalang_media scraped [43/66] date=2026-04-06 | title=Mikutopia Berinovasi, Tambah Wahana Baru untuk Wisatawan
+beritamalang_media scraped [44/66] date=2026-04-02 | title=Kontroversi Pemulangan Pasien RS Hikmah Makassar, Nyawa Melayang Kurang dari 22 Jam
+beritamalang_media scraped [45/66] date=2026-04-01 | title=Personel Polres Batu Evakuasi Penemuan Jenazah di Bawah Jembatan Cangar Kota Batu
+beritamalang_media scraped [46/66] date=2026-03-31 | title=Sindikat Pengedar Uang Palsu di Batu Diringkus Polisi, Gunakan Modus Kenalan di MiChat
+beritamalang_media scraped [47/66] date=2026-03-28 | title=Kolaborasi Seru: Selecta dan Mikutopia Naikkan Pamor Wisata
+beritamalang_media scraped [48/66] date=2026-03-25 | title=Mengakhiri dengan Damai: 10 Refleksi tentang Perpisahan yang Bijak
+beritamalang_media scraped [49/66] date=2026-03-25 | title=Pantau Objek Wisata, Kapolres Batu Pastikan Keamanan Terjaga
+beritamalang_media scraped [50/66] date=2026-03-25 | title=Kecelakaan Maut di Jalan Rajekwesi, Satu Orang Tewas
+beritamalang_media scraped [51/66] date=2026-03-24 | title=Jamin Kelancaran Mudik 2026, Dirlantas Polda Jatim Tinjau Kota Batu
+beritamalang_media scraped [52/66] date=2026-03-24 | title=Patroli Sidik Satlantas Polres Batu Berhasil Bantu Mobil Mogok
+beritamalang_media scraped [53/66] date=2026-03-23 | title=Wilson Lalengke: Take Down Berita adalah Kejahatan Jurnalistik
+beritamalang_media scraped [54/66] date=2026-03-23 | title=Kesiapsiagaan Personel Polres Batu Berhasil Cegah Kemacetan
+beritamalang_media scraped [55/66] date=2026-03-21 | title=Kapolres dan Walikota Batu Ajak Masyarakat Jaga Kamtibmas di Idul Fitri
+beritamalang_media scraped [56/66] date=2026-03-20 | title=Lippo Plaza Batu Jadi Tujuan Belanja Favorit Saat Ramadhan dan Hari Raya Idul Fitri 1 S...
+beritamalang_media scraped [57/66] date=2026-03-19 | title=Satlantas Polres Batu Siapkan Mobil Sahabat Pemudik, Bantu Keselamatan dan Kenyamanan S...
+beritamalang_media scraped [58/66] date=2026-03-15 | title=Tips Mudik Sehat, Aman, dan Nyaman dari Dinkes Kota Batu
+beritamalang_media scraped [59/66] date=2026-03-15 | title=SEKBER LIPAN-RI Bagikan Ratusan Takjil Gratis di Kota Batu, Aries Pratomo: Berbagi Keba...
+beritamalang_media scraped [60/66] date=2026-03-13 | title=Dinkes Kota Batu Sosialisasi Strategi Optimalisasi Kepersertaan Aktif JKN
+beritamalang_media scraped [61/66] date=2026-03-13 | title=Satreskrim Polres Batu Ringkus Pelaku Penganiayaan di Bumiaji dalam Waktu Kurang dari D...
+beritamalang_media scraped [62/66] date=2026-03-13 | title=Gratis! Uji Coba Mikutopia untuk Semua Warga Indonesia
+beritamalang_media scraped [63/66] date=2026-03-12 | title=Kapolres Batu Pimpin Gelar Apel Pasukan “Ketupat 2026” untuk Pelayanan Perayaan Idul Fi...
+beritamalang_media scraped [64/66] date=2026-03-11 | title=Waroeng Bamboe Sidomulyo Hadirkan Promo Spesial Ramadan & Idul Fitri
+beritamalang_media scraped [65/66] date=2026-03-10 | title=Jatim Park Group Rayakan 25 Tahun Berkarya Untuk Bangsa
+beritamalang_media scraped [66/66] date=2026-03-02 | title=Kurang dari 24 Jam Pelaku Pencuri Mobil Avanza Berhasil Diringkus Tim Resmob Satreskrim...
+beritamalang_media: normalizing 66 rows
+beritamalang_media: importing normalize/tagging utils
+beritamalang_media tagging [1/66] date=2026-06-28 | title=Kapolres Batu Gelar Turnamen Billiard Kapolres Cup Sambut HUT Bhayangkara ke-80
+beritamalang_media tagging [2/66] date=2026-06-27 | title=Sepiring Berkah dari Ladang Sendiri: Hangatnya Atur Pisungsung di Desa Tulungrejo
+beritamalang_media tagging [3/66] date=2026-06-26 | title=Festival Jenang Suro Bumiaji Perkuat Gotong Royong dan Ekonomi Lokal
+beritamalang_media tagging [4/66] date=2026-06-25 | title=DPKP Kebut Penyelesaian 60 PSU Perumahan di Kota Batu Belum Diserahterimakan
+beritamalang_media tagging [5/66] date=2026-06-17 | title=Desa Sumberejo Gelar Semarak Selamatan ke-116, Hadirkan Ragam Kesenian dan Ritual Adat ...
+beritamalang_media tagging [6/66] date=2026-06-14 | title=Polres Batu Gelar Layanan On the Spot di CFD Sambut Hari Bhayangkara ke-80
+beritamalang_media tagging [7/66] date=2026-06-14 | title=Cegah Kebutaan Sejak Dini, Klinik Mata Batu Ajak Warga Cek Kesehatan Mata di CFD
+beritamalang_media tagging [8/66] date=2026-06-14 | title=Satlantas Polres Batu Buka Layanan SIM dan Samsat Keliling Spesial di CFD HUT Bhayangka...
+beritamalang_media tagging [9/66] date=2026-06-14 | title=31 Anak Terpilih Jadi Anggota Pocil Polres Batu, Siap Wakili Kota Batu di Lomba Polda J...
+beritamalang_media tagging [10/66] date=2026-06-12 | title=Sambut HUT Bhayangkara ke-80, Polres Batu Buka Layanan SIM dan Pajak di CFD
+beritamalang_media tagging [11/66] date=2026-06-12 | title=Kebakaran Pabrik di Junrejo Batu Dipadamkan Setelah 3 Jam, Dugaan Awal dari Mesin Produ...
+beritamalang_media tagging [12/66] date=2026-06-12 | title=Satresnarkoba Polres Batu Gencarkan Edukasi Anti-Narkoba untuk Siswa SD
+beritamalang_media tagging [13/66] date=2026-06-09 | title=Ngopi Bareng Media, Kasat Reskrim Batu Bahas Kemitraan Lawan Hoax
+beritamalang_media tagging [14/66] date=2026-06-03 | title=AKP Kevin Ibrahim Pamit dari Polres Batu: Tinggalkan Kenangan dan Harapan Lalu Lintas L...
+beritamalang_media tagging [15/66] date=2026-06-03 | title=Sertijab Pejabat Utama Polres Batu, AKBP Aris Pesan Kamtibmas Kota Wisata Harus Siaga
+beritamalang_media tagging [16/66] date=2026-06-02 | title=Fasilitas Baru Dongkrak Kunjungan Selecta Tembus 5.700 Orang Sehari
+beritamalang_media tagging [17/66] date=2026-05-31 | title=7 Cafe Batu Hadirkan Kopi + Pitutur Jawa, Ramai Dikunjungi 150 Orang Per Hari
+beritamalang_media tagging [18/66] date=2026-05-30 | title=Wisata ke Kota Batu Aman, Polres Gencar Patroli + Sosialisasi Call 110
+beritamalang_media tagging [19/66] date=2026-05-28 | title=Lippo Plaza Batu Peduli, 320 Paket Daging Kurban Dibagikan kepada Warga dan Driver Ojol
+beritamalang_media tagging [20/66] date=2026-05-27 | title=DPC PDI Perjuangan Kota Batu Terima 5 Ekor Sapi Kurban dari DPD Jatim
+beritamalang_media tagging [21/66] date=2026-05-27 | title=Polres Batu Sembelih 39 Hewan Kurban, Distribusikan ke Warga dan Ponpes Sekitar
+beritamalang_media tagging [22/66] date=2026-05-21 | title=Polda Jawa Timur Matangkan Komunikasi Publik Lewat Rakernis Humas
+beritamalang_media tagging [23/66] date=2026-05-20 | title=Kekerasan Terhadap Jurnalis Saat Liputan, Pengacara Desak Penangkapan Pelaku
+beritamalang_media tagging [24/66] date=2026-05-20 | title=Kasus Dugaan Penganiayaan di Kalipare Diproses, Kuasa Hukum Apresiasi Kerja Satreskrim ...
+beritamalang_media tagging [25/66] date=2026-05-04 | title=Polres Batu dan Dinas PUPR Jatim Bangun Pagar Pengaman di Jembatan Cangar, Cegah Aksi B...
+beritamalang_media tagging [26/66] date=2026-04-27 | title=Mengenal Tatanan Jenggolo Manik: Filosofi Jawa yang Hidup Lewat Cerita Lisan
+beritamalang_media tagging [27/66] date=2026-04-26 | title=Kasat Reskrim Polres Batu: Kasus Judi Online Lanjut, Tersangka Wajib Lapor
+beritamalang_media tagging [28/66] date=2026-04-24 | title=GEBER Malang Hijaukan Lawang: Ratusan Pohon Ditanam Lintas Elemen
+beritamalang_media tagging [29/66] date=2026-04-24 | title=Pelatihan Karyawan AUMKes Kota Malang: Perkuat Ideologi dan Komitmen Dakwah di Era Disr...
+beritamalang_media tagging [30/66] date=2026-04-23 | title=Inovasi Hijau: Tiga PTN Bersatu Kembangkan Pelindung Siku dan Lutut dari Serat Rami dan...
+beritamalang_media tagging [31/66] date=2026-04-23 | title=Dibilang Nepotisme, GP Parmusi: Kepala DLH Kabupaten Malang Punya Rekam Jejak Jelas
+beritamalang_media tagging [32/66] date=2026-04-22 | title=Jalan Tebu Maut di Kalipare: Warga Geram, Pengendara Sudah Jatuh, 10 Tahun Tak Disentuh
+beritamalang_media tagging [33/66] date=2026-04-21 | title=Kopi Embongan Batu Jadi Wadah Baru Musisi Disabilitas Berkarya
+beritamalang_media tagging [34/66] date=2026-04-21 | title=Camat Bumiaji: Kopi Embongan Wadah Keren Musisi Disabilitas
+beritamalang_media tagging [35/66] date=2026-04-19 | title=TNI Manunggal dengan Rakyat: Komando Kewilayahan Jadi Ujung Tombak Pertahanan dan Solus...
+beritamalang_media tagging [36/66] date=2026-04-19 | title=Solid dan Bersaudara: GRIB JAYA Malang Potong Tumpeng HUT ke-15
+beritamalang_media tagging [37/66] date=2026-04-17 | title=Kondisi Memprihatinkan, Warga Minta Bupati Prioritaskan Perbaikan Jalan Kalirejo
+beritamalang_media tagging [38/66] date=2026-04-15 | title=PT Telkomsel Beri Penghargaan ke Satreskrim Polres Batu atas Pengungkapan Vandalisme Ja...
+beritamalang_media tagging [39/66] date=2026-04-15 | title=Satresnarkoba Polres Batu Ringkus Pengedar dengan 40 Butir Pil Ekstasi di Oro-Oro Ombo,...
+beritamalang_media tagging [40/66] date=2026-04-14 | title=Test
+beritamalang_media tagging [41/66] date=2026-04-13 | title=Kelangkaan Gas Melon 3 Kg Dikeluhkan Warga Desa Junrejo, Pemkot Batu Pastikan Stok Kemb...
+beritamalang_media tagging [42/66] date=2026-04-09 | title=Workshop Media Campaign KIM Kota Batu, Langkah Awal Menuju Komunikasi Publik yang Lebih...
+beritamalang_media tagging [43/66] date=2026-04-06 | title=Mikutopia Berinovasi, Tambah Wahana Baru untuk Wisatawan
+beritamalang_media tagging [44/66] date=2026-04-02 | title=Kontroversi Pemulangan Pasien RS Hikmah Makassar, Nyawa Melayang Kurang dari 22 Jam
+beritamalang_media tagging [45/66] date=2026-04-01 | title=Personel Polres Batu Evakuasi Penemuan Jenazah di Bawah Jembatan Cangar Kota Batu
+beritamalang_media tagging [46/66] date=2026-03-31 | title=Sindikat Pengedar Uang Palsu di Batu Diringkus Polisi, Gunakan Modus Kenalan di MiChat
+beritamalang_media tagging [47/66] date=2026-03-28 | title=Kolaborasi Seru: Selecta dan Mikutopia Naikkan Pamor Wisata
+beritamalang_media tagging [48/66] date=2026-03-25 | title=Mengakhiri dengan Damai: 10 Refleksi tentang Perpisahan yang Bijak
+beritamalang_media tagging [49/66] date=2026-03-25 | title=Pantau Objek Wisata, Kapolres Batu Pastikan Keamanan Terjaga
+beritamalang_media tagging [50/66] date=2026-03-25 | title=Kecelakaan Maut di Jalan Rajekwesi, Satu Orang Tewas
+beritamalang_media tagging [51/66] date=2026-03-24 | title=Jamin Kelancaran Mudik 2026, Dirlantas Polda Jatim Tinjau Kota Batu
+beritamalang_media tagging [52/66] date=2026-03-24 | title=Patroli Sidik Satlantas Polres Batu Berhasil Bantu Mobil Mogok
+beritamalang_media tagging [53/66] date=2026-03-23 | title=Wilson Lalengke: Take Down Berita adalah Kejahatan Jurnalistik
+beritamalang_media tagging [54/66] date=2026-03-23 | title=Kesiapsiagaan Personel Polres Batu Berhasil Cegah Kemacetan
+beritamalang_media tagging [55/66] date=2026-03-21 | title=Kapolres dan Walikota Batu Ajak Masyarakat Jaga Kamtibmas di Idul Fitri
+beritamalang_media tagging [56/66] date=2026-03-20 | title=Lippo Plaza Batu Jadi Tujuan Belanja Favorit Saat Ramadhan dan Hari Raya Idul Fitri 1 S...
+beritamalang_media tagging [57/66] date=2026-03-19 | title=Satlantas Polres Batu Siapkan Mobil Sahabat Pemudik, Bantu Keselamatan dan Kenyamanan S...
+beritamalang_media tagging [58/66] date=2026-03-15 | title=Tips Mudik Sehat, Aman, dan Nyaman dari Dinkes Kota Batu
+beritamalang_media tagging [59/66] date=2026-03-15 | title=SEKBER LIPAN-RI Bagikan Ratusan Takjil Gratis di Kota Batu, Aries Pratomo: Berbagi Keba...
+beritamalang_media tagging [60/66] date=2026-03-13 | title=Dinkes Kota Batu Sosialisasi Strategi Optimalisasi Kepersertaan Aktif JKN
+beritamalang_media tagging [61/66] date=2026-03-13 | title=Satreskrim Polres Batu Ringkus Pelaku Penganiayaan di Bumiaji dalam Waktu Kurang dari D...
+beritamalang_media tagging [62/66] date=2026-03-13 | title=Gratis! Uji Coba Mikutopia untuk Semua Warga Indonesia
+beritamalang_media tagging [63/66] date=2026-03-12 | title=Kapolres Batu Pimpin Gelar Apel Pasukan “Ketupat 2026” untuk Pelayanan Perayaan Idul Fi...
+beritamalang_media tagging [64/66] date=2026-03-11 | title=Waroeng Bamboe Sidomulyo Hadirkan Promo Spesial Ramadan & Idul Fitri
+beritamalang_media tagging [65/66] date=2026-03-10 | title=Jatim Park Group Rayakan 25 Tahun Berkarya Untuk Bangsa
+beritamalang_media tagging [66/66] date=2026-03-02 | title=Kurang dari 24 Jam Pelaku Pencuri Mobil Avanza Berhasil Diringkus Tim Resmob Satreskrim...
+Importing pandas for DataFrame operation...
+beritamalang_media: loading sentiment model (set SENTIMENT_MODE=fast to skip HuggingFace)
+beritamalang_media sentiment [1/66] date=2026-06-28 | title=Kapolres Batu Gelar Turnamen Billiard Kapolres Cup Sambut HUT Bhayangkara ke-80
+Sentiment: importing transformers.pipeline...
