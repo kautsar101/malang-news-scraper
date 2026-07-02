@@ -1,0 +1,19 @@
+Sentiment backfill log file: logs/sentiment_backfill_log_20260630_004859.txt
+usage: run_sentiment_backfill.py [-h] [--csv CSV] [--from-supabase]
+                                 [--output OUTPUT] [--table TABLE]
+                                 [--no-upload] [--limit LIMIT]
+                                 [--only-pending]
+
+Backfill sentiment for scraped news rows.
+
+options:
+  -h, --help       show this help message and exit
+  --csv CSV        Input CSV path. Default:
+                   csv/final/all_sources_supabase_ready.csv
+  --from-supabase  Read rows from Supabase instead of --csv.
+  --output OUTPUT  Output CSV path. Default:
+                   csv/final/sentiment_backfill_<timestamp>.csv
+  --table TABLE    Supabase table name. Default: raw_news_articles_test
+  --no-upload      Only save output CSV, do not update Supabase.
+  --limit LIMIT    Optional max rows to process for testing.
+  --only-pending   Process only rows where sentiment is blank or pending.

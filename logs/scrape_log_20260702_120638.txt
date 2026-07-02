@@ -1,0 +1,446 @@
+Scrape log file: logs/scrape_log_20260702_120638.txt
+Startup ready. Heavy imports are lazy-loaded per step.
+Pipeline started at: 2026-07-02T12:06:38.857162
+Upload target table: raw_news_articles
+Selected sources: ['malang_voice']
+Upload enabled: True
+
+Running malang_voice...
+malang_voice: importing scraper module scrapers.malangvoice
+Scraping Malang Voice page 1: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/ | status=200 | bytes=141736
+Malang Voice list page=001 date=2026-06-28 | title=Khofifah Pastikan Pasokan Biosolar dan Pertalite di Jatim Aman
+Malang Voice list page=001 date=2026-06-28 | title=Andalkan BBIB Singosari, Khofifah Optimistis Indonesia Swasembada Daging dalam Tiga Tahun
+Malang Voice list page=001 date=2026-06-14 | title=Yakuza Meneges Dampingi Santri Korban Dugaan Pelecehan Seksual di Kabupaten Malang
+Malang Voice list page=001 date=2026-06-11 | title=UMM Bangun Pabrik Infus di Karangploso, Perkuat Kemandirian Kesehatan Nasional
+Malang Voice page 1: cards=4 new=4 total=4
+Scraping Malang Voice page 2: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/2/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/2/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/2/ | status=200 | bytes=141951
+Malang Voice list page=002 date=2026-06-07 | title=Arema FC Buka Suara, Tegaskan Keberatan Soal Pendaftaran Logo Singa
+Malang Voice list page=002 date=2026-06-03 | title=PT Bentoel Group Gandeng Baskomas Jaga Kualitas Air dan Keberlanjutan Lingkungan
+Malang Voice list page=002 date=2026-06-01 | title=Pemuda Lintas Iman di Lawang Teguhkan Semangat Pancasila Lewat Jagongan Kebangsaan
+Malang Voice list page=002 date=2026-05-31 | title=BRI Malang Catat Transaksi QRIS Rp2,05 Triliun, Pengguna BRImo Tembus 3,3 Juta
+Malang Voice page 2: cards=4 new=4 total=8
+Scraping Malang Voice page 3: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/3/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/3/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/3/ | status=200 | bytes=142193
+Malang Voice list page=003 date=2026-05-29 | title=UMKM Desa Genengan Dapat Suntikan Bantuan CSR dari BRI Region 13 Malang
+Malang Voice list page=003 date=2026-05-29 | title=MPM Honda Jatim Ajak Mahasiswa Jadi Agen Perubahan Lewat Astra Honda SDGs Future Leaders 2
+Malang Voice list page=003 date=2026-05-26 | title=BRI Serahkan Ambulance untuk Ponpes An Nur 2 Bululawang, Dukung Layanan Kesehatan 15 Ribu 
+Malang Voice list page=003 date=2026-05-26 | title=BRI Region 13 Malang Salurkan 82 Sapi dan 630 Kambing Kurban untuk Kaum Dhuafa
+Malang Voice page 3: cards=4 new=4 total=12
+Scraping Malang Voice page 4: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/4/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/4/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/4/ | status=200 | bytes=142145
+Malang Voice list page=004 date=2026-05-26 | title=BRI Region 13 Malang Salurkan 82 Sapi dan 630 Kambing Kurban untuk Kaum Dhuafa
+Malang Voice list page=004 date=2026-05-26 | title=Mulai Rp10 Ribu, Tabungan Emas BRImo Permudah Masyarakat Berinvestasi di Tengah Gejolak Ek
+Malang Voice list page=004 date=2026-05-25 | title=Perkuat Kemandirian Umat, YBM BRILiaN SBO Malang Salurkan Dana Rp7,2 Miliar
+Malang Voice list page=004 date=2026-05-25 | title=SMKN 1 Baureno Raih Penghargaan Nasional TUK Astra Honda di FeVoSH 2026
+Malang Voice page 4: cards=4 new=4 total=16
+Scraping Malang Voice page 5: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/5/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/5/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/5/ | status=200 | bytes=142252
+Malang Voice list page=005 date=2026-05-25 | title=Antusiasme Membludak, Morula IVF Surabaya Kembali Hadir di Malang Bantu Pejuang Dua Garis
+Malang Voice list page=005 date=2026-05-22 | title=Gojek Gandeng Kemenkes, Ribuan Mitra Driver di Malang dan 15 Kota Dapat Cek Kesehatan Grat
+Malang Voice list page=005 date=2026-05-22 | title=Investasi Emas Digital di BRImo Kian Diminati, Mulai Rp10 Ribu Bisa Jaga Nilai Aset
+Malang Voice list page=005 date=2026-05-19 | title=Produksi Padi Jatim Naik 12,6 Persen, Bulog Malang Siap Serap Hasil Panen Petani
+Malang Voice page 5: cards=4 new=4 total=20
+Scraping Malang Voice page 6: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/6/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/6/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/6/ | status=200 | bytes=142070
+Malang Voice list page=006 date=2026-05-08 | title=Hulu DAS Brantas Hadapi Tekanan Eksploitasi, Pelestarian Sumber Air Butuh Gerakan Bersama
+Malang Voice list page=006 date=2026-05-08 | title=Polres Malang Tetapkan Empat Tersangka Kasus Pantai Wedi Awu
+Malang Voice list page=006 date=2026-05-06 | title=Puluhan Wisatawan Asal Surabaya di Pantai Wediawu Terindikasi Positif Narkoba
+Malang Voice list page=006 date=2026-05-02 | title=Rektor UMM: Pendidikan Harus Jadi Pusat Solusi di Tengah Krisis Global
+Malang Voice page 6: cards=4 new=4 total=24
+Scraping Malang Voice page 7: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/7/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/7/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/7/ | status=200 | bytes=142152
+Malang Voice list page=007 date=2026-05-01 | title=Bugenvil City Pilihan Tepat Melepas Penat di Pelukan Alam
+Malang Voice list page=007 date=2026-04-29 | title=Dinamika Sengketa CMNP dan MNC: Analisis Peran dan Strategi Hukum Lucas vs Hotman
+Malang Voice list page=007 date=2026-04-24 | title=Eduwisata ke Gudang Bulog, Siswa MAN 1 Kota Malang Belajar Langsung Proses Pangan dari Hul
+Malang Voice list page=007 date=2026-04-24 | title=Kartini Cilik di Tengah Dentuman Musik: Antara Makna dan Meriahnya Zaman”
+Malang Voice page 7: cards=4 new=4 total=28
+Scraping Malang Voice page 8: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/8/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/8/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/8/ | status=200 | bytes=142069
+Malang Voice list page=008 date=2026-04-24 | title=GEBER MALANG di Lawang: Kolaborasi Warga Tanam Pohon untuk Lingkungan Lebih Sehat
+Malang Voice list page=008 date=2026-04-24 | title=NESCO 2 di Malang: Ajang Esai Nasional Buktikan Siswa Mampu Bersaing di Level Tertinggi
+Malang Voice list page=008 date=2026-04-22 | title=PN Kepanjen Lakukan Eksekusi Ruko di Sengkaling, Termohon Perjuangkan Keadilan
+Malang Voice list page=008 date=2026-04-22 | title=Polisi Ciduk Pencuri Belasan Keping Emas di Ngantang
+Malang Voice page 8: cards=4 new=4 total=32
+Scraping Malang Voice page 9: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/9/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/9/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/9/ | status=200 | bytes=142288
+Malang Voice list page=009 date=2026-04-20 | title=Tampung Aspirasi YKTK Tolak Laga Arema vs Persebaya di Kanjuruhan, DPRD Kota Malang Segera
+Malang Voice list page=009 date=2026-04-19 | title=Kaka Slank Keliling Kota Jelang Konser Tur HS Slank di Rampal
+Malang Voice list page=009 date=2026-04-18 | title=Penuhi Kebutuhan Pasar, Bulog Malang Segera Minta Pasokan MinyaKita Tambahan
+Malang Voice list page=009 date=2026-04-17 | title=Audiensi YKTK ke Kapolresta Malang Kota, KKJ Tolak Derby Arema vs Persebaya di Kanjuruhan
+Malang Voice page 9: cards=4 new=4 total=36
+Scraping Malang Voice page 10: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/10/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/10/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/10/ | status=200 | bytes=142156
+Malang Voice list page=010 date=2026-04-15 | title=Tudingan Pungli di Coban Sewu Dibantah, Kuasa Hukum Tegaskan Semua Gunakan Tiket Resmi
+Malang Voice list page=010 date=2026-04-03 | title=PJT I Libatkan Aparat Kepolisian Pastikan Operasional Bendungan Lahor Tetap Aman
+Malang Voice list page=010 date=2026-03-29 | title=Tanda Tangan PKS PSEL, Kota Malang Siap Sumbang 500 Ton Sampah per Hari
+Malang Voice list page=010 date=2026-03-29 | title=Menteri LH: Malang Raya Jadi Prioritas Proyek Pengolahan Sampah Jadi Energi
+Malang Voice page 10: cards=4 new=4 total=40
+Scraping Malang Voice page 11: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/11/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/11/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/11/ | status=200 | bytes=142346
+Malang Voice list page=011 date=2026-03-23 | title=KAI Hadirkan Promo “Tabur Berkah Hari Raya”, Tiket KA Gajayana dari Malang Mulai Rp445 Rib
+Malang Voice list page=011 date=2026-03-20 | title=Idul Fitri Jadi Momentum Retret Kultural dan Spiritual, Ini Pesan Prof Biyanto di UMM
+Malang Voice list page=011 date=2026-03-19 | title=Jelang Idulfitri 2026, Wijaya 80 dan Sal Priadi Rilis Lagu tentang Cinta Beda Keyakinan
+Malang Voice list page=011 date=2026-03-18 | title=Arema FC Luncurkan Jersey Keempat, Seluruh Keuntungan Bersih untuk Keluarga Korban Kanjuru
+Malang Voice page 11: cards=4 new=4 total=44
+Scraping Malang Voice page 12: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/12/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/12/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/12/ | status=200 | bytes=141996
+Malang Voice list page=012 date=2026-03-09 | title=Lima Tips #Cari_Aman saat Puasa dan Hujan Bagi Perempuan Ketika Berkendara
+Malang Voice list page=012 date=2026-03-07 | title=Hijabers Serenity Ride, Komunitas Lady Bikers Ngabuburide Bareng Honda Scoopy di Malang
+Malang Voice list page=012 date=2026-03-06 | title=Pertamina Pastikan Stok BBM Jatimbalinus Aman hingga Idul Fitri
+Malang Voice list page=012 date=2026-03-04 | title=Gagalkan Perederaran 1,5 Kg Serbuk Mercon Ilegal, Dua Pemuda Dibekuk
+Malang Voice page 12: cards=4 new=4 total=48
+Scraping Malang Voice page 13: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/13/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/13/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/13/ | status=200 | bytes=142067
+Malang Voice list page=013 date=2026-03-04 | title=Ratusan Paket Sembako Murah Disiapkan PJT I di Tiga Kota, Bantu Warga Sambut Ramadan
+Malang Voice list page=013 date=2026-03-03 | title=GoTo Siapkan Rp110 Miliar untuk BHR 2026, 400 Ribu Mitra Gojek Terima Bonus
+Malang Voice list page=013 date=2026-03-03 | title=Penajatim.com Hadir, Prioritaskan Integritas dan Kode Etik Jurnalistik
+Malang Voice page 13: cards=4 new=3 total=51
+Scraping Malang Voice page 14: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/14/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/14/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/14/ | status=200 | bytes=141933
+Malang Voice page 14: cards=4 new=0 total=51
+Malang Voice reached cutoff from list page
+HTTP GET start: https://malangvoice.com/khofifah-pastikan-pasokan-biosolar-dan-pertalite-di-jatim-aman/
+HTTP GET ok: https://malangvoice.com/khofifah-pastikan-pasokan-biosolar-dan-pertalite-di-jatim-aman/ | status=200 | bytes=227564
+[1] Malang Voice date=2026-06-28 | title=Khofifah Pastikan Pasokan Biosolar dan Pertalite di Jatim Aman
+HTTP GET start: https://malangvoice.com/andalkan-bbib-singosari-khofifah-optimistis-indonesia-swasembada-daging-dalam-tiga-tahun/
+HTTP GET ok: https://malangvoice.com/andalkan-bbib-singosari-khofifah-optimistis-indonesia-swasembada-daging-dalam-tiga-tahun/ | status=200 | bytes=230273
+[2] Malang Voice date=2026-06-28 | title=Andalkan BBIB Singosari, Khofifah Optimistis Indonesia Swasembada Daging dalam Tiga Tahun
+HTTP GET start: https://malangvoice.com/yakuza-meneges-dampingi-santri-korban-dugaan-pelecehan-seksual-di-kabupaten-malang/
+HTTP GET ok: https://malangvoice.com/yakuza-meneges-dampingi-santri-korban-dugaan-pelecehan-seksual-di-kabupaten-malang/ | status=200 | bytes=227026
+[3] Malang Voice date=2026-06-14 | title=Yakuza Meneges Dampingi Santri Korban Dugaan Pelecehan Seksual di Kabupaten Malang
+HTTP GET start: https://malangvoice.com/umm-bangun-pabrik-infus-di-karangploso-perkuat-kemandirian-kesehatan-nasional/
+HTTP GET ok: https://malangvoice.com/umm-bangun-pabrik-infus-di-karangploso-perkuat-kemandirian-kesehatan-nasional/ | status=200 | bytes=228478
+[4] Malang Voice date=2026-06-11 | title=UMM Bangun Pabrik Infus di Karangploso, Perkuat Kemandirian Kesehatan Nasional
+HTTP GET start: https://malangvoice.com/arema-fc-buka-suara-tegaskan-keberatan-soal-pendaftaran-logo-singa/
+HTTP GET ok: https://malangvoice.com/arema-fc-buka-suara-tegaskan-keberatan-soal-pendaftaran-logo-singa/ | status=200 | bytes=228411
+[5] Malang Voice date=2026-06-07 | title=Arema FC Buka Suara, Tegaskan Keberatan Soal Pendaftaran Logo Singa
+HTTP GET start: https://malangvoice.com/pt-bentoel-group-gandeng-baskomas-jaga-kualitas-air-dan-keberlanjutan-lingkungan/
+HTTP GET ok: https://malangvoice.com/pt-bentoel-group-gandeng-baskomas-jaga-kualitas-air-dan-keberlanjutan-lingkungan/ | status=200 | bytes=231066
+[6] Malang Voice date=2026-06-03 | title=PT Bentoel Group Gandeng Baskomas Jaga Kualitas Air dan Keberlanjutan Lingkungan
+HTTP GET start: https://malangvoice.com/pemuda-lintas-iman-di-lawang-teguhkan-semangat-pancasila-lewat-jagongan-kebangsaan/
+HTTP GET ok: https://malangvoice.com/pemuda-lintas-iman-di-lawang-teguhkan-semangat-pancasila-lewat-jagongan-kebangsaan/ | status=200 | bytes=227993
+[7] Malang Voice date=2026-06-01 | title=Pemuda Lintas Iman di Lawang Teguhkan Semangat Pancasila Lewat Jagongan Kebangsaan
+HTTP GET start: https://malangvoice.com/bri-malang-catat-transaksi-qris-rp205-triliun-pengguna-brimo-tembus-33-juta/
+HTTP GET ok: https://malangvoice.com/bri-malang-catat-transaksi-qris-rp205-triliun-pengguna-brimo-tembus-33-juta/ | status=200 | bytes=227759
+[8] Malang Voice date=2026-05-31 | title=BRI Malang Catat Transaksi QRIS Rp2,05 Triliun, Pengguna BRImo Tembus 3,3 Juta
+HTTP GET start: https://malangvoice.com/umkm-desa-genengan-dapat-suntikan-bantuan-csr-dari-bri-region-13-malang/
+HTTP GET ok: https://malangvoice.com/umkm-desa-genengan-dapat-suntikan-bantuan-csr-dari-bri-region-13-malang/ | status=200 | bytes=225846
+[9] Malang Voice date=2026-05-29 | title=UMKM Desa Genengan Dapat Suntikan Bantuan CSR dari BRI Region 13 Malang
+HTTP GET start: https://malangvoice.com/mpm-honda-jatim-ajak-mahasiswa-jadi-agen-perubahan-lewat-astra-honda-sdgs-future-leaders-2026/
+HTTP GET ok: https://malangvoice.com/mpm-honda-jatim-ajak-mahasiswa-jadi-agen-perubahan-lewat-astra-honda-sdgs-future-leaders-2026/ | status=200 | bytes=226859
+[10] Malang Voice date=2026-05-29 | title=MPM Honda Jatim Ajak Mahasiswa Jadi Agen Perubahan Lewat Astra Honda SDGs Future Leaders 2
+HTTP GET start: https://malangvoice.com/bri-serahkan-ambulance-untuk-ponpes-an-nur-2-bululawang-dukung-layanan-kesehatan-15-ribu-santri/
+HTTP GET ok: https://malangvoice.com/bri-serahkan-ambulance-untuk-ponpes-an-nur-2-bululawang-dukung-layanan-kesehatan-15-ribu-santri/ | status=200 | bytes=227544
+[11] Malang Voice date=2026-05-26 | title=BRI Serahkan Ambulance untuk Ponpes An Nur 2 Bululawang, Dukung Layanan Kesehatan 15 Ribu 
+HTTP GET start: https://malangvoice.com/bri-region-13-malang-salurkan-82-sapi-dan-630-kambing-kurban-untuk-kaum-dhuafa-2/
+HTTP GET ok: https://malangvoice.com/bri-region-13-malang-salurkan-82-sapi-dan-630-kambing-kurban-untuk-kaum-dhuafa-2/ | status=200 | bytes=226546
+[12] Malang Voice date=2026-05-26 | title=BRI Region 13 Malang Salurkan 82 Sapi dan 630 Kambing Kurban untuk Kaum Dhuafa
+HTTP GET start: https://malangvoice.com/bri-region-13-malang-salurkan-82-sapi-dan-630-kambing-kurban-untuk-kaum-dhuafa/
+HTTP GET ok: https://malangvoice.com/bri-region-13-malang-salurkan-82-sapi-dan-630-kambing-kurban-untuk-kaum-dhuafa/ | status=200 | bytes=226738
+[13] Malang Voice date=2026-05-26 | title=BRI Region 13 Malang Salurkan 82 Sapi dan 630 Kambing Kurban untuk Kaum Dhuafa
+HTTP GET start: https://malangvoice.com/mulai-rp10-ribu-tabungan-emas-brimo-permudah-masyarakat-berinvestasi-di-tengah-gejolak-ekonomi-global/
+HTTP GET ok: https://malangvoice.com/mulai-rp10-ribu-tabungan-emas-brimo-permudah-masyarakat-berinvestasi-di-tengah-gejolak-ekonomi-global/ | status=200 | bytes=227782
+[14] Malang Voice date=2026-05-26 | title=Mulai Rp10 Ribu, Tabungan Emas BRImo Permudah Masyarakat Berinvestasi di Tengah Gejolak Ek
+HTTP GET start: https://malangvoice.com/ybm-brilian-sbo-malang-salurkan-rp72-miliar-dana-kemaslahatan-usung-semangat-sustainable-impact/
+HTTP GET ok: https://malangvoice.com/ybm-brilian-sbo-malang-salurkan-rp72-miliar-dana-kemaslahatan-usung-semangat-sustainable-impact/ | status=200 | bytes=229614
+[15] Malang Voice date=2026-05-25 | title=Perkuat Kemandirian Umat, YBM BRILiaN SBO Malang Salurkan Dana Rp7,2 Miliar
+HTTP GET start: https://malangvoice.com/smkn-1-baureno-raih-penghargaan-nasional-tuk-astra-honda-di-fevosh-2026/
+HTTP GET ok: https://malangvoice.com/smkn-1-baureno-raih-penghargaan-nasional-tuk-astra-honda-di-fevosh-2026/ | status=200 | bytes=226374
+[16] Malang Voice date=2026-05-25 | title=SMKN 1 Baureno Raih Penghargaan Nasional TUK Astra Honda di FeVoSH 2026
+HTTP GET start: https://malangvoice.com/antusiasme-membludak-morula-ivf-surabaya-kembali-hadir-di-malang-bantu-pejuang-dua-garis/
+HTTP GET ok: https://malangvoice.com/antusiasme-membludak-morula-ivf-surabaya-kembali-hadir-di-malang-bantu-pejuang-dua-garis/ | status=200 | bytes=229619
+[17] Malang Voice date=2026-05-25 | title=Antusiasme Membludak, Morula IVF Surabaya Kembali Hadir di Malang Bantu Pejuang Dua Garis
+HTTP GET start: https://malangvoice.com/gojek-gandeng-kemenkes-ribuan-mitra-driver-di-malang-dan-15-kota-dapat-cek-kesehatan-gratis/
+HTTP GET ok: https://malangvoice.com/gojek-gandeng-kemenkes-ribuan-mitra-driver-di-malang-dan-15-kota-dapat-cek-kesehatan-gratis/ | status=200 | bytes=229385
+[18] Malang Voice date=2026-05-22 | title=Gojek Gandeng Kemenkes, Ribuan Mitra Driver di Malang dan 15 Kota Dapat Cek Kesehatan Grat
+HTTP GET start: https://malangvoice.com/investasi-emas-digital-di-brimo-kian-diminati-mulai-rp10-ribu-bisa-jaga-nilai-aset/
+HTTP GET ok: https://malangvoice.com/investasi-emas-digital-di-brimo-kian-diminati-mulai-rp10-ribu-bisa-jaga-nilai-aset/ | status=200 | bytes=227597
+[19] Malang Voice date=2026-05-22 | title=Investasi Emas Digital di BRImo Kian Diminati, Mulai Rp10 Ribu Bisa Jaga Nilai Aset
+HTTP GET start: https://malangvoice.com/produksi-padi-jatim-naik-126-persen-bulog-malang-siap-serap-hasil-panen-petani/
+HTTP GET ok: https://malangvoice.com/produksi-padi-jatim-naik-126-persen-bulog-malang-siap-serap-hasil-panen-petani/ | status=200 | bytes=228021
+[20] Malang Voice date=2026-05-19 | title=Produksi Padi Jatim Naik 12,6 Persen, Bulog Malang Siap Serap Hasil Panen Petani
+HTTP GET start: https://malangvoice.com/hulu-das-brantas-hadapi-tekanan-eksploitasi-pelestarian-sumber-air-butuh-gerakan-bersama/
+HTTP GET ok: https://malangvoice.com/hulu-das-brantas-hadapi-tekanan-eksploitasi-pelestarian-sumber-air-butuh-gerakan-bersama/ | status=200 | bytes=230402
+[21] Malang Voice date=2026-05-08 | title=Hulu DAS Brantas Hadapi Tekanan Eksploitasi, Pelestarian Sumber Air Butuh Gerakan Bersama
+HTTP GET start: https://malangvoice.com/polres-malang-tetapkan-empat-tersangka-kasus-pantai-wedi-awu/
+HTTP GET ok: https://malangvoice.com/polres-malang-tetapkan-empat-tersangka-kasus-pantai-wedi-awu/ | status=200 | bytes=225994
+[22] Malang Voice date=2026-05-08 | title=Polres Malang Tetapkan Empat Tersangka Kasus Pantai Wedi Awu
+HTTP GET start: https://malangvoice.com/puluhan-wisatawan-asal-surabaya-di-pantai-wediawu-terindikasi-positif-narkoba/
+HTTP GET ok: https://malangvoice.com/puluhan-wisatawan-asal-surabaya-di-pantai-wediawu-terindikasi-positif-narkoba/ | status=200 | bytes=226938
+[23] Malang Voice date=2026-05-06 | title=Puluhan Wisatawan Asal Surabaya di Pantai Wediawu Terindikasi Positif Narkoba
+HTTP GET start: https://malangvoice.com/rektor-umm-pendidikan-harus-jadi-pusat-solusi-di-tengah-krisis-global/
+HTTP GET ok: https://malangvoice.com/rektor-umm-pendidikan-harus-jadi-pusat-solusi-di-tengah-krisis-global/ | status=200 | bytes=226889
+[24] Malang Voice date=2026-05-02 | title=Rektor UMM: Pendidikan Harus Jadi Pusat Solusi di Tengah Krisis Global
+HTTP GET start: https://malangvoice.com/bugenvil-city-pilihan-tepat-melepas-penat-di-pelukan-alam/
+HTTP GET ok: https://malangvoice.com/bugenvil-city-pilihan-tepat-melepas-penat-di-pelukan-alam/ | status=200 | bytes=228026
+[25] Malang Voice date=2026-05-01 | title=Bugenvil City Pilihan Tepat Melepas Penat di Pelukan Alam
+HTTP GET start: https://malangvoice.com/dinamika-sengketa-cmnp-dan-mnc-analisis-peran-dan-strategi-hukum-lucas-vs-hotman/
+HTTP GET ok: https://malangvoice.com/dinamika-sengketa-cmnp-dan-mnc-analisis-peran-dan-strategi-hukum-lucas-vs-hotman/ | status=200 | bytes=230247
+[26] Malang Voice date=2026-04-29 | title=Dinamika Sengketa CMNP dan MNC: Analisis Peran dan Strategi Hukum Lucas vs Hotman
+HTTP GET start: https://malangvoice.com/eduwisata-ke-gudang-bulog-siswa-man-1-kota-malang-belajar-langsung-proses-pangan-dari-hulu-ke-hilir/
+HTTP GET ok: https://malangvoice.com/eduwisata-ke-gudang-bulog-siswa-man-1-kota-malang-belajar-langsung-proses-pangan-dari-hulu-ke-hilir/ | status=200 | bytes=229371
+[27] Malang Voice date=2026-04-24 | title=Eduwisata ke Gudang Bulog, Siswa MAN 1 Kota Malang Belajar Langsung Proses Pangan dari Hul
+HTTP GET start: https://malangvoice.com/kartini-cilik-di-tengah-dentuman-musik-antara-makna-dan-meriahnya-zaman/
+HTTP GET ok: https://malangvoice.com/kartini-cilik-di-tengah-dentuman-musik-antara-makna-dan-meriahnya-zaman/ | status=200 | bytes=229056
+[28] Malang Voice date=2026-04-24 | title=Kartini Cilik di Tengah Dentuman Musik: Antara Makna dan Meriahnya Zaman”
+HTTP GET start: https://malangvoice.com/geber-malang-di-lawang-kolaborasi-warga-tanam-pohon-untuk-lingkungan-lebih-sehat/
+HTTP GET ok: https://malangvoice.com/geber-malang-di-lawang-kolaborasi-warga-tanam-pohon-untuk-lingkungan-lebih-sehat/ | status=200 | bytes=227122
+[29] Malang Voice date=2026-04-24 | title=GEBER MALANG di Lawang: Kolaborasi Warga Tanam Pohon untuk Lingkungan Lebih Sehat
+HTTP GET start: https://malangvoice.com/nesco-2-di-malang-ajang-esai-nasional-buktikan-siswa-mampu-bersaing-di-level-tertinggi/
+HTTP GET ok: https://malangvoice.com/nesco-2-di-malang-ajang-esai-nasional-buktikan-siswa-mampu-bersaing-di-level-tertinggi/ | status=200 | bytes=229160
+[30] Malang Voice date=2026-04-24 | title=NESCO 2 di Malang: Ajang Esai Nasional Buktikan Siswa Mampu Bersaing di Level Tertinggi
+HTTP GET start: https://malangvoice.com/pn-kepanjen-lakukan-eksekusi-ruko-di-sengkaling-termohon-perjuangkan-keadilan/
+HTTP GET ok: https://malangvoice.com/pn-kepanjen-lakukan-eksekusi-ruko-di-sengkaling-termohon-perjuangkan-keadilan/ | status=200 | bytes=228106
+[31] Malang Voice date=2026-04-22 | title=PN Kepanjen Lakukan Eksekusi Ruko di Sengkaling, Termohon Perjuangkan Keadilan
+HTTP GET start: https://malangvoice.com/polisi-ciduk-pencuri-belasan-keping-emas-di-ngantang/
+HTTP GET ok: https://malangvoice.com/polisi-ciduk-pencuri-belasan-keping-emas-di-ngantang/ | status=200 | bytes=226985
+[32] Malang Voice date=2026-04-22 | title=Polisi Ciduk Pencuri Belasan Keping Emas di Ngantang
+HTTP GET start: https://malangvoice.com/tampung-aspirasi-yktk-tolak-laga-arema-vs-persebaya-di-kanjuruhan-dprd-kota-malang-segera-tentukan-sikap/
+HTTP GET ok: https://malangvoice.com/tampung-aspirasi-yktk-tolak-laga-arema-vs-persebaya-di-kanjuruhan-dprd-kota-malang-segera-tentukan-sikap/ | status=200 | bytes=225475
+[33] Malang Voice date=2026-04-20 | title=Tampung Aspirasi YKTK Tolak Laga Arema vs Persebaya di Kanjuruhan, DPRD Kota Malang Segera
+HTTP GET start: https://malangvoice.com/kaka-slank-keliling-kota-jelang-konser-tur-hs-slank-di-rampal/
+HTTP GET ok: https://malangvoice.com/kaka-slank-keliling-kota-jelang-konser-tur-hs-slank-di-rampal/ | status=200 | bytes=228693
+[34] Malang Voice date=2026-04-19 | title=Kaka Slank Keliling Kota Jelang Konser Tur HS Slank di Rampal
+HTTP GET start: https://malangvoice.com/penuhi-kebutuhan-pasar-bulog-malang-segera-minta-pasokan-minyakita-tambahan/
+HTTP GET ok: https://malangvoice.com/penuhi-kebutuhan-pasar-bulog-malang-segera-minta-pasokan-minyakita-tambahan/ | status=200 | bytes=227771
+[35] Malang Voice date=2026-04-18 | title=Penuhi Kebutuhan Pasar, Bulog Malang Segera Minta Pasokan MinyaKita Tambahan
+HTTP GET start: https://malangvoice.com/audiensi-yktk-ke-kapolresta-malang-kota-kkj-tolak-derby-arema-vs-persebaya-di-kanjuruhan/
+HTTP GET ok: https://malangvoice.com/audiensi-yktk-ke-kapolresta-malang-kota-kkj-tolak-derby-arema-vs-persebaya-di-kanjuruhan/ | status=200 | bytes=228949
+[36] Malang Voice date=2026-04-17 | title=Audiensi YKTK ke Kapolresta Malang Kota, KKJ Tolak Derby Arema vs Persebaya di Kanjuruhan
+HTTP GET start: https://malangvoice.com/tudingan-pungli-di-coban-sewu-dibantah-kuasa-hukum-tegaskan-semua-gunakan-tiket-resmi/
+HTTP GET ok: https://malangvoice.com/tudingan-pungli-di-coban-sewu-dibantah-kuasa-hukum-tegaskan-semua-gunakan-tiket-resmi/ | status=200 | bytes=228466
+[37] Malang Voice date=2026-04-15 | title=Tudingan Pungli di Coban Sewu Dibantah, Kuasa Hukum Tegaskan Semua Gunakan Tiket Resmi
+HTTP GET start: https://malangvoice.com/pjt-i-libatkan-aparat-kepolisian-pastikan-operasional-bendungan-lahor-tetap-aman/
+HTTP GET ok: https://malangvoice.com/pjt-i-libatkan-aparat-kepolisian-pastikan-operasional-bendungan-lahor-tetap-aman/ | status=200 | bytes=227650
+[38] Malang Voice date=2026-04-03 | title=PJT I Libatkan Aparat Kepolisian Pastikan Operasional Bendungan Lahor Tetap Aman
+HTTP GET start: https://malangvoice.com/tanda-tangan-pks-psel-kota-malang-siap-sumbang-500-ton-sampah-per-hari/
+HTTP GET ok: https://malangvoice.com/tanda-tangan-pks-psel-kota-malang-siap-sumbang-500-ton-sampah-per-hari/ | status=200 | bytes=228552
+[39] Malang Voice date=2026-03-29 | title=Tanda Tangan PKS PSEL, Kota Malang Siap Sumbang 500 Ton Sampah per Hari
+HTTP GET start: https://malangvoice.com/menteri-lh-malang-raya-jadi-prioritas-proyek-pengolahan-sampah-jadi-energi/
+HTTP GET ok: https://malangvoice.com/menteri-lh-malang-raya-jadi-prioritas-proyek-pengolahan-sampah-jadi-energi/ | status=200 | bytes=227794
+[40] Malang Voice date=2026-03-29 | title=Menteri LH: Malang Raya Jadi Prioritas Proyek Pengolahan Sampah Jadi Energi
+HTTP GET start: https://malangvoice.com/kai-hadirkan-promo-tabur-berkah-hari-raya-tiket-ka-gajayana-dari-malang-mulai-rp445-ribu/
+HTTP GET ok: https://malangvoice.com/kai-hadirkan-promo-tabur-berkah-hari-raya-tiket-ka-gajayana-dari-malang-mulai-rp445-ribu/ | status=200 | bytes=227296
+[41] Malang Voice date=2026-03-23 | title=KAI Hadirkan Promo “Tabur Berkah Hari Raya”, Tiket KA Gajayana dari Malang Mulai Rp445 Rib
+HTTP GET start: https://malangvoice.com/idul-fitri-jadi-momentum-retret-kultural-dan-spiritual-ini-pesan-prof-biyanto-di-umm/
+HTTP GET ok: https://malangvoice.com/idul-fitri-jadi-momentum-retret-kultural-dan-spiritual-ini-pesan-prof-biyanto-di-umm/ | status=200 | bytes=228838
+[42] Malang Voice date=2026-03-20 | title=Idul Fitri Jadi Momentum Retret Kultural dan Spiritual, Ini Pesan Prof Biyanto di UMM
+HTTP GET start: https://malangvoice.com/jelang-idulfitri-2026-wijaya-80-dan-sal-priadi-rilis-lagu-tentang-cinta-beda-keyakinan/
+HTTP GET ok: https://malangvoice.com/jelang-idulfitri-2026-wijaya-80-dan-sal-priadi-rilis-lagu-tentang-cinta-beda-keyakinan/ | status=200 | bytes=229286
+[43] Malang Voice date=2026-03-19 | title=Jelang Idulfitri 2026, Wijaya 80 dan Sal Priadi Rilis Lagu tentang Cinta Beda Keyakinan
+HTTP GET start: https://malangvoice.com/arema-fc-luncurkan-jersey-keempat-seluruh-keuntungan-bersih-untuk-keluarga-korban-kanjuruhan/
+HTTP GET ok: https://malangvoice.com/arema-fc-luncurkan-jersey-keempat-seluruh-keuntungan-bersih-untuk-keluarga-korban-kanjuruhan/ | status=200 | bytes=228495
+[44] Malang Voice date=2026-03-18 | title=Arema FC Luncurkan Jersey Keempat, Seluruh Keuntungan Bersih untuk Keluarga Korban Kanjuru
+HTTP GET start: https://malangvoice.com/lima-tips-cari_aman-saat-puasa-dan-hujan-bagi-perempuan-ketika-berkendara/
+HTTP GET ok: https://malangvoice.com/lima-tips-cari_aman-saat-puasa-dan-hujan-bagi-perempuan-ketika-berkendara/ | status=200 | bytes=229250
+[45] Malang Voice date=2026-03-09 | title=Lima Tips #Cari_Aman saat Puasa dan Hujan Bagi Perempuan Ketika Berkendara
+HTTP GET start: https://malangvoice.com/hijabers-serenity-ride-komunitas-lady-bikers-ngabuburide-bareng-honda-scoopy-di-malang/
+HTTP GET ok: https://malangvoice.com/hijabers-serenity-ride-komunitas-lady-bikers-ngabuburide-bareng-honda-scoopy-di-malang/ | status=200 | bytes=228825
+[46] Malang Voice date=2026-03-07 | title=Hijabers Serenity Ride, Komunitas Lady Bikers Ngabuburide Bareng Honda Scoopy di Malang
+HTTP GET start: https://malangvoice.com/pertamina-pastikan-stok-bbm-jatimbalinus-aman-hingga-idul-fitri/
+HTTP GET ok: https://malangvoice.com/pertamina-pastikan-stok-bbm-jatimbalinus-aman-hingga-idul-fitri/ | status=200 | bytes=226883
+[47] Malang Voice date=2026-03-06 | title=Pertamina Pastikan Stok BBM Jatimbalinus Aman hingga Idul Fitri
+HTTP GET start: https://malangvoice.com/gagalkan-perederaran-15-kg-serbuk-mercon-ilegal-dua-pemuda-dibekuk/
+HTTP GET ok: https://malangvoice.com/gagalkan-perederaran-15-kg-serbuk-mercon-ilegal-dua-pemuda-dibekuk/ | status=200 | bytes=228014
+[48] Malang Voice date=2026-03-04 | title=Gagalkan Perederaran 1,5 Kg Serbuk Mercon Ilegal, Dua Pemuda Dibekuk
+HTTP GET start: https://malangvoice.com/ratusan-paket-sembako-murah-disiapkan-pjt-i-di-tiga-kota-bantu-warga-sambut-ramadan/
+HTTP GET ok: https://malangvoice.com/ratusan-paket-sembako-murah-disiapkan-pjt-i-di-tiga-kota-bantu-warga-sambut-ramadan/ | status=200 | bytes=228895
+[49] Malang Voice date=2026-03-04 | title=Ratusan Paket Sembako Murah Disiapkan PJT I di Tiga Kota, Bantu Warga Sambut Ramadan
+HTTP GET start: https://malangvoice.com/goto-siapkan-rp110-miliar-untuk-bhr-2026-400-ribu-mitra-gojek-terima-bonus/
+HTTP GET ok: https://malangvoice.com/goto-siapkan-rp110-miliar-untuk-bhr-2026-400-ribu-mitra-gojek-terima-bonus/ | status=200 | bytes=229047
+[50] Malang Voice date=2026-03-03 | title=GoTo Siapkan Rp110 Miliar untuk BHR 2026, 400 Ribu Mitra Gojek Terima Bonus
+HTTP GET start: https://malangvoice.com/penajatim-com-hadir-prioritaskan-integritas-dan-kode-etik-jurnalistik/
+HTTP GET ok: https://malangvoice.com/penajatim-com-hadir-prioritaskan-integritas-dan-kode-etik-jurnalistik/ | status=200 | bytes=228396
+[51] Malang Voice date=2026-03-03 | title=Penajatim.com Hadir, Prioritaskan Integritas dan Kode Etik Jurnalistik
+
+Saved 51 Malang Voice articles
+malang_voice: scraped 51 rows
+malang_voice scraped [1/51] date=2026-06-28 | title=Khofifah Pastikan Pasokan Biosolar dan Pertalite di Jatim Aman
+malang_voice scraped [2/51] date=2026-06-28 | title=Andalkan BBIB Singosari, Khofifah Optimistis Indonesia Swasembada Daging dalam Tiga Tahun
+malang_voice scraped [3/51] date=2026-06-14 | title=Yakuza Meneges Dampingi Santri Korban Dugaan Pelecehan Seksual di Kabupaten Malang
+malang_voice scraped [4/51] date=2026-06-11 | title=UMM Bangun Pabrik Infus di Karangploso, Perkuat Kemandirian Kesehatan Nasional
+malang_voice scraped [5/51] date=2026-06-07 | title=Arema FC Buka Suara, Tegaskan Keberatan Soal Pendaftaran Logo Singa
+malang_voice scraped [6/51] date=2026-06-03 | title=PT Bentoel Group Gandeng Baskomas Jaga Kualitas Air dan Keberlanjutan Lingkungan
+malang_voice scraped [7/51] date=2026-06-01 | title=Pemuda Lintas Iman di Lawang Teguhkan Semangat Pancasila Lewat Jagongan Kebangsaan
+malang_voice scraped [8/51] date=2026-05-31 | title=BRI Malang Catat Transaksi QRIS Rp2,05 Triliun, Pengguna BRImo Tembus 3,3 Juta
+malang_voice scraped [9/51] date=2026-05-29 | title=UMKM Desa Genengan Dapat Suntikan Bantuan CSR dari BRI Region 13 Malang
+malang_voice scraped [10/51] date=2026-05-29 | title=MPM Honda Jatim Ajak Mahasiswa Jadi Agen Perubahan Lewat Astra Honda SDGs Future Leader...
+malang_voice scraped [11/51] date=2026-05-26 | title=BRI Serahkan Ambulance untuk Ponpes An Nur 2 Bululawang, Dukung Layanan Kesehatan 15 Ri...
+malang_voice scraped [12/51] date=2026-05-26 | title=BRI Region 13 Malang Salurkan 82 Sapi dan 630 Kambing Kurban untuk Kaum Dhuafa
+malang_voice scraped [13/51] date=2026-05-26 | title=BRI Region 13 Malang Salurkan 82 Sapi dan 630 Kambing Kurban untuk Kaum Dhuafa
+malang_voice scraped [14/51] date=2026-05-26 | title=Mulai Rp10 Ribu, Tabungan Emas BRImo Permudah Masyarakat Berinvestasi di Tengah Gejolak...
+malang_voice scraped [15/51] date=2026-05-25 | title=Perkuat Kemandirian Umat, YBM BRILiaN SBO Malang Salurkan Dana Rp7,2 Miliar
+malang_voice scraped [16/51] date=2026-05-25 | title=SMKN 1 Baureno Raih Penghargaan Nasional TUK Astra Honda di FeVoSH 2026
+malang_voice scraped [17/51] date=2026-05-25 | title=Antusiasme Membludak, Morula IVF Surabaya Kembali Hadir di Malang Bantu Pejuang Dua Garis
+malang_voice scraped [18/51] date=2026-05-22 | title=Gojek Gandeng Kemenkes, Ribuan Mitra Driver di Malang dan 15 Kota Dapat Cek Kesehatan G...
+malang_voice scraped [19/51] date=2026-05-22 | title=Investasi Emas Digital di BRImo Kian Diminati, Mulai Rp10 Ribu Bisa Jaga Nilai Aset
+malang_voice scraped [20/51] date=2026-05-19 | title=Produksi Padi Jatim Naik 12,6 Persen, Bulog Malang Siap Serap Hasil Panen Petani
+malang_voice scraped [21/51] date=2026-05-08 | title=Hulu DAS Brantas Hadapi Tekanan Eksploitasi, Pelestarian Sumber Air Butuh Gerakan Bersama
+malang_voice scraped [22/51] date=2026-05-08 | title=Polres Malang Tetapkan Empat Tersangka Kasus Pantai Wedi Awu
+malang_voice scraped [23/51] date=2026-05-06 | title=Puluhan Wisatawan Asal Surabaya di Pantai Wediawu Terindikasi Positif Narkoba
+malang_voice scraped [24/51] date=2026-05-02 | title=Rektor UMM: Pendidikan Harus Jadi Pusat Solusi di Tengah Krisis Global
+malang_voice scraped [25/51] date=2026-05-01 | title=Bugenvil City Pilihan Tepat Melepas Penat di Pelukan Alam
+malang_voice scraped [26/51] date=2026-04-29 | title=Dinamika Sengketa CMNP dan MNC: Analisis Peran dan Strategi Hukum Lucas vs Hotman
+malang_voice scraped [27/51] date=2026-04-24 | title=Eduwisata ke Gudang Bulog, Siswa MAN 1 Kota Malang Belajar Langsung Proses Pangan dari ...
+malang_voice scraped [28/51] date=2026-04-24 | title=Kartini Cilik di Tengah Dentuman Musik: Antara Makna dan Meriahnya Zaman”
+malang_voice scraped [29/51] date=2026-04-24 | title=GEBER MALANG di Lawang: Kolaborasi Warga Tanam Pohon untuk Lingkungan Lebih Sehat
+malang_voice scraped [30/51] date=2026-04-24 | title=NESCO 2 di Malang: Ajang Esai Nasional Buktikan Siswa Mampu Bersaing di Level Tertinggi
+malang_voice scraped [31/51] date=2026-04-22 | title=PN Kepanjen Lakukan Eksekusi Ruko di Sengkaling, Termohon Perjuangkan Keadilan
+malang_voice scraped [32/51] date=2026-04-22 | title=Polisi Ciduk Pencuri Belasan Keping Emas di Ngantang
+malang_voice scraped [33/51] date=2026-04-20 | title=Tampung Aspirasi YKTK Tolak Laga Arema vs Persebaya di Kanjuruhan, DPRD Kota Malang Seg...
+malang_voice scraped [34/51] date=2026-04-19 | title=Kaka Slank Keliling Kota Jelang Konser Tur HS Slank di Rampal
+malang_voice scraped [35/51] date=2026-04-18 | title=Penuhi Kebutuhan Pasar, Bulog Malang Segera Minta Pasokan MinyaKita Tambahan
+malang_voice scraped [36/51] date=2026-04-17 | title=Audiensi YKTK ke Kapolresta Malang Kota, KKJ Tolak Derby Arema vs Persebaya di Kanjuruhan
+malang_voice scraped [37/51] date=2026-04-15 | title=Tudingan Pungli di Coban Sewu Dibantah, Kuasa Hukum Tegaskan Semua Gunakan Tiket Resmi
+malang_voice scraped [38/51] date=2026-04-03 | title=PJT I Libatkan Aparat Kepolisian Pastikan Operasional Bendungan Lahor Tetap Aman
+malang_voice scraped [39/51] date=2026-03-29 | title=Tanda Tangan PKS PSEL, Kota Malang Siap Sumbang 500 Ton Sampah per Hari
+malang_voice scraped [40/51] date=2026-03-29 | title=Menteri LH: Malang Raya Jadi Prioritas Proyek Pengolahan Sampah Jadi Energi
+malang_voice scraped [41/51] date=2026-03-23 | title=KAI Hadirkan Promo “Tabur Berkah Hari Raya”, Tiket KA Gajayana dari Malang Mulai Rp445 ...
+malang_voice scraped [42/51] date=2026-03-20 | title=Idul Fitri Jadi Momentum Retret Kultural dan Spiritual, Ini Pesan Prof Biyanto di UMM
+malang_voice scraped [43/51] date=2026-03-19 | title=Jelang Idulfitri 2026, Wijaya 80 dan Sal Priadi Rilis Lagu tentang Cinta Beda Keyakinan
+malang_voice scraped [44/51] date=2026-03-18 | title=Arema FC Luncurkan Jersey Keempat, Seluruh Keuntungan Bersih untuk Keluarga Korban Kanj...
+malang_voice scraped [45/51] date=2026-03-09 | title=Lima Tips #Cari_Aman saat Puasa dan Hujan Bagi Perempuan Ketika Berkendara
+malang_voice scraped [46/51] date=2026-03-07 | title=Hijabers Serenity Ride, Komunitas Lady Bikers Ngabuburide Bareng Honda Scoopy di Malang
+malang_voice scraped [47/51] date=2026-03-06 | title=Pertamina Pastikan Stok BBM Jatimbalinus Aman hingga Idul Fitri
+malang_voice scraped [48/51] date=2026-03-04 | title=Gagalkan Perederaran 1,5 Kg Serbuk Mercon Ilegal, Dua Pemuda Dibekuk
+malang_voice scraped [49/51] date=2026-03-04 | title=Ratusan Paket Sembako Murah Disiapkan PJT I di Tiga Kota, Bantu Warga Sambut Ramadan
+malang_voice scraped [50/51] date=2026-03-03 | title=GoTo Siapkan Rp110 Miliar untuk BHR 2026, 400 Ribu Mitra Gojek Terima Bonus
+malang_voice scraped [51/51] date=2026-03-03 | title=Penajatim.com Hadir, Prioritaskan Integritas dan Kode Etik Jurnalistik
+malang_voice: normalizing 51 rows
+malang_voice: importing normalize/tagging utils
+malang_voice tagging [1/51] date=2026-06-28 | title=Khofifah Pastikan Pasokan Biosolar dan Pertalite di Jatim Aman
+malang_voice tagging [2/51] date=2026-06-28 | title=Andalkan BBIB Singosari, Khofifah Optimistis Indonesia Swasembada Daging dalam Tiga Tahun
+malang_voice tagging [3/51] date=2026-06-14 | title=Yakuza Meneges Dampingi Santri Korban Dugaan Pelecehan Seksual di Kabupaten Malang
+malang_voice tagging [4/51] date=2026-06-11 | title=UMM Bangun Pabrik Infus di Karangploso, Perkuat Kemandirian Kesehatan Nasional
+malang_voice tagging [5/51] date=2026-06-07 | title=Arema FC Buka Suara, Tegaskan Keberatan Soal Pendaftaran Logo Singa
+malang_voice tagging [6/51] date=2026-06-03 | title=PT Bentoel Group Gandeng Baskomas Jaga Kualitas Air dan Keberlanjutan Lingkungan
+malang_voice tagging [7/51] date=2026-06-01 | title=Pemuda Lintas Iman di Lawang Teguhkan Semangat Pancasila Lewat Jagongan Kebangsaan
+malang_voice tagging [8/51] date=2026-05-31 | title=BRI Malang Catat Transaksi QRIS Rp2,05 Triliun, Pengguna BRImo Tembus 3,3 Juta
+malang_voice tagging [9/51] date=2026-05-29 | title=UMKM Desa Genengan Dapat Suntikan Bantuan CSR dari BRI Region 13 Malang
+malang_voice tagging [10/51] date=2026-05-29 | title=MPM Honda Jatim Ajak Mahasiswa Jadi Agen Perubahan Lewat Astra Honda SDGs Future Leader...
+malang_voice tagging [11/51] date=2026-05-26 | title=BRI Serahkan Ambulance untuk Ponpes An Nur 2 Bululawang, Dukung Layanan Kesehatan 15 Ri...
+malang_voice tagging [12/51] date=2026-05-26 | title=BRI Region 13 Malang Salurkan 82 Sapi dan 630 Kambing Kurban untuk Kaum Dhuafa
+malang_voice tagging [13/51] date=2026-05-26 | title=BRI Region 13 Malang Salurkan 82 Sapi dan 630 Kambing Kurban untuk Kaum Dhuafa
+malang_voice tagging [14/51] date=2026-05-26 | title=Mulai Rp10 Ribu, Tabungan Emas BRImo Permudah Masyarakat Berinvestasi di Tengah Gejolak...
+malang_voice tagging [15/51] date=2026-05-25 | title=Perkuat Kemandirian Umat, YBM BRILiaN SBO Malang Salurkan Dana Rp7,2 Miliar
+malang_voice tagging [16/51] date=2026-05-25 | title=SMKN 1 Baureno Raih Penghargaan Nasional TUK Astra Honda di FeVoSH 2026
+malang_voice tagging [17/51] date=2026-05-25 | title=Antusiasme Membludak, Morula IVF Surabaya Kembali Hadir di Malang Bantu Pejuang Dua Garis
+malang_voice tagging [18/51] date=2026-05-22 | title=Gojek Gandeng Kemenkes, Ribuan Mitra Driver di Malang dan 15 Kota Dapat Cek Kesehatan G...
+malang_voice tagging [19/51] date=2026-05-22 | title=Investasi Emas Digital di BRImo Kian Diminati, Mulai Rp10 Ribu Bisa Jaga Nilai Aset
+malang_voice tagging [20/51] date=2026-05-19 | title=Produksi Padi Jatim Naik 12,6 Persen, Bulog Malang Siap Serap Hasil Panen Petani
+malang_voice tagging [21/51] date=2026-05-08 | title=Hulu DAS Brantas Hadapi Tekanan Eksploitasi, Pelestarian Sumber Air Butuh Gerakan Bersama
+malang_voice tagging [22/51] date=2026-05-08 | title=Polres Malang Tetapkan Empat Tersangka Kasus Pantai Wedi Awu
+malang_voice tagging [23/51] date=2026-05-06 | title=Puluhan Wisatawan Asal Surabaya di Pantai Wediawu Terindikasi Positif Narkoba
+malang_voice tagging [24/51] date=2026-05-02 | title=Rektor UMM: Pendidikan Harus Jadi Pusat Solusi di Tengah Krisis Global
+malang_voice tagging [25/51] date=2026-05-01 | title=Bugenvil City Pilihan Tepat Melepas Penat di Pelukan Alam
+malang_voice tagging [26/51] date=2026-04-29 | title=Dinamika Sengketa CMNP dan MNC: Analisis Peran dan Strategi Hukum Lucas vs Hotman
+malang_voice tagging [27/51] date=2026-04-24 | title=Eduwisata ke Gudang Bulog, Siswa MAN 1 Kota Malang Belajar Langsung Proses Pangan dari ...
+malang_voice tagging [28/51] date=2026-04-24 | title=Kartini Cilik di Tengah Dentuman Musik: Antara Makna dan Meriahnya Zaman”
+malang_voice tagging [29/51] date=2026-04-24 | title=GEBER MALANG di Lawang: Kolaborasi Warga Tanam Pohon untuk Lingkungan Lebih Sehat
+malang_voice tagging [30/51] date=2026-04-24 | title=NESCO 2 di Malang: Ajang Esai Nasional Buktikan Siswa Mampu Bersaing di Level Tertinggi
+malang_voice tagging [31/51] date=2026-04-22 | title=PN Kepanjen Lakukan Eksekusi Ruko di Sengkaling, Termohon Perjuangkan Keadilan
+malang_voice tagging [32/51] date=2026-04-22 | title=Polisi Ciduk Pencuri Belasan Keping Emas di Ngantang
+malang_voice tagging [33/51] date=2026-04-20 | title=Tampung Aspirasi YKTK Tolak Laga Arema vs Persebaya di Kanjuruhan, DPRD Kota Malang Seg...
+malang_voice tagging [34/51] date=2026-04-19 | title=Kaka Slank Keliling Kota Jelang Konser Tur HS Slank di Rampal
+malang_voice tagging [35/51] date=2026-04-18 | title=Penuhi Kebutuhan Pasar, Bulog Malang Segera Minta Pasokan MinyaKita Tambahan
+malang_voice tagging [36/51] date=2026-04-17 | title=Audiensi YKTK ke Kapolresta Malang Kota, KKJ Tolak Derby Arema vs Persebaya di Kanjuruhan
+malang_voice tagging [37/51] date=2026-04-15 | title=Tudingan Pungli di Coban Sewu Dibantah, Kuasa Hukum Tegaskan Semua Gunakan Tiket Resmi
+malang_voice tagging [38/51] date=2026-04-03 | title=PJT I Libatkan Aparat Kepolisian Pastikan Operasional Bendungan Lahor Tetap Aman
+malang_voice tagging [39/51] date=2026-03-29 | title=Tanda Tangan PKS PSEL, Kota Malang Siap Sumbang 500 Ton Sampah per Hari
+malang_voice tagging [40/51] date=2026-03-29 | title=Menteri LH: Malang Raya Jadi Prioritas Proyek Pengolahan Sampah Jadi Energi
+malang_voice tagging [41/51] date=2026-03-23 | title=KAI Hadirkan Promo “Tabur Berkah Hari Raya”, Tiket KA Gajayana dari Malang Mulai Rp445 ...
+malang_voice tagging [42/51] date=2026-03-20 | title=Idul Fitri Jadi Momentum Retret Kultural dan Spiritual, Ini Pesan Prof Biyanto di UMM
+malang_voice tagging [43/51] date=2026-03-19 | title=Jelang Idulfitri 2026, Wijaya 80 dan Sal Priadi Rilis Lagu tentang Cinta Beda Keyakinan
+malang_voice tagging [44/51] date=2026-03-18 | title=Arema FC Luncurkan Jersey Keempat, Seluruh Keuntungan Bersih untuk Keluarga Korban Kanj...
+malang_voice tagging [45/51] date=2026-03-09 | title=Lima Tips #Cari_Aman saat Puasa dan Hujan Bagi Perempuan Ketika Berkendara
+malang_voice tagging [46/51] date=2026-03-07 | title=Hijabers Serenity Ride, Komunitas Lady Bikers Ngabuburide Bareng Honda Scoopy di Malang
+malang_voice tagging [47/51] date=2026-03-06 | title=Pertamina Pastikan Stok BBM Jatimbalinus Aman hingga Idul Fitri
+malang_voice tagging [48/51] date=2026-03-04 | title=Gagalkan Perederaran 1,5 Kg Serbuk Mercon Ilegal, Dua Pemuda Dibekuk
+malang_voice tagging [49/51] date=2026-03-04 | title=Ratusan Paket Sembako Murah Disiapkan PJT I di Tiga Kota, Bantu Warga Sambut Ramadan
+malang_voice tagging [50/51] date=2026-03-03 | title=GoTo Siapkan Rp110 Miliar untuk BHR 2026, 400 Ribu Mitra Gojek Terima Bonus
+malang_voice tagging [51/51] date=2026-03-03 | title=Penajatim.com Hadir, Prioritaskan Integritas dan Kode Etik Jurnalistik
+Importing pandas for DataFrame operation...
+malang_voice: Sentiment skipped in main pipeline; marked as pending
+malang_voice: saved supabase-ready CSV -> csv/final/malang_voice_supabase_ready.csv (51 rows)
+malang_voice: uploading 51 valid rows
+malang_voice: importing Supabase uploader
+malang_voice upload [1/51] date=2026-06-28 | title=Khofifah Pastikan Pasokan Biosolar dan Pertalite di Jatim Aman
+malang_voice upload [2/51] date=2026-06-28 | title=Andalkan BBIB Singosari, Khofifah Optimistis Indonesia Swasembada Daging dalam Tiga Tahun
+malang_voice upload [3/51] date=2026-06-14 | title=Yakuza Meneges Dampingi Santri Korban Dugaan Pelecehan Seksual di Kabupaten Malang
+malang_voice upload [4/51] date=2026-06-11 | title=UMM Bangun Pabrik Infus di Karangploso, Perkuat Kemandirian Kesehatan Nasional
+malang_voice upload [5/51] date=2026-06-07 | title=Arema FC Buka Suara, Tegaskan Keberatan Soal Pendaftaran Logo Singa
+malang_voice upload [6/51] date=2026-06-03 | title=PT Bentoel Group Gandeng Baskomas Jaga Kualitas Air dan Keberlanjutan Lingkungan
+malang_voice upload [7/51] date=2026-06-01 | title=Pemuda Lintas Iman di Lawang Teguhkan Semangat Pancasila Lewat Jagongan Kebangsaan
+malang_voice upload [8/51] date=2026-05-31 | title=BRI Malang Catat Transaksi QRIS Rp2,05 Triliun, Pengguna BRImo Tembus 3,3 Juta
+malang_voice upload [9/51] date=2026-05-29 | title=UMKM Desa Genengan Dapat Suntikan Bantuan CSR dari BRI Region 13 Malang
+malang_voice upload [10/51] date=2026-05-29 | title=MPM Honda Jatim Ajak Mahasiswa Jadi Agen Perubahan Lewat Astra Honda SDGs Future Leader...
+malang_voice upload [11/51] date=2026-05-26 | title=BRI Serahkan Ambulance untuk Ponpes An Nur 2 Bululawang, Dukung Layanan Kesehatan 15 Ri...
+malang_voice upload [12/51] date=2026-05-26 | title=BRI Region 13 Malang Salurkan 82 Sapi dan 630 Kambing Kurban untuk Kaum Dhuafa
+malang_voice upload [13/51] date=2026-05-26 | title=BRI Region 13 Malang Salurkan 82 Sapi dan 630 Kambing Kurban untuk Kaum Dhuafa
+malang_voice upload [14/51] date=2026-05-26 | title=Mulai Rp10 Ribu, Tabungan Emas BRImo Permudah Masyarakat Berinvestasi di Tengah Gejolak...
+malang_voice upload [15/51] date=2026-05-25 | title=Perkuat Kemandirian Umat, YBM BRILiaN SBO Malang Salurkan Dana Rp7,2 Miliar
+malang_voice upload [16/51] date=2026-05-25 | title=SMKN 1 Baureno Raih Penghargaan Nasional TUK Astra Honda di FeVoSH 2026
+malang_voice upload [17/51] date=2026-05-25 | title=Antusiasme Membludak, Morula IVF Surabaya Kembali Hadir di Malang Bantu Pejuang Dua Garis
+malang_voice upload [18/51] date=2026-05-22 | title=Gojek Gandeng Kemenkes, Ribuan Mitra Driver di Malang dan 15 Kota Dapat Cek Kesehatan G...
+malang_voice upload [19/51] date=2026-05-22 | title=Investasi Emas Digital di BRImo Kian Diminati, Mulai Rp10 Ribu Bisa Jaga Nilai Aset
+malang_voice upload [20/51] date=2026-05-19 | title=Produksi Padi Jatim Naik 12,6 Persen, Bulog Malang Siap Serap Hasil Panen Petani
+malang_voice upload [21/51] date=2026-05-08 | title=Hulu DAS Brantas Hadapi Tekanan Eksploitasi, Pelestarian Sumber Air Butuh Gerakan Bersama
+malang_voice upload [22/51] date=2026-05-08 | title=Polres Malang Tetapkan Empat Tersangka Kasus Pantai Wedi Awu
+malang_voice upload [23/51] date=2026-05-06 | title=Puluhan Wisatawan Asal Surabaya di Pantai Wediawu Terindikasi Positif Narkoba
+malang_voice upload [24/51] date=2026-05-02 | title=Rektor UMM: Pendidikan Harus Jadi Pusat Solusi di Tengah Krisis Global
+malang_voice upload [25/51] date=2026-05-01 | title=Bugenvil City Pilihan Tepat Melepas Penat di Pelukan Alam
+malang_voice upload [26/51] date=2026-04-29 | title=Dinamika Sengketa CMNP dan MNC: Analisis Peran dan Strategi Hukum Lucas vs Hotman
+malang_voice upload [27/51] date=2026-04-24 | title=Eduwisata ke Gudang Bulog, Siswa MAN 1 Kota Malang Belajar Langsung Proses Pangan dari ...
+malang_voice upload [28/51] date=2026-04-24 | title=Kartini Cilik di Tengah Dentuman Musik: Antara Makna dan Meriahnya Zaman”
+malang_voice upload [29/51] date=2026-04-24 | title=GEBER MALANG di Lawang: Kolaborasi Warga Tanam Pohon untuk Lingkungan Lebih Sehat
+malang_voice upload [30/51] date=2026-04-24 | title=NESCO 2 di Malang: Ajang Esai Nasional Buktikan Siswa Mampu Bersaing di Level Tertinggi
+malang_voice upload [31/51] date=2026-04-22 | title=PN Kepanjen Lakukan Eksekusi Ruko di Sengkaling, Termohon Perjuangkan Keadilan
+malang_voice upload [32/51] date=2026-04-22 | title=Polisi Ciduk Pencuri Belasan Keping Emas di Ngantang
+malang_voice upload [33/51] date=2026-04-20 | title=Tampung Aspirasi YKTK Tolak Laga Arema vs Persebaya di Kanjuruhan, DPRD Kota Malang Seg...
+malang_voice upload [34/51] date=2026-04-19 | title=Kaka Slank Keliling Kota Jelang Konser Tur HS Slank di Rampal
+malang_voice upload [35/51] date=2026-04-18 | title=Penuhi Kebutuhan Pasar, Bulog Malang Segera Minta Pasokan MinyaKita Tambahan
+malang_voice upload [36/51] date=2026-04-17 | title=Audiensi YKTK ke Kapolresta Malang Kota, KKJ Tolak Derby Arema vs Persebaya di Kanjuruhan
+malang_voice upload [37/51] date=2026-04-15 | title=Tudingan Pungli di Coban Sewu Dibantah, Kuasa Hukum Tegaskan Semua Gunakan Tiket Resmi
+malang_voice upload [38/51] date=2026-04-03 | title=PJT I Libatkan Aparat Kepolisian Pastikan Operasional Bendungan Lahor Tetap Aman
+malang_voice upload [39/51] date=2026-03-29 | title=Tanda Tangan PKS PSEL, Kota Malang Siap Sumbang 500 Ton Sampah per Hari
+malang_voice upload [40/51] date=2026-03-29 | title=Menteri LH: Malang Raya Jadi Prioritas Proyek Pengolahan Sampah Jadi Energi
+malang_voice upload [41/51] date=2026-03-23 | title=KAI Hadirkan Promo “Tabur Berkah Hari Raya”, Tiket KA Gajayana dari Malang Mulai Rp445 ...
+malang_voice upload [42/51] date=2026-03-20 | title=Idul Fitri Jadi Momentum Retret Kultural dan Spiritual, Ini Pesan Prof Biyanto di UMM
+malang_voice upload [43/51] date=2026-03-19 | title=Jelang Idulfitri 2026, Wijaya 80 dan Sal Priadi Rilis Lagu tentang Cinta Beda Keyakinan
+malang_voice upload [44/51] date=2026-03-18 | title=Arema FC Luncurkan Jersey Keempat, Seluruh Keuntungan Bersih untuk Keluarga Korban Kanj...
+malang_voice upload [45/51] date=2026-03-09 | title=Lima Tips #Cari_Aman saat Puasa dan Hujan Bagi Perempuan Ketika Berkendara
+malang_voice upload [46/51] date=2026-03-07 | title=Hijabers Serenity Ride, Komunitas Lady Bikers Ngabuburide Bareng Honda Scoopy di Malang
+malang_voice upload [47/51] date=2026-03-06 | title=Pertamina Pastikan Stok BBM Jatimbalinus Aman hingga Idul Fitri
+malang_voice upload [48/51] date=2026-03-04 | title=Gagalkan Perederaran 1,5 Kg Serbuk Mercon Ilegal, Dua Pemuda Dibekuk
+malang_voice upload [49/51] date=2026-03-04 | title=Ratusan Paket Sembako Murah Disiapkan PJT I di Tiga Kota, Bantu Warga Sambut Ramadan
+malang_voice upload [50/51] date=2026-03-03 | title=GoTo Siapkan Rp110 Miliar untuk BHR 2026, 400 Ribu Mitra Gojek Terima Bonus
+malang_voice upload [51/51] date=2026-03-03 | title=Penajatim.com Hadir, Prioritaskan Integritas dan Kode Etik Jurnalistik
+Supabase env path: /Users/tsar/Library/Mobile Documents/com~apple~CloudDocs/main/college/pkl/.env
+Supabase existing URL fetch start: table=raw_news_articles
+Supabase existing URL fetch page: table=raw_news_articles, range=0-999, rows=464, total_seen=464
+Supabase existing URL fetch success: table=raw_news_articles, urls=464
+Supabase upload dedupe: table=raw_news_articles, incoming=51, existing_skipped=51, missing_url_skipped=0, new=0
+Supabase upload skipped: table=raw_news_articles, no new URLs
+malang_voice: uploaded 51 articles
+Importing pandas for concat operation...
+Pipeline saved combined supabase-ready CSV -> csv/final/all_sources_supabase_ready.csv (51 rows)
+CSV output validation skipped.
+Pipeline finished at: 2026-07-02T12:06:55.901360
+Pipeline duration: 0:00:17.044198
+Pipeline uploaded total: 51

@@ -1,0 +1,10 @@
+Scrape log file: logs/scrape_log_20260701_103000.txt
+Startup ready. Heavy imports are lazy-loaded per step.
+Pipeline started at: 2026-07-01T10:30:00.617987
+Upload target table: raw_news_articles_test
+Selected sources: ['times_indonesia']
+Upload enabled: False
+
+Running times_indonesia...
+times_indonesia: importing scraper module scrapers.timesindonesia
+Scraping Times Indonesia page 1: https://timesindonesia.co.id/search?q=kabupaten%20malang

@@ -1,0 +1,43 @@
+Scrape log file: logs/scrape_log_20260702_120049.txt
+Startup ready. Heavy imports are lazy-loaded per step.
+Pipeline started at: 2026-07-02T12:00:49.192456
+Upload target table: raw_news_articles
+Selected sources: ['malang_voice']
+Upload enabled: True
+
+Running malang_voice...
+malang_voice: importing scraper module scrapers.malangvoice
+Scraping Malang Voice page 1: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/ | status=200 | bytes=141736
+Malang Voice list page=001 date=2026-06-28 | title=Khofifah Pastikan Pasokan Biosolar dan Pertalite di Jatim Aman
+Malang Voice list page=001 date=2026-06-28 | title=Andalkan BBIB Singosari, Khofifah Optimistis Indonesia Swasembada Daging dalam Tiga Tahun
+Malang Voice list page=001 date=2026-06-14 | title=Yakuza Meneges Dampingi Santri Korban Dugaan Pelecehan Seksual di Kabupaten Malang
+Malang Voice list page=001 date=2026-06-11 | title=UMM Bangun Pabrik Infus di Karangploso, Perkuat Kemandirian Kesehatan Nasional
+Malang Voice page 1: cards=4 new=4 total=4
+Scraping Malang Voice page 2: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/2/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/2/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/2/ | status=200 | bytes=141951
+Malang Voice list page=002 date=2026-06-07 | title=Arema FC Buka Suara, Tegaskan Keberatan Soal Pendaftaran Logo Singa
+Malang Voice list page=002 date=2026-06-03 | title=PT Bentoel Group Gandeng Baskomas Jaga Kualitas Air dan Keberlanjutan Lingkungan
+Malang Voice list page=002 date=2026-06-01 | title=Pemuda Lintas Iman di Lawang Teguhkan Semangat Pancasila Lewat Jagongan Kebangsaan
+Malang Voice list page=002 date=2026-05-31 | title=BRI Malang Catat Transaksi QRIS Rp2,05 Triliun, Pengguna BRImo Tembus 3,3 Juta
+Malang Voice page 2: cards=4 new=4 total=8
+Scraping Malang Voice page 3: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/3/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/3/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/3/ | status=200 | bytes=142193
+Malang Voice list page=003 date=2026-05-29 | title=UMKM Desa Genengan Dapat Suntikan Bantuan CSR dari BRI Region 13 Malang
+Malang Voice list page=003 date=2026-05-29 | title=MPM Honda Jatim Ajak Mahasiswa Jadi Agen Perubahan Lewat Astra Honda SDGs Future Leaders 2
+Malang Voice list page=003 date=2026-05-26 | title=BRI Serahkan Ambulance untuk Ponpes An Nur 2 Bululawang, Dukung Layanan Kesehatan 15 Ribu 
+Malang Voice list page=003 date=2026-05-26 | title=BRI Region 13 Malang Salurkan 82 Sapi dan 630 Kambing Kurban untuk Kaum Dhuafa
+Malang Voice page 3: cards=4 new=4 total=12
+Scraping Malang Voice page 4: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/4/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/4/
+HTTP GET ok: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/4/ | status=200 | bytes=142145
+Malang Voice list page=004 date=2026-05-26 | title=BRI Region 13 Malang Salurkan 82 Sapi dan 630 Kambing Kurban untuk Kaum Dhuafa
+Malang Voice list page=004 date=2026-05-26 | title=Mulai Rp10 Ribu, Tabungan Emas BRImo Permudah Masyarakat Berinvestasi di Tengah Gejolak Ek
+Malang Voice list page=004 date=2026-05-25 | title=Perkuat Kemandirian Umat, YBM BRILiaN SBO Malang Salurkan Dana Rp7,2 Miliar
+Malang Voice list page=004 date=2026-05-25 | title=SMKN 1 Baureno Raih Penghargaan Nasional TUK Astra Honda di FeVoSH 2026
+Malang Voice page 4: cards=4 new=4 total=16
+Scraping Malang Voice page 5: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/5/
+HTTP GET start: https://malangvoice.com/kanal/malang-raya/kabupaten-malang/page/5/

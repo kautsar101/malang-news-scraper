@@ -1,0 +1,36 @@
+name: Daily News Scrape
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: daily-news-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Playwright browser
+        run: python -m playwright install chromium
+
+      - name: Run incremental scraper
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python -u main.py --incremental --skip-validation

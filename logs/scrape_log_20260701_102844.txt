@@ -1,0 +1,15 @@
+Scrape log file: logs/scrape_log_20260701_102844.txt
+Startup ready. Heavy imports are lazy-loaded per step.
+usage: main.py [-h]
+               [--source {beritamalang_media,antara_jatim,detik_jatim,kominfo_malangkab,malangposco,malangtimes,memox,nusadaily,radar_malang,seputar_malang,surya_malang,times_indonesia}]
+               [--no-upload] [--skip-validation]
+
+Run news scraping pipeline.
+
+options:
+  -h, --help            show this help message and exit
+  --source {beritamalang_media,antara_jatim,detik_jatim,kominfo_malangkab,malangposco,malangtimes,memox,nusadaily,radar_malang,seputar_malang,surya_malang,times_indonesia}
+                        Run only selected source. Can be repeated. Default:
+                        run all sources.
+  --no-upload           Save CSV outputs only; do not upload to Supabase.
+  --skip-validation     Skip final CSV output validation.
