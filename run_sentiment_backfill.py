@@ -80,7 +80,7 @@ def parse_args():
     parser.add_argument(
         "--only-pending",
         action="store_true",
-        help="Process only rows where sentiment is blank or pending.",
+        help="Process only rows where sentiment is null/blank/pending.",
     )
     return parser.parse_args()
 
@@ -130,6 +130,27 @@ def load_input_rows(csv_path, only_pending, limit):
         ].reset_index(drop=True)
         print(f"Filtered pending rows: {len(df)}", flush=True)
 
+    if "primary_kecamatan" in df.columns:
+        before = len(df)
+        df = df[
+            df["primary_kecamatan"]
+            .fillna("")
+            .astype(str)
+            .str.strip()
+            .ne("")
+        ].reset_index(drop=True)
+        print(
+            f"Filtered rows with primary_kecamatan: {len(df)} "
+            f"(skipped {before - len(df)})",
+            flush=True,
+        )
+    else:
+        print(
+            "primary_kecamatan column missing; sentiment backfill cannot "
+            "filter by kecamatan.",
+            flush=True,
+        )
+
     if limit is not None:
         df = df.head(limit).reset_index(drop=True)
         print(f"Limited rows: {len(df)}", flush=True)
@@ -152,6 +173,21 @@ def load_supabase_rows(table_name, only_pending, limit):
 
     df = pd.DataFrame(records)
     print(f"Loaded Supabase rows: {len(df)}", flush=True)
+
+    if "primary_kecamatan" in df.columns:
+        before = len(df)
+        df = df[
+            df["primary_kecamatan"]
+            .fillna("")
+            .astype(str)
+            .str.strip()
+            .ne("")
+        ].reset_index(drop=True)
+        print(
+            f"Rows with primary_kecamatan: {len(df)} "
+            f"(skipped {before - len(df)})",
+            flush=True,
+        )
 
     return df
 

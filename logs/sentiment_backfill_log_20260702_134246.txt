@@ -1,0 +1,29 @@
+Sentiment backfill log file: logs/sentiment_backfill_log_20260702_134246.txt
+Fetching sentiment rows from Supabase...
+Supabase env path: /Users/tsar/Library/Mobile Documents/com~apple~CloudDocs/main/college/pkl/.env
+Supabase fetch start: table=raw_news_articles, only_pending=True, limit=5
+Supabase fetch success: table=raw_news_articles, records=5
+Importing pandas for Supabase rows...
+Loaded Supabase rows: 5
+Loading sentiment model
+Sentiment model import ready
+sentiment [1/5] date=2026-04-13T00:00:00+00:00 | title=Sindikat Curanmor Sekeluarga di Area Persawahan Diamankan Polres Malang
+Sentiment: importing transformers.pipeline...
+Sentiment: loading model w11wo/indonesian-roberta-base-sentiment-classifier...
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 10206.60it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Sentiment: model ready.
+sentiment [2/5] date=2026-04-16T00:00:00+00:00 | title=Disparbud Kabupaten Malang Kuatkan Kolaborasi dengan Pelaku Pariwisata dan Ekonomi Kreatif
+sentiment [3/5] date=2026-04-13T00:00:00+00:00 | title=Bupati Sanusi Lantik Tiga Kepala Dinas dan Ratusan ASN sebagai Pejabat Administrator hi...
+sentiment [4/5] date=2026-04-13T00:00:00+00:00 | title=KNMP Pujiharjo Sudah Beroperasi, Tiga Fasilitas Menunggu Dibangun Pusat
+sentiment [5/5] date=2026-04-12T00:00:00+00:00 | title=Teguh Pamuji Bungkam soal Tes Urine di Lapas Kelas 1 Malang Tidak Gandeng BNN
+Sentiment prediction complete
+Importing pandas for sentiment result attach...
+Saved sentiment backfill CSV -> csv/final/sentiment_backfill_20260702_134246.csv (5 rows)
+Supabase env path: /Users/tsar/Library/Mobile Documents/com~apple~CloudDocs/main/college/pkl/.env
+Supabase update start: table=raw_news_articles, records=5
+Supabase update [1/5] ok: https://memox.co.id/sindikat-curanmor-sekeluarga-diarea-persawahan-diamankan-polres-malang/
+Supabase update [2/5] ok: https://malangtimes.com/baca/3331341977/20260416/070700/disparbud-kabupaten-malang-kuatkan-kolaborasi-dengan-pelaku-pariwisata-dan-ekonomi-kreatif
+Supabase update [3/5] ok: https://malangtimes.com/baca/3331341736/20260413/035900/bupati-sanusi-lantik-tiga-kepala-dinas-dan-ratusan-asn-sebagai-pejabat-administrator-hingga-fungsional
+Supabase update [4/5] ok: https://malangtimes.com/baca/3331341718/20260413/101100/knmp-pujiharjo-sudah-beroperasi-tiga-fasilitas-menunggu-dibangun-pusat
+Supabase update [5/5] ok: https://memox.co.id/alasan-sudah-pindah-teguh-bungkam-sehubungan-tidak-diikut-sertakan-bnn-dalam-giat-tes-urine-di-lapas-kelas-1-malang/

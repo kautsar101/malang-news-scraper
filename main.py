@@ -145,6 +145,14 @@ def parse_args():
         default=8,
         help="Max load-more clicks for click-based sources in --incremental mode.",
     )
+    parser.add_argument(
+        "--with-sentiment",
+        action="store_true",
+        help=(
+            "Run HuggingFace sentiment labeling in the main pipeline before "
+            "saving CSV/uploading. Default: mark sentiment as pending."
+        ),
+    )
 
     return parser.parse_args()
 
@@ -170,6 +178,14 @@ def print_row_progress(source, stage, index, total, row):
         f"title={short_text(row.get('title'))}",
         flush=True,
     )
+
+
+def has_primary_kecamatan(row):
+    value = row.get("primary_kecamatan")
+    if value is None or value != value:
+        return False
+
+    return str(value).strip() != ""
 
 
 def save_supabase_ready_csv(df, source):
@@ -273,7 +289,7 @@ def concat_dataframes(*args, **kwargs):
     return pd.concat(*args, **kwargs)
 
 
-def process(df, source):
+def process(df, source, with_sentiment=False):
 
     print(f"{source}: normalizing {len(df)} rows", flush=True)
     print(f"{source}: importing normalize/tagging utils", flush=True)
@@ -301,13 +317,48 @@ def process(df, source):
         ]
     ] = dataframe(kecamatan_rows, index=df.index)
 
-    print(
-        f"{source}: Sentiment skipped in main pipeline; marked as pending",
-        flush=True,
-    )
+    if with_sentiment:
+        print(
+            f"{source}: running sentiment labeling only for rows with "
+            "primary_kecamatan",
+            flush=True,
+        )
 
-    df["sentiment"] = "pending"
-    df["sentiment_score"] = None
+        from utils.sentiment import predict_sentiment
+
+        sentiment_rows = []
+
+        for index, row in df.iterrows():
+            if has_primary_kecamatan(row):
+                print_row_progress(source, "sentiment", index, len(df), row)
+                sentiment_rows.append(
+                    predict_sentiment(
+                        row.get("title"),
+                        row.get("content"),
+                    )
+                )
+            else:
+                print_row_progress(source, "sentiment-skip-no-kecamatan", index, len(df), row)
+                sentiment_rows.append((None, None))
+
+        df[
+            [
+                "sentiment",
+                "sentiment_score",
+            ]
+        ] = dataframe(sentiment_rows, index=df.index)
+    else:
+        print(
+            f"{source}: Sentiment skipped in main pipeline; marked as "
+            "pending only for rows with primary_kecamatan",
+            flush=True,
+        )
+
+        df["sentiment"] = df.apply(
+            lambda row: "pending" if has_primary_kecamatan(row) else None,
+            axis=1,
+        )
+        df["sentiment_score"] = None
 
     return df
 
@@ -329,6 +380,7 @@ def main():
     print(f"Upload target table: {TABLE_NAME}", flush=True)
     print(f"Selected sources: {sorted(selected_sources) if selected_sources else 'ALL'}", flush=True)
     print(f"Upload enabled: {not args.no_upload}", flush=True)
+    print(f"Sentiment enabled: {args.with_sentiment}", flush=True)
     print(f"Incremental mode: {args.incremental}", flush=True)
     if args.incremental:
         print(
@@ -382,7 +434,8 @@ def main():
 
             df = process(
                 df,
-                source
+                source,
+                with_sentiment=args.with_sentiment,
             )
 
             df = df[

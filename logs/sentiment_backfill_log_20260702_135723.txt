@@ -1,0 +1,1014 @@
+Sentiment backfill log file: logs/sentiment_backfill_log_20260702_135723.txt
+Fetching sentiment rows from Supabase...
+Supabase env path: /Users/tsar/Library/Mobile Documents/com~apple~CloudDocs/main/college/pkl/.env
+Supabase fetch start: table=raw_news_articles, only_pending=True, limit=None
+Supabase fetch success: table=raw_news_articles, records=497
+Importing pandas for Supabase rows...
+Loaded Supabase rows: 497
+Rows with primary_kecamatan: 497 (skipped 0)
+Loading sentiment model
+Sentiment model import ready
+sentiment [1/497] date=2026-06-15T00:00:00+00:00 | title=Drainase Panggungrejo Ditarget Rampung Desember 2026, Progres Baru Capai 30 Persen
+Sentiment: importing transformers.pipeline...
+Sentiment: loading model w11wo/indonesian-roberta-base-sentiment-classifier...
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 7862.27it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Sentiment: model ready.
+sentiment [2/497] date=2026-06-15T00:00:00+00:00 | title=Produksi Susu Sapi dan Kambing di Kabupaten Malang Tembus 153 Ribu Ton, Mulai Pulih set...
+sentiment [3/497] date=2026-06-13T00:00:00+00:00 | title=Inilah Rahasia di Balik Alasan SIM D Kian Diminati di Kabupaten Malang
+sentiment [4/497] date=2026-06-13T00:00:00+00:00 | title=Ketua PKB Kabupaten Malang Bercita-cita Menguasai Kursi Bupati, Mulai Kapan?
+sentiment [5/497] date=2026-06-13T00:00:00+00:00 | title=Wow... Segini Setoran PBB dari Tiga Desa di Malang
+sentiment [6/497] date=2026-06-13T00:00:00+00:00 | title=Inilah Rute Baru Bus Trans Jatim di Malang yang Dikaji Pemprov Jatim
+sentiment [7/497] date=2026-06-13T00:00:00+00:00 | title=Dipercaya Jadi Ketua DPC, Kholiq Target Kursi Bupati Malang Diisi Kader PKB
+sentiment [8/497] date=2026-06-13T00:00:00+00:00 | title=Diduga Rem Blong saat Hindari Motor, Truk Tebu Terguling di Lawang
+sentiment [9/497] date=2026-06-12T00:00:00+00:00 | title=Ini Alasan Dewan Panggil Perum Jasa Tirta I, Tuntaskan Polemik Bendungan Lahor Malang?
+sentiment [10/497] date=2026-06-12T00:00:00+00:00 | title=31 Persen Susu Jatim Dipasok dari Kabupaten Malang
+sentiment [11/497] date=2026-06-11T00:00:00+00:00 | title=Tahun Depan, Warga Kabupaten Malang Mempunyai 310 Kades Baru
+sentiment [12/497] date=2026-06-11T00:00:00+00:00 | title=Pabrik Olahan Kayu di Wajak Terbakar, Diduga karena Kipas Oven Overheat
+sentiment [13/497] date=2026-06-11T00:00:00+00:00 | title=Gegara Ini, Ratusan KDKMP di Kabupaten Malang Tak Bisa Beroperasi
+sentiment [14/497] date=2026-06-11T00:00:00+00:00 | title=Batu Besar di Singosari Malang Ini Ditengarai Peninggalan Zaman Megalitikum
+sentiment [15/497] date=2026-06-10T00:00:00+00:00 | title=Warga Gondanglegi Malang Padamkan Kebakaran tanpa Damkar
+sentiment [16/497] date=2026-06-09T00:00:00+00:00 | title=Perkuat Semangat Pancasila, 275 Pemuda dan Mahasiswa Ikuti Jagongan Lintas Iman di Cakr...
+sentiment [17/497] date=2026-06-09T00:00:00+00:00 | title=Anda Wajib Tahu, Beginilah Cara PDAM Kabupaten Malang Menambah 5.000 Pelanggan Baru
+sentiment [18/497] date=2026-06-09T00:00:00+00:00 | title=Belum Rampung Proyek Sekolah Rakyat di Srigonco Malang, Bakal Bangun Lagi di Dampit
+sentiment [19/497] date=2026-06-08T00:00:00+00:00 | title=11.891 Relawan SPPG di Kabupaten Malang Bakal Didaftarkan BPJS Kesehatan
+sentiment [20/497] date=2026-06-08T00:00:00+00:00 | title=Pemkab Malang Gandeng Universitas Al-Qolam Kembangkan Desa Maslahah, Fokus pada Ekonomi...
+sentiment [21/497] date=2026-06-07T00:00:00+00:00 | title=Ratusan Gerai Koperasi Merah Putih di Kabupaten Malang Belum Selesai Dibangun, Cuaca Di...
+sentiment [22/497] date=2026-06-05T00:00:00+00:00 | title=Ribuan Warga Malang Tak Punya BPJS, Ini Risikonya
+sentiment [23/497] date=2026-06-05T00:00:00+00:00 | title=Inilah Lokasi Alun-Alun Kepanjen yang Terbaru
+sentiment [24/497] date=2026-05-20T00:00:00+00:00 | title=Ini Penyebab Kebakaran Pengolahan Limbah Plastik di Malang
+sentiment [25/497] date=2026-06-05T00:00:00+00:00 | title=Lupa Mematikan Tungku selesai Masak, Rumah Warga Tajinan Malang Hangus Terbakar
+sentiment [26/497] date=2026-06-05T00:00:00+00:00 | title=Setoran Pajak Hotel di Kabupaten Malang Belum Ideal, Besarnya Capai Segini
+sentiment [27/497] date=2026-06-05T00:00:00+00:00 | title=32 SPPG diberhentikan Sementara oleh BGN RI
+sentiment [28/497] date=2026-06-04T00:00:00+00:00 | title=Tambah Pelanggan, Perumda Tirta Kanjuruhan Bangun SPAM Dieng
+sentiment [29/497] date=2026-05-20T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 20 Mei 2026: Berpotensi Hujan Ringan hingga Udara Kabur
+sentiment [30/497] date=2026-06-04T00:00:00+00:00 | title=Update Polemik Portal Bendungan Lahor di Karangkates Malang
+sentiment [31/497] date=2026-06-04T00:00:00+00:00 | title=Mayoritas Kebakaran di Kabupaten Malang Terjadi pada April-Mei, Kenapa?.
+sentiment [32/497] date=2026-06-03T00:00:00+00:00 | title=Rp 50 Miliar untuk Pemeliharaan Jalan di Kabupaten Malang
+sentiment [33/497] date=2026-06-03T00:00:00+00:00 | title=Awas, Pujon Malang Paling Sering Dilanda Bencana
+sentiment [34/497] date=2026-05-19T00:00:00+00:00 | title=Horeee.... Warga Malang Terima 20 Kursi Roda sampai 40 Paket Kewirausahaan
+sentiment [35/497] date=2026-05-19T00:00:00+00:00 | title=Waduh, KDMP di Malang Masih Dilarang Mengoperasikan Armada Bantuan Pusat
+sentiment [36/497] date=2026-06-03T00:00:00+00:00 | title=Dua Jemaah Haji Kabupaten Malang Wafat di Tanah Suci
+sentiment [37/497] date=2026-06-03T00:00:00+00:00 | title=Beginilah Wujud Mesin untuk Memproduksi Rokok di Malang
+sentiment [38/497] date=2026-06-03T00:00:00+00:00 | title=Di Malang, Hutan Lebih dari 4 Ribu Hektare Rusak
+sentiment [39/497] date=2026-06-03T00:00:00+00:00 | title=Duh, Lokasi Alun-Alun Kepanjen Malang Bergeser Lagi
+sentiment [40/497] date=2026-06-02T00:00:00+00:00 | title=Inilah Daftar Kawasan Hutan di Malang yang Jadi Langganan Pembalakan Liar
+sentiment [41/497] date=2026-06-02T00:00:00+00:00 | title=Heboh, Ini Penyebab Bocah 14 Tahun Tenggelam di Embung Babadan Malang
+sentiment [42/497] date=2026-06-02T00:00:00+00:00 | title=DPRD Kabupaten Malang Minta Bupati Sanusi Tak Korban Stadion Kanjuruhan demi Bangun Alu...
+sentiment [43/497] date=2026-06-02T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang Selasa 2 Juni 2026 Berpotensi Hujan Ringan
+sentiment [44/497] date=2026-06-01T00:00:00+00:00 | title=Diduga Terlambat Antisipasi Truk Parkir, Pemotor Tewas di Lawang
+sentiment [45/497] date=2026-06-01T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 1 Juni 2026 Didominasi Kondisi Berawan
+sentiment [46/497] date=2026-05-11T00:00:00+00:00 | title=84 Aduan MBG Masuk ke Pemkab Malang, Kualitas Menu hingga Siswa Tak Kebagian Jadi Sorotan
+sentiment [47/497] date=2026-05-11T00:00:00+00:00 | title=Dana Desa Dipotong Besar-besaran, Pemdes di Kabupaten Malang Mulai Kelabakan Atur Anggaran
+sentiment [48/497] date=2026-05-31T00:00:00+00:00 | title=Waduh, 470 Ribu Pasangan di Malang Menikah tapi Tak Tercatat di KK
+sentiment [49/497] date=2026-05-31T00:00:00+00:00 | title=Produksi Kakao di Malang Melimpah Ruah, Ini Rahasianya
+sentiment [50/497] date=2026-05-31T00:00:00+00:00 | title=Pemkab Malang Raih Opini WTP 12 Kali
+sentiment [51/497] date=2026-05-31T00:00:00+00:00 | title=Bencana Kabupaten Malang Didominasi Angin Kencang
+sentiment [52/497] date=2026-05-31T00:00:00+00:00 | title=Prakiraan Cuaca Kabupaten Malang Minggu, 31 Mei 2026: Didominasi Berawan
+sentiment [53/497] date=2026-04-29T00:00:00+00:00 | title=Akses Tertutup Pasar, Puskesmas Tajinan Ajukan Relokasi ke Tempat Baru
+sentiment [54/497] date=2026-05-30T00:00:00+00:00 | title=Santerra de Laponte Serahkan Hewan Kurban Sapi dan Kambing
+sentiment [55/497] date=2026-05-29T00:00:00+00:00 | title=Berwisata di Alun-Alun Karangploso Malang, Ini Manfaatnya
+sentiment [56/497] date=2026-05-29T00:00:00+00:00 | title=Fantastis, Ini Penghasilan Pemkab Malang dari Sektor Pajak Parkir
+sentiment [57/497] date=2026-05-29T00:00:00+00:00 | title=Rp 4,8 Miliar Uang Kabupaten Malang Digondol Koruptor
+sentiment [58/497] date=2026-05-28T00:00:00+00:00 | title=Aseeekkk...WFH ASN di Kabupaten Malang Diperpanjang Dua Bulan
+sentiment [59/497] date=2026-05-28T00:00:00+00:00 | title=25 Persen Wajib Pajak di Kabupaten Malang Tak Setor ke Negara
+sentiment [60/497] date=2026-05-28T00:00:00+00:00 | title=Lalu Lintas Tol Malang Naik 23,4 Persen
+sentiment [61/497] date=2026-05-28T00:00:00+00:00 | title=Di Malang, Petugas Temukan Cacing Hati di Hewan Kurban
+sentiment [62/497] date=2026-05-27T00:00:00+00:00 | title=Bupati Malang Sanusi Janji Perbaiki Infrastruktur Puskesmas
+sentiment [63/497] date=2026-05-27T00:00:00+00:00 | title=Kabupaten Malang Punya 99 Ribu Hewan Kurban
+sentiment [64/497] date=2026-05-27T00:00:00+00:00 | title=Ekamas Fortuna Berkurban 15 Kambing dan 1 Ekor Sapi
+sentiment [65/497] date=2026-05-27T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang Rabu 27 Mei 2026 Berawan
+sentiment [66/497] date=2026-04-22T00:00:00+00:00 | title=DPRD Kabupaten Malang Akan Pelototi Kinerja Anak Bupati
+sentiment [67/497] date=2026-05-26T00:00:00+00:00 | title=400 Personel Disiagakan Amankan Malam Takbir dan Idul Adha di Kabupaten Malang
+sentiment [68/497] date=2026-05-26T00:00:00+00:00 | title=Ini Alasannya Domba Jadi Primadona Hewan Kurban Idul Adha di Bumi Arema
+sentiment [69/497] date=2026-05-26T00:00:00+00:00 | title=Begini Cara Pemkab Malang Mengejar Pajak ASN
+sentiment [70/497] date=2026-05-26T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 26 Mei 2026 Berawan di 32 Kecamatan
+sentiment [71/497] date=2026-05-25T00:00:00+00:00 | title=Satpol PP Kabupaten Malang Tertibkan 42 Reklame Bermasalah, Banyak Tak Berizin dan Rusak
+sentiment [72/497] date=2026-05-25T00:00:00+00:00 | title=Peracik Petasan di Kepanjen Tewas setelah Ledakan Dahsyat, Rumah Hancur dan Polisi Temu...
+sentiment [73/497] date=2026-05-25T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang Senin 25 Mei 2026: Waspada Hujan Ringan
+sentiment [74/497] date=2026-05-24T00:00:00+00:00 | title=Kabupaten Malang Butuh Lahan Dekat Sungai untuk PSEL
+sentiment [75/497] date=2026-05-24T00:00:00+00:00 | title=Drainase Cepokomulyo Malang Harus Tuntas 150 Hari, Ini Alasannya
+sentiment [76/497] date=2026-05-22T00:00:00+00:00 | title=Layani KPR User, Skyland Group di Malang Gandeng Bank BCA
+sentiment [77/497] date=2026-04-15T00:00:00+00:00 | title=Panasi Rawon, Warung di Malang Ikut Gosong
+sentiment [78/497] date=2026-04-15T00:00:00+00:00 | title=Rest Area Jalur Malang-Bromo Ditutup Lagi
+sentiment [79/497] date=2026-05-22T00:00:00+00:00 | title=DPUBM Kabupaten Malang Tahun Ini Fokus Optimalisasi Bangun Jembatan
+sentiment [80/497] date=2026-05-22T00:00:00+00:00 | title=Tersangka Perusakan Bendungan Lahor Karangkates Diperiksa 45 Menit
+sentiment [81/497] date=2026-05-22T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 22 Mei 2026: Hujan Ringan Guyur Sejumlah Kecamatan
+sentiment [82/497] date=2026-05-21T00:00:00+00:00 | title=Ratusan Gram Sabu-Sabu Dimusnahkan di Kabupaten Malang
+sentiment [83/497] date=2026-05-21T00:00:00+00:00 | title=Soal Tudingan Pungli Bendungan Lahor, DPRD Kabupaten Malang Bakal Panggil Perum Jasa Ti...
+sentiment [84/497] date=2026-05-21T00:00:00+00:00 | title=Katanya Efisiensi Anggaran, tapi Perdin Bupati Malang Habiskan Rp 800 Juta
+sentiment [85/497] date=2026-05-21T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 21 Mei 2026: Udara Kabur Berpotensi Selimuti Sebagian B...
+sentiment [86/497] date=2026-05-20T00:00:00+00:00 | title=RSUD Kanjuruhan Malang Tanda Tangani Pakta Integritas dengan BPJS Kesehatan
+sentiment [87/497] date=2026-05-19T00:00:00+00:00 | title=Ini Alasan Pemkab Malang Makin Getol Bongkar-Bongkar Reklame Liar
+sentiment [88/497] date=2026-05-19T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 19 Mei 2026: Udara Kabur Berpotensi Selimuti Sebagian B...
+sentiment [89/497] date=2026-05-18T00:00:00+00:00 | title=Struktur Lapuk dan Rawan Ambles, 250 Batu Candi Jago Diganti saat Pemugaran
+sentiment [90/497] date=2026-05-18T00:00:00+00:00 | title=7 Gerai Koperasi Merah Putih di Kabupaten Malang Belum Dibangun karena Tunggu Izin Perh...
+sentiment [91/497] date=2026-05-18T00:00:00+00:00 | title=Tol Malang-Kepanjen Tambah Interchange di Gondanglegi untuk Topang Wisata Pantai Selatan
+sentiment [92/497] date=2026-05-18T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 18 Mei 2026: Didominasi Berawan, Tujuh Kecamatan Hujan ...
+sentiment [93/497] date=2026-05-17T00:00:00+00:00 | title=222 Lahan Belum Dibebaskan, Perbaikan Jalur Menuju Wisata Balekambang Terpaksa Molor Lagi
+sentiment [94/497] date=2026-05-17T00:00:00+00:00 | title=Pemkab Malang Siapkan Lima Usaha KNMP Pujiharjo untuk Menyambut Presiden Prabowo
+sentiment [95/497] date=2026-05-17T00:00:00+00:00 | title=Promosi di Reklame Menurun, Pilih Medsos dan Media Massa?
+sentiment [96/497] date=2026-05-17T00:00:00+00:00 | title=Naik 19 Persen, 103.946 Kendaraan Keluar-Masuk Tol Malang
+sentiment [97/497] date=2026-05-17T00:00:00+00:00 | title=Gadis Asal Malang Terpaksa Layani Pacar karena Takut Keluarga Dibunuh
+sentiment [98/497] date=2026-05-15T00:00:00+00:00 | title=Ssttt...., Ini Alasan DPRD Batal Interpelasi Wabup Malang
+sentiment [99/497] date=2026-05-15T00:00:00+00:00 | title=Reklame Misterius di Malang Dibongkar Tengah Malam
+sentiment [100/497] date=2026-05-15T00:00:00+00:00 | title=Setahun, Setoran Nelayan Malang Dibanderol Rp 200 Juta
+sentiment [101/497] date=2026-05-15T00:00:00+00:00 | title=Ini Rencana Aturan Baru Penggunaan Sound Horeg di Kabupaten Malang
+sentiment [102/497] date=2026-05-15T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 15 Mei 2026: Sejumlah Wilayah Berpotensi Hujan Ringan
+sentiment [103/497] date=2026-05-14T00:00:00+00:00 | title=Waspadai Kopdes Merah Putih Kanibal di Malang
+sentiment [104/497] date=2026-05-14T00:00:00+00:00 | title=Jejak Trem Uap di Turen yang Hilang Ditelan Zaman, Dulu Jadi Jalur Vital Angkut Singkong
+sentiment [105/497] date=2026-05-14T00:00:00+00:00 | title=Pemuda Purwosari Cabuli Gadis di Tempat Umum
+sentiment [106/497] date=2026-05-14T00:00:00+00:00 | title=Kabupaten Malang Jadi Raja Pisang Jawa Timur dengan Produksi Tembus 1,84 Juta Ton
+sentiment [107/497] date=2026-05-14T00:00:00+00:00 | title=Pujasera Jalur Singosari-Batu Segera Buka Lagi
+sentiment [108/497] date=2026-05-14T00:00:00+00:00 | title=Pria Asal Bululawang Tega Habisi Istri karena Menolak Diajak Hubungan Badan
+sentiment [109/497] date=2026-05-14T00:00:00+00:00 | title=Terbongkar, Pembalakan Liar di Tambakrejo Malang
+sentiment [110/497] date=2026-05-14T00:00:00+00:00 | title=Desa Tirtomoyo Kabupaten Malang Kebagian Rp 1 Miliar dari Bagi Hasil Pajak Kendaraan
+sentiment [111/497] date=2026-05-14T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 14 Mei 2026: Udara Kabur Berpotensi Selimuti Sebelas Ke...
+sentiment [112/497] date=2026-05-13T00:00:00+00:00 | title=Pemkab Malang Terima Rp 54 Miliar dari Opsen PKB
+sentiment [113/497] date=2026-05-13T00:00:00+00:00 | title=Alhamdulillah, Kabupaten Malang Masih Nihil Hantavirus
+sentiment [114/497] date=2026-05-13T00:00:00+00:00 | title=Duh, Polres Malang Belum Berhasil Menangkap Pelaku Tabrak Lari Lansia di Kepanjen saat ...
+sentiment [115/497] date=2026-05-13T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 13 Mei 2026: Didominasi Cerah, Enam Kecamatan Udara Kabur
+sentiment [116/497] date=2026-05-12T00:00:00+00:00 | title=Puluhan Hektare Sawah Hijau di Kabupaten Malang Berubah Jadi Beton
+sentiment [117/497] date=2026-05-12T00:00:00+00:00 | title=Pemugaran Candi Jago Tumpang Garap Bebatuan Lapis 44
+sentiment [118/497] date=2026-05-12T00:00:00+00:00 | title=57 Km Jalan Desa di Kabupaten Malang Diusulkan Naik Status
+sentiment [119/497] date=2026-05-12T00:00:00+00:00 | title=Truk Tebu Menghantam Warung Lalapan di Lawang sampai Hancur
+sentiment [120/497] date=2026-05-12T00:00:00+00:00 | title=Bupati Malang Sanusi Apresiasi ASN Peraih Prestasi MTQ Korpri Tingkat Jawa Timur
+sentiment [121/497] date=2026-05-12T00:00:00+00:00 | title=Dibutuhkan Dokter Baru di Puskesmas Tumpang Malang
+sentiment [122/497] date=2026-05-12T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 12 Mei 2026: Sebagian Besar Wilayah Berpotensi Cerah
+sentiment [123/497] date=2026-05-11T00:00:00+00:00 | title=Alokasi Dana Desa Kabupaten Malang Anjlok Rp 321 Miliar, Ini Detailnya
+sentiment [124/497] date=2026-05-11T00:00:00+00:00 | title=Mulai 1 Agustus 2026, Pemotor Jadi Satu-satunya Kendaraan yang Bisa Melintas di Bendung...
+sentiment [125/497] date=2026-05-11T00:00:00+00:00 | title=Diduga Korsleting Listrik, Gudang Rongsokan di Turen Terbakar dan Merembet ke Dua Rumah...
+sentiment [126/497] date=2026-05-11T00:00:00+00:00 | title=Bupati Malang Sanusi Apresiasi ASN Peraih Prestasi MTQ Korpri di Ampelgading dalam Acar...
+sentiment [127/497] date=2026-05-11T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 11 Mei 2026: Didominasi Cerah, Lima Kecamatan Hujan Ringan
+sentiment [128/497] date=2026-05-10T00:00:00+00:00 | title=Tercatat Tiga Kali Gempa Guncang Malang dalam Sepekan
+sentiment [129/497] date=2026-05-10T00:00:00+00:00 | title=Pemkab Malang Ungkap 20 Sapi Terjangkit Virus LSD
+sentiment [130/497] date=2026-05-10T00:00:00+00:00 | title=Awas, 17 Perlintasan di Kabupaten Malang Tak Aman
+sentiment [131/497] date=2026-05-10T00:00:00+00:00 | title=Bulan Depan Warga Malang Perlu Waspadai Ancaman Kebakaran
+sentiment [132/497] date=2026-05-10T00:00:00+00:00 | title=Akses Menuju Stadion Kanjuruhan Dilebarkan
+sentiment [133/497] date=2026-05-10T00:00:00+00:00 | title=Jalan Tol Malang-Kepanjen Tingkatkan Konektivitas Antar wilayah
+sentiment [134/497] date=2026-05-10T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang Minggu 10 Mei 2026: Lima Kecamatan Berpotensi Gerimis
+sentiment [135/497] date=2026-05-09T00:00:00+00:00 | title=Dividen Pemkab Malang di Bank Jatim Tersedot ke Alun-Alun Kepanjen
+sentiment [136/497] date=2026-05-09T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang Sabtu 9 Mei 2026: Tirtoyudo hingga Poncokusumo Berpoten...
+sentiment [137/497] date=2026-05-08T00:00:00+00:00 | title=Demi Lindungi Pengonsumsi Daging Kurban, Pemkab Terjunkan Tim Pengawas Anti-Virus PMK
+sentiment [138/497] date=2026-05-08T00:00:00+00:00 | title=Terbongkar, Ini Alasan Jembatan Termangu Malang Bikin Waswas
+sentiment [139/497] date=2026-05-08T00:00:00+00:00 | title=Dari Penjara, Belasan Napi di Malang Jadi Petani
+sentiment [140/497] date=2026-05-08T00:00:00+00:00 | title=Jalur Wonokerto-Balekambang Bakal Rampung September 2026?
+sentiment [141/497] date=2026-05-08T00:00:00+00:00 | title=Tower 42 Meter di Jabung Malang Mengganggu Lanud Abd. Saleh
+sentiment [142/497] date=2026-05-08T00:00:00+00:00 | title=Alun-Alun Kepanjen Geser ke Stadion Kanjuruhan
+sentiment [143/497] date=2026-05-08T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 8 Mei 2026: Didominasi Cerah, Lima Kecamatan Udara Kabur
+sentiment [144/497] date=2026-05-07T00:00:00+00:00 | title=Habis Dikeroyok, Rombongan Wistawan Surabaya Malah Positif Narkoba
+sentiment [145/497] date=2026-05-07T00:00:00+00:00 | title=Pemkab Malang Buka Opsi Tutup Jalur Gondanglegi-Balekambang
+sentiment [146/497] date=2026-05-07T00:00:00+00:00 | title=Waduh, Bocah 2 Tahun Dipaksa Orangtuanya Mengamen di Stadion Kanjuruhan
+sentiment [147/497] date=2026-05-07T00:00:00+00:00 | title=38.000 Lulusan SD di Kabupaten Malang Berebut Kursi SMP Negeri
+sentiment [148/497] date=2026-05-07T00:00:00+00:00 | title=Miris, Ratusan Kelas di Kabupaten Malang Rusak
+sentiment [149/497] date=2026-05-07T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 7 Mei 2026: Sebagian Besar Wilayah Berpotensi Cerah
+sentiment [150/497] date=2026-05-06T00:00:00+00:00 | title=Menanti Janji Gubernur Jatim Perbaikan Terminal Landungsari
+sentiment [151/497] date=2026-05-06T00:00:00+00:00 | title=Ini Penyebab Truk Ekspedisi Terguling di Singosari Malang
+sentiment [152/497] date=2026-05-06T00:00:00+00:00 | title=Seleksi Sekolah Negeri di Malang Makin Ketat
+sentiment [153/497] date=2026-05-06T00:00:00+00:00 | title=RSUD Lawang Malang Bakal Tambah Fasilitas untuk Cuci Darah
+sentiment [154/497] date=2026-05-06T00:00:00+00:00 | title=Satpol PP Kabupaten Malang Segel Menara BTS Ilegal
+sentiment [155/497] date=2026-05-06T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 6 Mei 2026: Didominasi Cerah Berawan, Waspada Udara Kab...
+sentiment [156/497] date=2026-05-05T00:00:00+00:00 | title=Pencari Ikan Ditemukan Meninggal di Sungai Sumber Luluh Ngajum, Penyebabnya Diduga kare...
+sentiment [157/497] date=2026-05-05T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 5 Mei 2026: Didominasi Cerah, Dua Kecamatan Hujan Ringan
+sentiment [158/497] date=2026-05-04T00:00:00+00:00 | title=Tiga Tahun Tanpa Perawatan, 42 Halte di Kabupaten Malang Kian Kusam
+sentiment [159/497] date=2026-05-04T00:00:00+00:00 | title=Jalibar Kepanjen Belum Diperbaiki, Proyek Rp 2 Miliar Masih Ditinjau Ulang
+sentiment [160/497] date=2026-05-04T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 4 Mei 2026: Sebagian Besar Wilayah Berpotensi Cerah
+sentiment [161/497] date=2026-05-03T00:00:00+00:00 | title=Kejar 161 Ribu Ton, PG Krebet Baru Dukung Swasembada Gula
+sentiment [162/497] date=2026-05-03T00:00:00+00:00 | title=Targetkan Rendemen 12 Persen, Bupati Malang Katakan Hal Ini
+sentiment [163/497] date=2026-05-01T00:00:00+00:00 | title=Kisah Rumah Tua di Jalan Sultan Agung, Kepanjen: Sempat Jadi Kantor PLN, Dulu Dirumorka...
+sentiment [164/497] date=2026-05-01T00:00:00+00:00 | title=Kabupaten Malang Dijatah 32.000 Dosis Vaksin PMK
+sentiment [165/497] date=2026-05-01T00:00:00+00:00 | title=Di Jabung Malang, Lima Rumah Rusak akibat Diterpa Angin Kencang
+sentiment [166/497] date=2026-05-01T00:00:00+00:00 | title=Ribuan Anak di Kabupaten Malang Positif Stunting, Ini Detail Kasusnya
+sentiment [167/497] date=2026-05-01T00:00:00+00:00 | title=Bupati Malang Sanusi Ungkap 344 Jabatan Kosong
+sentiment [168/497] date=2026-04-29T00:00:00+00:00 | title=DLH Kabupaten Malang: Limbah SPPG Harus Dikelola
+sentiment [169/497] date=2026-05-01T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 1 Mei 2026: Berpotensi Cerah hingga Hujan Ringan
+sentiment [170/497] date=2026-04-30T00:00:00+00:00 | title=600 Lampu Tenaga Surya Terpasang di Jalan Gondanglegi–Balekambang untuk Terangi Pengend...
+sentiment [171/497] date=2026-04-30T00:00:00+00:00 | title=Dana Hibah Tempat Ibadah Rp 2,87 Miliar di Kabupaten Malang Mulai Cair
+sentiment [172/497] date=2026-04-30T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 30 April 2026: Hujan Ringan Berpotensi Guyur 16 Kecamatan
+sentiment [173/497] date=2026-04-29T00:00:00+00:00 | title=2.397 Napi Lapas Lowokwaru Lolos Validasi NIK, Siap Diusulkan PBI BPJS Kesehatan
+sentiment [174/497] date=2026-04-29T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 29 April 2026: Berpotensi Berawan hingga Hujan Ringan
+sentiment [175/497] date=2026-04-28T00:00:00+00:00 | title=Minat Warga Kabupaten Malang Kerja ke Luar Negeri Turun, hingga April Baru 1.426 TKI ya...
+sentiment [176/497] date=2026-04-28T00:00:00+00:00 | title=Gate Bendungan Lahor Segera Dibuka Lagi, Sistem Pembayaran Nontunai Berlaku Pekan Ini
+sentiment [177/497] date=2026-04-28T00:00:00+00:00 | title=Lebih Dekat dengan Grup Ludruk Organik dari Kecamatan Jabung: Pemerannya Berlatar Belak...
+sentiment [178/497] date=2026-04-28T00:00:00+00:00 | title=Enam Kloter Haji dari Malang Tiba di Tanah Suci
+sentiment [179/497] date=2026-04-28T00:00:00+00:00 | title=Disiplin dalam Laporan Administrasi, Pemkab Malang Raih Penghargaan Kinerja Tinggi dari...
+sentiment [180/497] date=2026-04-28T00:00:00+00:00 | title=KH Marzuqi Mustamar Beri Siraman Rohani dalam Pembukaan Majelis Hubbun Nabi Desa Srigad...
+sentiment [181/497] date=2026-04-28T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 28 April 2026: Hujan Ringan Guyur Sejumlah Kecamatan
+sentiment [182/497] date=2026-04-27T00:00:00+00:00 | title=Setahun Disnaker Tangani 35 TKI Ilegal Asal Kabupaten Malang, 13 Orang Harus Dideportasi
+sentiment [183/497] date=2026-04-27T00:00:00+00:00 | title=Bapenda Kabupaten Malang Catat Setoran Tiga Sektor Pajak Masih Seret
+sentiment [184/497] date=2026-04-27T00:00:00+00:00 | title=Antrean Haji Makin Pendek, Warga Kabupaten Malang yang Daftar Tahun Ini Bisa Berangkat ...
+sentiment [185/497] date=2026-04-27T00:00:00+00:00 | title=Pengaspalan Jalan Gondanglegi-Bantur-Balekambang Tinggal 7 Km, Proyek Dikebut hingga 2027
+sentiment [186/497] date=2026-04-27T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 27 April 2026: Berpotensi Berawan dan Hujan Ringan
+sentiment [187/497] date=2026-04-26T00:00:00+00:00 | title=DPUBM Kabupaten Malang Gelontor Rp 7 Miliar untuk PJU
+sentiment [188/497] date=2026-04-24T00:00:00+00:00 | title=Berdalih Pengobatan, Tabib Cabul di Malang Setubuhi Pasien Berkali-kali
+sentiment [189/497] date=2026-04-24T00:00:00+00:00 | title=Kasian..., Mahasiswa Sidoarjo Terlindas Truk di Malang
+sentiment [190/497] date=2026-04-24T00:00:00+00:00 | title=Soal Kontroversi Promosi Anak Bupati, Ini Kata Sekda Kabupaten Malang
+sentiment [191/497] date=2026-04-24T00:00:00+00:00 | title=Soal Kontroversi Anak Bupati Malang, DPRD Rekom Seleksi Pejabat Diawasi Rakyat
+sentiment [192/497] date=2026-04-24T00:00:00+00:00 | title=Eksekusi Ruko di Dau Malang Berujung Protes Rasis
+sentiment [193/497] date=2026-04-24T00:00:00+00:00 | title=Hari Ini 380 CJH Kabupaten Malang Diberangkatkan
+sentiment [194/497] date=2026-04-24T00:00:00+00:00 | title=Elf Hantam Truk Parkir di Lawang, 1 Tewas 1 Luka, Polisi Selidiki Penyebab
+sentiment [195/497] date=2026-04-24T00:00:00+00:00 | title=Tahun Ini, Kabupaten Malang Ditarget PBB Rp 125 Miliar
+sentiment [196/497] date=2026-04-24T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 24 April 2026: Langit Cerah Mendominasi
+sentiment [197/497] date=2026-04-23T00:00:00+00:00 | title=Begini Pandangan Akademisi Hukum Tata Negara UWG dan UB soal Kontroversi Anak Bupati Ma...
+sentiment [198/497] date=2026-04-23T00:00:00+00:00 | title=Ribuan Reklame Ilegal Beredar di Kabupaten Malang Langsung Ditertibkan, Ini Detail Loka...
+sentiment [199/497] date=2026-04-23T00:00:00+00:00 | title=SDN Mulyoagung 2 di Malang Diperbaiki Tahun Ini
+sentiment [200/497] date=2026-04-23T00:00:00+00:00 | title=Legislator Kabupaten Malang Gagas Perda untuk Kesejahteraan Masyarakat
+sentiment [201/497] date=2026-04-23T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 23 April 2026: Hujan Ringan Guyur Sejumlah Kecamatan
+sentiment [202/497] date=2026-04-23T00:00:00+00:00 | title=Begini Strategi Bapenda Kabupaten Malang dalam Mengejar Target Pajak
+sentiment [203/497] date=2026-04-22T00:00:00+00:00 | title=Suruh sang Kekasih Minum Obat Penggugur Kandungan, Pria di Malang Masuk Penjara
+sentiment [204/497] date=2026-04-22T00:00:00+00:00 | title=Produksi Kentang Kabupaten Malang Melesat Tembus 32.976 Ton dengan Pusat Pengembangan d...
+sentiment [205/497] date=2026-04-22T00:00:00+00:00 | title=Kejaksaan Negeri Kabupaten Malang Lelang 9 Aset Koruptor, Ini Daftarnya
+sentiment [206/497] date=2026-04-22T00:00:00+00:00 | title=215 Lahan Mulai Proses Dibebaskan untuk Proyek Jalur Gondanglegi-Balekambang
+sentiment [207/497] date=2026-04-22T00:00:00+00:00 | title=Museum Tragedi Kanjuruhan Belum Punya Konsep sebagai Destinasi Wisata, Dispora Masih Go...
+sentiment [208/497] date=2026-04-22T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 22 April 2026: Sebagian Besar Wilayah Diguyur Hujan
+sentiment [209/497] date=2026-04-22T00:00:00+00:00 | title=Ma Chung Ajari Pelajar SMA soal Literasi Finansial
+sentiment [210/497] date=2026-04-21T00:00:00+00:00 | title=Universitas Ma Chung Malang Cetak Mahasiswa Bermental Siap Kerja
+sentiment [211/497] date=2026-04-21T00:00:00+00:00 | title=Bangunan Liar di Lawang Malang Digusur demi Normalisasi Sungai
+sentiment [212/497] date=2026-04-21T00:00:00+00:00 | title=Di Bululawang Malang, Minibus Terguling setelah Driver Lihat Maps
+sentiment [213/497] date=2026-04-21T00:00:00+00:00 | title=Pemkab Malang Tegaskan Pelantikan Anak Bupati Sesuai Prosedur
+sentiment [214/497] date=2026-04-21T00:00:00+00:00 | title=Ramai soal Bupati Malang Lantik Anaknya Jadi Kepala DLH, Begini Respons DPRD
+sentiment [215/497] date=2026-04-21T00:00:00+00:00 | title=Telan Anggaran hingga Rp 724 Juta, Food Court Stadion Kanjuruhan Belum Difungsikan
+sentiment [216/497] date=2026-04-21T00:00:00+00:00 | title=Jalan Mulus Balekambang-Gondanglegi Tuntas Awal Tahun Depan
+sentiment [217/497] date=2026-04-21T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 21 April 2026: Berpotensi Berawan hingga Hujan Ringan
+sentiment [218/497] date=2026-04-20T00:00:00+00:00 | title=Tertemper KA Penataran di Singosari, Lansia 65 Tahun Selamat meski Terjatuh ke Saluran Air
+sentiment [219/497] date=2026-04-20T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 20 April 2026: Berpotensi Hujan Ringan di Sejumlah Wilayah
+sentiment [220/497] date=2026-04-18T00:00:00+00:00 | title=577 Lahan Parkir di Kabupaten Malang Sumbang Rp 440 Juta
+sentiment [221/497] date=2026-04-17T00:00:00+00:00 | title=Update Realisasi Pembangunan Tol Malang-Kepanjen: Masih Butuh Investor agar Cepat Terla...
+sentiment [222/497] date=2026-04-17T00:00:00+00:00 | title=Polres Malang Panggil 12 Saksi soal Kisruh Bendungan Lahor, Ini Hasilnya
+sentiment [223/497] date=2026-04-17T00:00:00+00:00 | title=Enaknya, 16 Kelompok Tani di Malang Dapat Traktor Gratis
+sentiment [224/497] date=2026-04-17T00:00:00+00:00 | title=Ini Penyebabnya 286 CJH Kabupaten Malang Gagal Berangkat
+sentiment [225/497] date=2026-04-17T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 17 April 2026: Cerah hingga Berawan Sepanjang Hari
+sentiment [226/497] date=2026-04-16T00:00:00+00:00 | title=12 Ribu Bocah di Malang Berpotensi Masuk Sekolah Rakyat
+sentiment [227/497] date=2026-04-16T00:00:00+00:00 | title=Tak Biasa, Begini Cara Ini Bupati Malang Sanusi Berdayakan Masyarakat agar Lebih Sejahtera
+sentiment [228/497] date=2026-04-16T00:00:00+00:00 | title=Status PPPK di Kabupetan Malang Aman dari PHK meski Efisiensi Anggaran
+sentiment [229/497] date=2026-04-16T00:00:00+00:00 | title=Warga Kabupaten Malang Sempat Keluhkan Kelangkaan LPG Melon, Begini Tanggapan Pertamina
+sentiment [230/497] date=2026-04-16T00:00:00+00:00 | title=Pabrik di Gondanglegi Malang Kebakaran
+sentiment [231/497] date=2026-04-16T00:00:00+00:00 | title=Alun-Alun Kepanjen Malang Telan Biaya hingga Rp 300 Miliar
+sentiment [232/497] date=2026-04-16T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 16 April 2026: Berpotensi Cerah hingga Hujan Ringan
+sentiment [233/497] date=2026-04-15T00:00:00+00:00 | title=Wah, 11 Dinas di Kabupaten Malang Tak Perlu WFH
+sentiment [234/497] date=2026-04-15T00:00:00+00:00 | title=Setoran Pajak Perusahaan di Singosari dan Kepanjen Capai Rp 294 Miliar
+sentiment [235/497] date=2026-04-15T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 15 April 2026: Berpotensi Berawan hingga Hujan Ringan
+sentiment [236/497] date=2026-04-15T00:00:00+00:00 | title=BPR Artha Kanjuruhan Malang Dapat Modal Rp 50 Miliar
+sentiment [237/497] date=2026-04-14T00:00:00+00:00 | title=PSEL di Malang Raya Terombang-ambing Lokasi
+sentiment [238/497] date=2026-04-14T00:00:00+00:00 | title=Lantik Anak Jadi Kepala DLH Kabupaten Malang, Bupati Malang Sanusi Bantah Ada Jual Beli...
+sentiment [239/497] date=2026-04-14T00:00:00+00:00 | title=Pembobolan SMPN 1 Pakisaji Malang Dirancang sambil Tenggak Miras
+sentiment [240/497] date=2026-04-14T00:00:00+00:00 | title=Pengaspalan Kepanjen-Kendalpayak Malang Rampung Sebulan
+sentiment [241/497] date=2026-04-14T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 14 April 2026: Sebagian Besar Wilayah Berpotensi Cerah
+sentiment [242/497] date=2026-04-13T00:00:00+00:00 | title=Festival Busu Jaman Biyen Angkat Hikayat Keblek setelah Absen 6 Tahun
+sentiment [243/497] date=2026-04-13T00:00:00+00:00 | title=10 Rumah di Singosari Rusak akibat Puting Beliung, Begini Kondisinya
+sentiment [244/497] date=2026-04-13T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 13 April 2026: Cuaca Cerah Mendominasi
+sentiment [245/497] date=2026-04-12T00:00:00+00:00 | title=Opsi Tambah Bus Jurusan Malang-Sendangbiru
+sentiment [246/497] date=2026-04-11T00:00:00+00:00 | title=Batik Seng Kabupaten Malang Hasilkan Motif Kembang Srengenge
+sentiment [247/497] date=2026-04-10T00:00:00+00:00 | title=Halal Bihalal HIKAM Malang Raya-Pasuruan, Kiai Idris Ingatkan Alumni untuk Terus Berdakwah
+sentiment [248/497] date=2026-04-10T00:00:00+00:00 | title=Desa Ganjaran Malang Butuh Tambahan Dapur MBG
+sentiment [249/497] date=2026-04-10T00:00:00+00:00 | title=20 Desa di Kabupaten Malang Tak Punya Kades
+sentiment [250/497] date=2026-04-10T00:00:00+00:00 | title=Dua Rumah di Kabupaten Malang Retak akibat Tanah Ambles
+sentiment [251/497] date=2026-04-10T00:00:00+00:00 | title=Warga Malang Keluhkan PBB yang Naik Setiap Tahun
+sentiment [252/497] date=2026-04-10T00:00:00+00:00 | title=Wisatawan Bromo Sumbang 900 Kilogram Sampah
+sentiment [253/497] date=2026-04-10T00:00:00+00:00 | title=AI Punya Andil Perkara Bullying Anak di Kabupaten Malang
+sentiment [254/497] date=2026-04-10T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 10 April 2026: Siang Berpotensi Hujan Ringan hingga Petir
+sentiment [255/497] date=2026-04-09T00:00:00+00:00 | title=Gamis Poncokusumo Malang Tembus Pasar Tiga Negara
+sentiment [256/497] date=2026-04-09T00:00:00+00:00 | title=Bendungan Lahor Karangkates Malang Batasi Kendaraan Melintas
+sentiment [257/497] date=2026-04-09T00:00:00+00:00 | title=Aksi Maling Bobol SMPN 1 Pakisaji Malang Terekam CCTV
+sentiment [258/497] date=2026-04-09T00:00:00+00:00 | title=Wakil Bupati Malang Lathifah Shohib Dorong Revolusi Pertanian lewat Padi Hayati
+sentiment [259/497] date=2026-04-09T00:00:00+00:00 | title=Angin di Poncokusumo Malang Mengamuk, Atap 23 Rumah Remuk
+sentiment [260/497] date=2026-04-09T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 9 April 2026: Pagi Berawan, Siang dan Sore Berpotensi H...
+sentiment [261/497] date=2026-04-08T00:00:00+00:00 | title=Tiga Kecamatan di Kabupaten Malang Dilanda Longsor akibat Hujan Deras
+sentiment [262/497] date=2026-04-08T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 8 April 2026: Siang Berpotensi Hujan Ringan dan Petir
+sentiment [263/497] date=2026-04-07T00:00:00+00:00 | title=Di Malang, 93 Bocah Mengidap TBC
+sentiment [264/497] date=2026-04-07T00:00:00+00:00 | title=Truk Terperosok, Jalur Malang-Batu Macet Tujuh Jam
+sentiment [265/497] date=2026-04-07T00:00:00+00:00 | title=Pria Asal Pujon Malang Edarkan 39 Gram Sabu-Sabu
+sentiment [266/497] date=2026-04-07T00:00:00+00:00 | title=Pemkab Malang Target Bedah 205 Rumah Tak Layak
+sentiment [267/497] date=2026-04-07T00:00:00+00:00 | title=Dua Opsen Pajak Motor di Malang Setor Rp 54 Miliar
+sentiment [268/497] date=2026-04-07T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 7 April 2026: Berpotensi Cerah hingga Hujan Ringan
+sentiment [269/497] date=2026-04-06T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 6 April 2026: Siang Hari Didominasi Hujan Ringan
+sentiment [270/497] date=2026-04-05T00:00:00+00:00 | title=Kabupaten Malang Masih Kekurangan Jumlah Satuan Pelayanan Pemenuhan Gizi
+sentiment [271/497] date=2026-04-05T00:00:00+00:00 | title=Tiga Kios di Pasar Landungsari Terbakar, Pemiliknya Rugi Rp 300 Juta
+sentiment [272/497] date=2026-04-05T00:00:00+00:00 | title=Bibit Padi Unggul di Kabupaten Malang Hasilkan 11 Ton Per Hektare
+sentiment [273/497] date=2026-04-04T00:00:00+00:00 | title=Bupati Malang SanusiHindari Skema Pengurangan PPPK
+sentiment [274/497] date=2026-04-04T00:00:00+00:00 | title=Perolehan Pajak Reklame Kabupaten Malang Masih Minim
+sentiment [275/497] date=2026-04-04T00:00:00+00:00 | title=Rp 21,5 M untuk 125 Titik Jalan di Kabupaten Malang
+sentiment [276/497] date=2026-04-03T00:00:00+00:00 | title=Di Malang, Pelaku Curanmor Remaja Dituntut 7 Bulan Bui
+sentiment [277/497] date=2026-03-30T00:00:00+00:00 | title=Marak Pencurian, Kelompok Nelayan Sendang Biru Keluarkan Imbauan Larangan Mancing di De...
+sentiment [278/497] date=2026-04-03T00:00:00+00:00 | title=Di Kabupaten Malang, ASN WFH Wajib Dua Kali Foto Berbasis Geotag
+sentiment [279/497] date=2026-04-03T00:00:00+00:00 | title=Ada Tarian Gunungsari hingga Kisah Cinta Sejati Rahwana
+sentiment [280/497] date=2026-04-03T00:00:00+00:00 | title=Bulog Malang Target Menyerap 76.000 Ton Gabah Petani
+sentiment [281/497] date=2026-04-03T00:00:00+00:00 | title=Ampelgading-Tirtoyudo Diterjang Longsor
+sentiment [282/497] date=2026-03-30T00:00:00+00:00 | title=BPOM Bakal Buka UPT di Kepanjen, Permudah Perizinan UMKM Jadi Lebih Cepat dan Murah
+sentiment [283/497] date=2026-04-03T00:00:00+00:00 | title=Koperasi Desa di Kabupaten Malang Siap-Siap Terima Truk Negara
+sentiment [284/497] date=2026-04-03T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 3 April 2026: Berpotensi Cerah hingga Hujan Ringan
+sentiment [285/497] date=2026-04-02T00:00:00+00:00 | title=Kabupaten Malang Panen Alpukat hingga 83 Ribu Ton
+sentiment [286/497] date=2026-04-02T00:00:00+00:00 | title=Tiga TPA di Malang Disuntik Dana Rp 3 Miliar
+sentiment [287/497] date=2026-04-02T00:00:00+00:00 | title=Satpol PP Kabupaten Malang Segel Tiga Reklame Ilegal
+sentiment [288/497] date=2026-03-30T00:00:00+00:00 | title=Pakisaji Dilanda Pohon Tumbang akibat Cuaca Ekstrem, Pemotor hingga Rumah Kos Jadi Korban
+sentiment [289/497] date=2026-04-02T00:00:00+00:00 | title=Pria Asal Kepanjen Malang Akui Bakar Rumah Sendiri
+sentiment [290/497] date=2026-04-02T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 2 April 2026: Berpotensi Hujan di Sebagian Besar Wilayah
+sentiment [291/497] date=2026-04-01T00:00:00+00:00 | title=Tahun Depan, 310 Desa di Kabupaten Malang Ikut Pilkades Serentak
+sentiment [292/497] date=2026-04-01T00:00:00+00:00 | title=Suami-Istri Asal Malang Cekcok, Rumah Hangus Terbakar
+sentiment [293/497] date=2026-04-01T00:00:00+00:00 | title=Kemarau Panjang Intai 8 Kecamatan di Malang
+sentiment [294/497] date=2026-04-01T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 1 April 2026: Hujan Ringan di Sembilan Kecamatan
+sentiment [295/497] date=2026-03-31T00:00:00+00:00 | title=Universitas Brawijaya Dampingi Proyek PSEL Malang Raya
+sentiment [296/497] date=2026-03-31T00:00:00+00:00 | title=Kabupaten Malang Darurat Armada Pengangkut Sampah
+sentiment [297/497] date=2026-03-31T00:00:00+00:00 | title=Di Malang, Mensos Gus Ipul Ungkap Banyak Bansos Tak Tepat Sasaran
+sentiment [298/497] date=2026-03-31T00:00:00+00:00 | title=Atap Tiga Ruang Kelas SMKN 1 Ampelgading Malang Ambruk
+sentiment [299/497] date=2026-03-31T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 31 Maret 2026: Berpotensi Berawan hingga Hujan Ringan
+sentiment [300/497] date=2026-03-30T00:00:00+00:00 | title=PT Ekamas Fortuna Bagikan Ribuan Paket Sembako
+sentiment [301/497] date=2026-03-30T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 30 Maret 2026: Hujan Ringan di Sejumlah Wilayah
+sentiment [302/497] date=2026-03-29T00:00:00+00:00 | title=147 Perkara Tilang di Kejari Malang Belum Rampung, Ratusan Pelanggar Masih Nunggak
+sentiment [303/497] date=2026-03-29T00:00:00+00:00 | title=Jumlah Pengunjung Hotel Menurun saat Libur Lebaran
+sentiment [304/497] date=2026-03-29T00:00:00+00:00 | title=Pembangunan Rampung, Jalur Malang-Bromo Kini Miliki 2 Titik Rest Area
+sentiment [305/497] date=2026-03-29T00:00:00+00:00 | title=Sektor Pertanian Meningkat, Kabupaten Malang Catat Tren Positif Produksi Buah dan Kopi
+sentiment [306/497] date=2026-03-29T00:00:00+00:00 | title=Pajak Restoran Kabupaten Malang Capai 27 Persen per Maret 2025
+sentiment [307/497] date=2026-03-29T00:00:00+00:00 | title=Menanti Restu BKN, Pelantikan Pejabat Kabupaten Malang Masih Terganjal
+sentiment [308/497] date=2026-03-29T00:00:00+00:00 | title=Akibat Tak Aktivasi Rekening, Jatah PIP untuk 667 Siswa di Kabupaten Malang Hangus
+sentiment [309/497] date=2026-03-28T00:00:00+00:00 | title=260 Ribu Kendaraan Masuk Kabupaten Malang
+sentiment [310/497] date=2026-03-28T00:00:00+00:00 | title=Apotek KDMP Randugading Malang Butuh Investor
+sentiment [311/497] date=2026-03-28T00:00:00+00:00 | title=Kabupaten Malang Dilanda 22 Kali Gempa
+sentiment [312/497] date=2026-03-28T00:00:00+00:00 | title=Pendapatan Daerah di Kabupaten Malang Tembus Rp 4,8 Triliun
+sentiment [313/497] date=2026-03-28T00:00:00+00:00 | title=Pohon Tumbang Tutup Jalur Malang-Lumajang
+sentiment [314/497] date=2026-03-28T00:00:00+00:00 | title=Sekolah Rakyat di Singosari Malang Tambah Dua Ekstrakurikuler Baru
+sentiment [315/497] date=2026-03-28T00:00:00+00:00 | title=TNI-Warga Binaan Tanam 250 Bibit Pohon
+sentiment [316/497] date=2026-03-27T00:00:00+00:00 | title=Lapas Lowokwaru Tanam 250 Pohon di SAE Ngajum dengan Libatkan TNI dan Warga Binaan
+sentiment [317/497] date=2026-03-27T00:00:00+00:00 | title=Atap Rumah Ambruk, Keluarga di Pakis Malang Terpaksa Mengungsi
+sentiment [318/497] date=2026-03-25T00:00:00+00:00 | title=Dishub Kabupaten Malang Beber Alasan Fokus Prioritaskan Bus Sekolah
+sentiment [319/497] date=2026-03-27T00:00:00+00:00 | title=23 Istri di Bumi Arema Ditelantarkan Suami
+sentiment [320/497] date=2026-03-27T00:00:00+00:00 | title=Tiga KUGAR di Malang Raya Kejar Panen Garam 75 Ton
+sentiment [321/497] date=2026-03-27T00:00:00+00:00 | title=Pemkab Malang Rancang Tambah 10 Persen Dana Infrastruktur
+sentiment [322/497] date=2026-03-27T00:00:00+00:00 | title=Dana Pemkab Malang Rp 400 Miliar Tak Bisa Dibelanjakan
+sentiment [323/497] date=2026-03-27T00:00:00+00:00 | title=Uang Pemkab Malang Rp 400 Miliar Tak Bisa Dibelanjakan
+sentiment [324/497] date=2026-03-26T00:00:00+00:00 | title=12 Kendaraan di Kabupaten Malang Dinyatakan Tak Lolos Uji Kir
+sentiment [325/497] date=2026-03-26T00:00:00+00:00 | title=78 Kali Ular Masuk Pekarangan Warga di Kabupaten Malang
+sentiment [326/497] date=2026-03-26T00:00:00+00:00 | title=Strategi Menghidupkan Pasar Sumedang Kabupaten Malang
+sentiment [327/497] date=2026-03-26T00:00:00+00:00 | title=APBD Tertekan Gaji Pegawai, Tekan hingga Maksimal 30 Persen
+sentiment [328/497] date=2026-03-26T00:00:00+00:00 | title=Gudang Penyimpanan Telur di Kecamatan Karangploso Terbakar
+sentiment [329/497] date=2026-03-25T00:00:00+00:00 | title=Momen Berbagi saat Ramadan oleh SMAN 1 Bululawang
+sentiment [330/497] date=2026-03-16T00:00:00+00:00 | title=Tol Malang-Kepanjen hingga Skytrain, Berikut Lima Proyek Strategis Nasional yang Akan T...
+sentiment [331/497] date=2026-03-25T00:00:00+00:00 | title=Mayoritas KDMP di Kabupaten Malang Belum Punya Gerai
+sentiment [332/497] date=2026-03-25T00:00:00+00:00 | title=Rokok Ilegal Senilai Rp 4,8 M Gagal Beredar di Kabupaten Malang
+sentiment [333/497] date=2026-03-25T00:00:00+00:00 | title=Satpol PP Kabupaten Malang Bersih-Bersih Reklame Ilegal
+sentiment [334/497] date=2026-03-25T00:00:00+00:00 | title=Jukir Wajib Setor Retribusi Pakai QRIS di Kabupaten Malang
+sentiment [335/497] date=2026-03-25T00:00:00+00:00 | title=Awal 2026, Setoran PBB di Kabupaten Malang Terseok
+sentiment [336/497] date=2026-03-09T00:00:00+00:00 | title=Toleransi di Desa Ngadas, Warga Non-Muslim Ikut Siapkan Takjil untuk Buka Puasa
+sentiment [337/497] date=2026-03-24T00:00:00+00:00 | title=Budidaya Ikan dan Udang Ditarget 13,7 Ribu Ton
+sentiment [338/497] date=2026-03-24T00:00:00+00:00 | title=Limbah Batik Diolah Menjadi Malam Lerob
+sentiment [339/497] date=2026-03-24T00:00:00+00:00 | title=Moch. Zamroni Asal Pakis Kabupaten Malang Sukses Raih 144 Ribu Pendengar Lewat Rekaman ...
+sentiment [340/497] date=2026-03-24T00:00:00+00:00 | title=Pertumbuhan Ekonomi Tertinggi Kedua Se-Jatim
+sentiment [341/497] date=2026-03-19T00:00:00+00:00 | title=Hilal di Malang Hanya 1,66 Derajat, Awal Bulan Syawal Berpotensi Mundur
+sentiment [342/497] date=2026-03-19T00:00:00+00:00 | title=Sebagian Panti Pijat di Kabupaten Malang Masih Buka saat Ramadan meski Satpol PP Klaim ...
+sentiment [343/497] date=2026-03-18T00:00:00+00:00 | title=Jangan Sampai Salah! Ini Daftar Titik Lokasi Salat Idulfitri Muhammadiyah di Kabupaten ...
+sentiment [344/497] date=2026-03-18T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 18 Maret 2026: Berpotensi Berawan hingga Hujan Ringan
+sentiment [345/497] date=2026-03-17T00:00:00+00:00 | title=Polisi Tindak 8 Truk Tiga Sumbu Jelang Lebaran 2026 di Lawang karena Langgar Aturan
+sentiment [346/497] date=2026-03-09T00:00:00+00:00 | title=Angin Kencang di Ngantang Terbangkan Atap Rumah dan Bikin Satu Keluarga Mengungsi
+sentiment [347/497] date=2026-03-17T00:00:00+00:00 | title=Greenfields Support Mudik Gratis Pemkab Malang
+sentiment [348/497] date=2026-03-17T00:00:00+00:00 | title=Agustus, Pemkab Malang Targetkan Jalur Gondanglegi-Balekambang Mulus
+sentiment [349/497] date=2026-03-17T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 17 Maret 2026: Berpotensi Hujan Ringan di Sejumlah Wilayah
+sentiment [350/497] date=2026-03-16T00:00:00+00:00 | title=KOPPI Ingin Pengadilan Hukum Berat Dosen PTN Cabuli Balita di Malang
+sentiment [351/497] date=2026-03-16T00:00:00+00:00 | title=Polres Malang Sediakan Penitipan Kendaraan Gratis untuk Para Pemudik, Catat Tanggal dan...
+sentiment [352/497] date=2026-03-16T00:00:00+00:00 | title=Pemkab Malang Kaji Bangun Alun-Alun Kepanjen dengan Skema Pinjam Bank
+sentiment [353/497] date=2026-03-16T00:00:00+00:00 | title=5 Proyek Strategis Nasional Masuk Tahap Penawaran
+sentiment [354/497] date=2026-03-16T00:00:00+00:00 | title=Bupati Malang Sanusi Minta Usulan Program pada Musrenbang RKPD 2027 Tak Muluk-Muluk
+sentiment [355/497] date=2026-03-16T00:00:00+00:00 | title=Rp 2,7 M untuk Pabrik Olah Sampah
+sentiment [356/497] date=2026-03-16T00:00:00+00:00 | title=Target Perbaikan  Jalan Srimulyo Kabupaten Malang Tuntas Pekan Ini
+sentiment [357/497] date=2026-03-16T00:00:00+00:00 | title=15 Pasar di Kabupaten Malang Jadi Tempat Charging Becak Listrik
+sentiment [358/497] date=2026-03-16T00:00:00+00:00 | title=Pemkab Malang Kaji Pakai Pinjaman untuk Biayai Alun-Alun Kepanjen
+sentiment [359/497] date=2026-03-16T00:00:00+00:00 | title=Bangun TPST Kapasitas Besar di Dua Lokasi Kabupaten Malang
+sentiment [360/497] date=2026-03-16T00:00:00+00:00 | title=Perbaikan Jalan Srimulyo Dampit Ditarget Tuntas sebelum Lebaran 2026
+sentiment [361/497] date=2026-03-16T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 16 Maret 2026: Berawan di Sebagian Besar Wilayah
+sentiment [362/497] date=2026-03-15T00:00:00+00:00 | title=Pemkab Malang Siapkan TPST Raksasa di Dua TPA, Kapasitas Pengolahan Sampah Capai 189 To...
+sentiment [363/497] date=2026-03-15T00:00:00+00:00 | title=Transaksi QRIS di Kabupaten Malang Didominasi UMKM
+sentiment [364/497] date=2026-03-15T00:00:00+00:00 | title=60 IKM Ramaikan Pasar Lebaran di Kepanjen
+sentiment [365/497] date=2026-03-15T00:00:00+00:00 | title=Pemkab Malang Butuh Rp2,7 M untuk Pabrik Olah Sampah, Solusi setelah Mesin RDF Berhenti
+sentiment [366/497] date=2026-03-15T00:00:00+00:00 | title=Anggota KDMP Randugading Bertambah 224 Orang
+sentiment [367/497] date=2026-03-14T00:00:00+00:00 | title=24 Motor Hasil Balap Liar Masih berstatus ‘Ngandang’ di Mapolres Malang
+sentiment [368/497] date=2026-03-14T00:00:00+00:00 | title=Operasi Pekat Polres Malang, 1.659 Botol Miras Dimusnahkan
+sentiment [369/497] date=2026-03-14T00:00:00+00:00 | title=Terdampak Pemangkasan TKD, Insentif Guru Madrasah di Malang Menyusut
+sentiment [370/497] date=2026-03-14T00:00:00+00:00 | title=TPA Paras Bernapas Kembali, 15 Ribu Ton Sampah Lama Dibongkar
+sentiment [371/497] date=2026-03-14T00:00:00+00:00 | title=Satu Tahun Kepemimpinan Sanusi–Lathifah, Kabupaten Malang Borong 37 Penghargaan
+sentiment [372/497] date=2026-03-13T00:00:00+00:00 | title=Bupati Malang Ajak Masyarakat Pilah Sampah dari Rumah lewat Gerakan ASRI
+sentiment [373/497] date=2026-03-13T00:00:00+00:00 | title=Respons Bupati Malang untuk Proyek UB Kepanjen
+sentiment [374/497] date=2026-03-13T00:00:00+00:00 | title=DPRD Kabupaten Malang Desak Alun-Alun Harus Terealisasi 2027
+sentiment [375/497] date=2026-03-13T00:00:00+00:00 | title=Tuntas, 11 Hari Ramadan PT ACA Santuni 12.080 Anak Yatim
+sentiment [376/497] date=2026-03-13T00:00:00+00:00 | title=UB Kepanjen Malang Diproyeksi Tampung 1.200 Maba
+sentiment [377/497] date=2026-03-13T00:00:00+00:00 | title=Kabupaten Malang Mulai Operasikan Alat Pengolah Sampah Senilai Rp 2,7 Miliar
+sentiment [378/497] date=2026-03-13T00:00:00+00:00 | title=Masyarakat Mulai Rasakan Manfaat Sumur Bor BMH
+sentiment [379/497] date=2026-03-13T00:00:00+00:00 | title=Polres Malang Musnahkan 1.659 Botol Miras Ilegal Hasil Operasi Pekat Semeru 2026
+sentiment [380/497] date=2026-03-13T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 13 Maret 2026: Berpotensi Cerah di Sebagian Besar Wilayah
+sentiment [381/497] date=2026-03-12T00:00:00+00:00 | title=Warga Kabupaten Malang Bisa Lapor Menu MBG Bermasalah via Whatsapp, Ini Nomor Aduannya
+sentiment [382/497] date=2026-03-12T00:00:00+00:00 | title=Hujan Deras dan Angin Robohkan Rumpun Bambu di Talangagung Kepanjen Bikin Lalu Lintas k...
+sentiment [383/497] date=2026-03-12T00:00:00+00:00 | title=Pantau Rumah Kosong hingga Lalin Arus Mudik di Kabupaten Malang
+sentiment [384/497] date=2026-03-12T00:00:00+00:00 | title=Bapenda Kabupaten Malang Sebar 1,4 Juta SPPT Tahun Ini
+sentiment [385/497] date=2026-03-12T00:00:00+00:00 | title=Tuntas Jembatan Garuda Desa Ternyang-Mangunrejo, Mulai Garap Armco
+sentiment [386/497] date=2026-03-12T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 12 Maret 2026: Didominasi Cerah dan Potensi Berkabut
+sentiment [387/497] date=2026-03-11T00:00:00+00:00 | title=Sekolah Rakyat di Kabupaten Malang Tersendat Listrik-Air
+sentiment [388/497] date=2026-03-11T00:00:00+00:00 | title=Pekan Islami PT ACA, Efektif Gugah Rasa Percaya Diri Anak Yatim
+sentiment [389/497] date=2026-03-11T00:00:00+00:00 | title=Perbaikan Kios Terminal Tumpang Malang tanpa APBD
+sentiment [390/497] date=2026-03-11T00:00:00+00:00 | title=Bongkar Reklame Nunggak Pajak Tiga Tahun di Karanglo Kabupaten Malang
+sentiment [391/497] date=2026-03-11T00:00:00+00:00 | title=BMW Mengejar PBB Rp 125 Miliar di Malang
+sentiment [392/497] date=2026-03-11T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 11 Maret 2026: Berawan hingga Hujan di Sejumlah Wilayah
+sentiment [393/497] date=2026-03-10T00:00:00+00:00 | title=Warga Akui Jembatan Garuda di Ternyang Sumberpucung Pangkas Waktu Perjalanan ke Kepanjen
+sentiment [394/497] date=2026-03-10T00:00:00+00:00 | title=Supervisor Depo Air Mineral di Malang Divonis 3 Tahun Penjara karena Gelapkan Uang Peru...
+sentiment [395/497] date=2026-03-10T00:00:00+00:00 | title=ASN Pemerintah Kabupaten Malang Dilarang Mudik Bawa Mobil Dinas
+sentiment [396/497] date=2026-03-10T00:00:00+00:00 | title=Di Malang, Tiga Pohon Tumbang dan Satu Rumah Rusak
+sentiment [397/497] date=2026-03-10T00:00:00+00:00 | title=UB Kepanjen Malang Mulai Dibangun, Pemkab Hibahkan Aset 30 Hektare
+sentiment [398/497] date=2026-03-10T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 10 Maret 2026: Waspada Hujan di Sebagian Besar Kecamatan
+sentiment [399/497] date=2026-03-09T00:00:00+00:00 | title=Gerai 20 Koperasi Merah Putih di Kabupaten Malang Tuntas Dibangun, Bertahap Segera Bero...
+sentiment [400/497] date=2026-03-09T00:00:00+00:00 | title=Baru Diresmikan, Jembatan Garuda di Sumberpucung Malang Pangkas Waktu Tempuh ke Kepanje...
+sentiment [401/497] date=2026-03-09T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 9 Maret 2026: Sejumlah Wilayah Berpotensi Hujan Ringan
+sentiment [402/497] date=2026-03-08T00:00:00+00:00 | title=Pekan Islami ke-19, Santunan Anak Yatim di 33 Kecamatan dan 390 Desa se-Malang Raya
+sentiment [403/497] date=2026-03-08T00:00:00+00:00 | title=Pekan Islami ke-XIX, Ajang Memberi Contoh kepada Pengusaha Lain
+sentiment [404/497] date=2026-03-08T00:00:00+00:00 | title=Pariwisata Kabupaten Malang Turut Sumbang PAD Rp7,6 Miliar
+sentiment [405/497] date=2026-03-08T00:00:00+00:00 | title=Jual Aset Klien Senilai Rp4,7 Miliar, Notaris Kini Mendekam di Penjara
+sentiment [406/497] date=2026-03-08T00:00:00+00:00 | title=Pemprov Ikut Terlibat, Pemkab Malang Menunggu Kelanjutan JLS Malang-Lumajang
+sentiment [407/497] date=2026-03-07T00:00:00+00:00 | title=Potret Toleransi di Desa Peniwen, Warga Beda Agama Saling Anjangsana saat Hari Raya
+sentiment [408/497] date=2026-03-07T00:00:00+00:00 | title=DJP Jatim III Naikkan Target Pajak Kabupaten Malang Jadi Rp 2,6 Triliun
+sentiment [409/497] date=2026-03-07T00:00:00+00:00 | title=Menteri KKP Tinjau Progres Kampung Nelayan Merah Putih Pujiharjo
+sentiment [410/497] date=2026-03-07T00:00:00+00:00 | title=Dua Bulan Berjalan, Pajak Parkir Kabupaten Malang Baru Capai 12 Persen
+sentiment [411/497] date=2026-03-07T00:00:00+00:00 | title=Lonjakan Cabai Rawit Dominasi Inflasi di Kabupaten Malang
+sentiment [412/497] date=2026-03-07T00:00:00+00:00 | title=Ayah Angkat di Karangploso Cabuli Anak Selama 2 Tahun, Divonis 13 Tahun Penjara
+sentiment [413/497] date=2026-03-07T00:00:00+00:00 | title=Ketakutan Orang Tua Jadi Penghambat Program Imunisasi Anak di Kabupaten Malang
+sentiment [414/497] date=2026-03-07T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 7 Maret 2026: Lawang, Pujon, dan Kasembon Hujan Ringan
+sentiment [415/497] date=2026-03-06T00:00:00+00:00 | title=Tahun Depan, Rencanakan Beri Beasiswa  1.000 Anak Yatim Berprestasi
+sentiment [416/497] date=2026-03-06T00:00:00+00:00 | title=Proyek Alun-Alun Kepanjen Malang Senilai Rp 700 Miliar Sepi Peminat
+sentiment [417/497] date=2026-03-06T00:00:00+00:00 | title=Merekam Indahnya Toleransi saat Ramadan di Kampung-Kampung Heterogen (5)
+sentiment [418/497] date=2026-03-06T00:00:00+00:00 | title=Kebon Agung Santuni Anak Panti Asuhan
+sentiment [419/497] date=2026-03-06T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 6 Maret 2026: Berawan hingga Hujan Petir di Sejumlah Wi...
+sentiment [420/497] date=2026-03-05T00:00:00+00:00 | title=Poncokusumo Malang Porak-poranda Diamuk Angin Kencang
+sentiment [421/497] date=2026-03-05T00:00:00+00:00 | title=Jaring Kaum Duafa dengan Gandeng Tiktokers Kalipare
+sentiment [422/497] date=2026-03-05T00:00:00+00:00 | title=3.049 Program Berebut Anggaran Musrenbang di Kabupaten Malang
+sentiment [423/497] date=2026-03-05T00:00:00+00:00 | title=Habis Tilang, Terbit Opsgab Pajak Kendaraan di Kabupaten Malang
+sentiment [424/497] date=2026-03-05T00:00:00+00:00 | title=Mau Mudik, Sebaiknya Hindari Tiga Jalur ini di Kabupaten Malang
+sentiment [425/497] date=2026-03-05T00:00:00+00:00 | title=Dokumen Studi Kelayakan Tol Malang-Kepanjen Kabupaten Malang Dilelang September 2026
+sentiment [426/497] date=2026-03-05T00:00:00+00:00 | title=Prakiraan Cuaca Kabupaten Malang 5 Maret 2026: Berawan hingga Hujan Ringan
+sentiment [427/497] date=2026-03-04T00:00:00+00:00 | title=Yatim Berprestasi Bisa Bawa Pulang Mobil Listrik
+sentiment [428/497] date=2026-03-04T00:00:00+00:00 | title=Dua Hari, Bumi Kanjuruhan Dikepung Sembilan Bencana
+sentiment [429/497] date=2026-03-04T00:00:00+00:00 | title=Kuota Mudik Gratis Kabupaten Malang Sudah Terisi 70 Persen
+sentiment [430/497] date=2026-03-04T00:00:00+00:00 | title=Perusahaan di Kabupaten Malang Nihil Aduan Tunjangan Hari Raya
+sentiment [431/497] date=2026-03-04T00:00:00+00:00 | title=Sendangbiru Kabupaten Malang Alami Musim Paceklik Ikan Besar
+sentiment [432/497] date=2026-03-04T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 4 Maret 2026: Malam Berpotensi Hujan Petir
+sentiment [433/497] date=2026-03-03T00:00:00+00:00 | title=Prediksi Cuaca Kabupaten Malang 3 Maret 2026: Berawan hingga Hujan Ringan
+sentiment [434/497] date=2026-03-03T00:00:00+00:00 | title=THR Rp 90 Miliar di Kabupaten Malang Tertahan Aturan
+sentiment [435/497] date=2026-03-03T00:00:00+00:00 | title=Cuaca Ekstrem Masih Intai Bumi Kanjuruhan
+sentiment [436/497] date=2026-03-03T00:00:00+00:00 | title=31 Maret, Alarm Pajak ASN Kabupaten Malang
+sentiment [437/497] date=2026-03-03T00:00:00+00:00 | title=Pekan Islami Ke-19 PT ACA, Hadiahi Anak Yatim Beragam Mainan Edukasi
+sentiment [438/497] date=2026-03-03T00:00:00+00:00 | title=Gegara Belum Aktivasi, Dana PIP untuk 1.073 Siswa di Malang Terancam Hangus
+sentiment [439/497] date=2026-06-29T00:00:00+00:00 | title=Setelah Tahap Pemenuhan Pagu, Seluruh Kuota SMAN di Kabupaten Malang Terpenuhi
+sentiment [440/497] date=2026-06-26T00:00:00+00:00 | title=Konfercab Perdana HMI Kabupaten Malang, Fahmi Aziz Terpilih Jadi Ketua
+sentiment [441/497] date=2026-06-25T00:00:00+00:00 | title=Pesantren Dinilai Jadi Investasi Strategis Cetak Pemimpin Masa Depan di Kabupaten Malang
+sentiment [442/497] date=2026-06-25T00:00:00+00:00 | title=Sekda Ajak Warga Kabupaten Malang Ikut Awasi Peredaran Rokok Ilegal
+sentiment [443/497] date=2026-06-22T00:00:00+00:00 | title=Populasi Ternak Kabupaten Malang 2025: Bululawang Juara Ayam Pedaging, Dampit Sentra Itik
+sentiment [444/497] date=2026-06-21T00:00:00+00:00 | title=Muspimcab 1X PMII Kabupaten Malang Susun Arah Baru Kaderisasi dan Gerakan Organisasi
+sentiment [445/497] date=2026-06-20T00:00:00+00:00 | title=Dukung Yakuza Maneges, DPRD Kabupaten Malang Desak Langkah Taktis Kemenag Soal Pesantren
+sentiment [446/497] date=2026-06-18T00:00:00+00:00 | title=Dalam Sehari, Dua Lansia di Kabupaten Malang Ditemukan Meninggal Terjatuh
+sentiment [447/497] date=2026-06-17T00:00:00+00:00 | title=DPRD Kabupaten Malang Beri Atensi, Bagaimana Nasib Tersangka Kasus Lahor?
+sentiment [448/497] date=2026-06-17T00:00:00+00:00 | title=Populasi Unggas di Kabupaten Malang Tembus 26,4 Juta Ekor pada 2025
+sentiment [449/497] date=2026-06-17T00:00:00+00:00 | title=Tanaka Waterfall, Wisata Main Air dengan Vibes Jepang di Kabupaten Malang
+sentiment [450/497] date=2026-06-15T00:00:00+00:00 | title=Mandeknya Rencana Alun-Alun Kepanjen, PDIP Usulkan Uji Kompetensi Ulang Kepala DPKPCK K...
+sentiment [451/497] date=2026-06-14T00:00:00+00:00 | title=MAN 1 Kabupaten Malang B Juara TIMES Football Futsal Jatim Series 2026
+sentiment [452/497] date=2026-06-14T00:00:00+00:00 | title=SMAS Diponegoro Tumpang Tantang MAN 1 Kabupaten Malang B di Final TIMES Football Futsal...
+sentiment [453/497] date=2026-06-13T00:00:00+00:00 | title=Putaran Kedua TIMES Football Futsal Jatim Series 2026, MAN 1 Kabupaten Malang dan SMAS ...
+sentiment [454/497] date=2026-06-12T00:00:00+00:00 | title=Dispendik Kabupaten Malang Ingatkan Guru Cegah Bullying dan Pelecehan Seksual di Lingku...
+sentiment [455/497] date=2026-06-12T00:00:00+00:00 | title=Dispendik Dorong Setiap Sekolah Negeri di Kabupaten Malang Punya Keunggulan Khusus
+sentiment [456/497] date=2026-06-11T00:00:00+00:00 | title=Pemkab Dorong Pabrik Infus Muhammadiyah di Kabupaten Malang Serap Tenaga Lokal
+sentiment [457/497] date=2026-06-11T00:00:00+00:00 | title=Muhammadiyah Bangun Pabrik Infus di Kabupaten Malang, Target Operasi 2027
+sentiment [458/497] date=2026-06-08T00:00:00+00:00 | title=Pesisir Kabupaten Malang Jadi Allternatif Ekowisata Edukatif
+sentiment [459/497] date=2026-06-07T00:00:00+00:00 | title=DPUBM Kabupaten Malang Tangani Ruas Lumbangsari-Sukorejo Sepanjang 2,8 Km
+sentiment [460/497] date=2026-06-07T00:00:00+00:00 | title=Jalur Offroad Dampit–Tirtoyudo Disiapkan Jadi Wisata Minat Khusus Kabupaten Malang
+sentiment [461/497] date=2026-06-06T00:00:00+00:00 | title=Milad ke 109 di Kabupaten Malang, Aisyiyah Perluas Dakwah Kemanusiaan
+sentiment [462/497] date=2026-06-05T00:00:00+00:00 | title=Sanusi Dorong Lebih Banyak Siswa dari Kabupaten Malang Masuk SMA Taruna Nusantara
+sentiment [463/497] date=2026-06-05T00:00:00+00:00 | title=PSC 119 di Kabupaten Malang: Sangat Diandalkan, Namun Kini Ngos-ngosan
+sentiment [464/497] date=2026-06-04T00:00:00+00:00 | title=Pemulangan 1.635 Jemaah Haji Kabupaten Malang, Dua Dimakamkan di Makkah
+sentiment [465/497] date=2026-06-04T00:00:00+00:00 | title=Dana Transfer Dipangkas, Kabupaten Malang Andalkan Desa Digital dan BUMDes
+sentiment [466/497] date=2026-06-04T00:00:00+00:00 | title=Sekda Kabupaten Malang Dorong UMKM Manfaatkan AI untuk Perkuat Daya Saing Produk Lokal
+sentiment [467/497] date=2026-06-03T00:00:00+00:00 | title=PSC 119 Kabupaten Malang dalam Sorotan, Dinkes Upayakan Penguatan
+sentiment [468/497] date=2026-06-03T00:00:00+00:00 | title=Dinas Pendidikan Kabupaten Malang Tekankan Integritas dan Larangan Bagi ASN
+sentiment [469/497] date=2026-06-02T00:00:00+00:00 | title=Pemkab Dorong Mahasiswa KKN di Kabupaten Malang Bantu Desa Hadapi Ancaman Bencana
+sentiment [470/497] date=2026-06-01T00:00:00+00:00 | title=PCNU Kabupaten Malang Resmikan Faskes 1 DPM di Wagir, Siap Layani Masyarakat
+sentiment [471/497] date=2026-05-31T00:00:00+00:00 | title=Pengurus PAW Perbasi Kabupaten Malang Dikukuhkan, Fokus Pembinaan Atlet Basket
+sentiment [472/497] date=2026-05-30T00:00:00+00:00 | title=Kabupaten Malang Jadi Lokasi Program Nasional Skrining Jantung Anak, 370 Siswa SD Jalan...
+sentiment [473/497] date=2026-05-30T00:00:00+00:00 | title=Ribuan Anak TK Kabupaten Malang Kampanyekan 7 Kebiasaan Anak Indonesia Hebat
+sentiment [474/497] date=2026-05-30T00:00:00+00:00 | title=Kepengurusan PAC Lebih Muda, PKB Kabupaten Malang Ditantang Raih 14 Kursi
+sentiment [475/497] date=2026-05-30T00:00:00+00:00 | title=Calon Ketua DPC PKB Kabupaten Malang Mengerucut Dua Figur, PAC Mendukung?
+sentiment [476/497] date=2026-05-27T00:00:00+00:00 | title=Rekomendasi Wisata Edukasi Hewan di Kabupaten Malang
+sentiment [477/497] date=2026-05-26T00:00:00+00:00 | title=Salat Ied Jemaah Muhammadiyah dan Nahdliyin Serentak di Kabupaten Malang
+sentiment [478/497] date=2026-05-25T00:00:00+00:00 | title=Dinas Kesehatan Penguatan PSC 119, DPRD Kabupaten Malang Beri Dukungan
+sentiment [479/497] date=2026-05-25T00:00:00+00:00 | title=Harga Hewan Kurban Naik 15 Persen, Penjualan Turun di Kabupaten Malang
+sentiment [480/497] date=2026-05-24T00:00:00+00:00 | title=Atletnya Berprestasi Level ASEAN, NPCI Kabupaten Malang Getol Matangkan Pembinaan
+sentiment [481/497] date=2026-05-24T00:00:00+00:00 | title=Mengenal Wilayah Kasembon, Kecamatan Terjauh dari Pusat Kabupaten Malang
+sentiment [482/497] date=2026-05-24T00:00:00+00:00 | title=Rekomendasi Pantai di Kabupaten Malang dengan Spot Sunset Terbaik
+sentiment [483/497] date=2026-05-24T00:00:00+00:00 | title=Jangan Cuma ke Bantur, Ini Deretan Pantai Eksotis di Tirtoyudo Kabupaten Malang
+sentiment [484/497] date=2026-05-23T00:00:00+00:00 | title=Produksi Padi Kabupaten Malang 2025 Tembus 4,3 Juta Ton
+sentiment [485/497] date=2026-05-21T00:00:00+00:00 | title=Guru Non-Dapodik Digaji dari BOS? Ini Penjelasan Inspektorat Kabupaten Malang
+sentiment [486/497] date=2026-05-21T00:00:00+00:00 | title=Pelajar MTs Almaarif 01 Singosari Apel Rutin Bersama BNN Kabupaten Malang
+sentiment [487/497] date=2026-05-20T00:00:00+00:00 | title=Lorong Gelap Pembubaran PT Kigumas: Belasan Tahun Modal APBD Kabupaten Malang Menguap
+sentiment [488/497] date=2026-05-20T00:00:00+00:00 | title=Soal Portal Jembatan Lahor, DPRD Kabupaten Malang Pastikan Panggil PJT I
+sentiment [489/497] date=2026-05-20T00:00:00+00:00 | title=BPS Catat 579 Ribu Penduduk Kabupaten Malang Berstatus Buruh
+sentiment [490/497] date=2026-05-20T00:00:00+00:00 | title=HM Sanusi: dari Anak Petani Tebu hingga Jadi Orang Nomor 1 Kabupaten Malang
+sentiment [491/497] date=2026-05-20T00:00:00+00:00 | title=Demo Solidaritas Pak Dur di DPRD Kabupaten Malang Memanas, Massa Tuntut Kejelasan
+sentiment [492/497] date=2026-05-19T00:00:00+00:00 | title=Menanti Realisasi Penanganan Jalan Sukodono-Dampit Kabupaten Malang
+sentiment [493/497] date=2026-05-19T00:00:00+00:00 | title=Ini Kekuatan Kabupaten Malang Tekan Stunting hingga Dongkrak Investasi
+sentiment [494/497] date=2026-05-19T00:00:00+00:00 | title=Produksi Garam Tunnel Sumberoto Kabupaten Malang Tembus 8 Ton per Bulan
+sentiment [495/497] date=2026-05-19T00:00:00+00:00 | title=Kuatkan Ketahanan Pangan, 100 Petani di Kabupaten Malang Dapat Bantuan Pupuk hingga Can...
+sentiment [496/497] date=2026-05-19T00:00:00+00:00 | title=Grib Jaya Kabupaten Malang Dukung Pak Dur dalam Polemik Portal Bendungan Lahor
+sentiment [497/497] date=2026-05-17T00:00:00+00:00 | title=Relawan Ambulans di Kabupaten Malang Butuh Fasilitasi Penguatan dan Kemudahan Kerja
+Sentiment prediction complete
+Importing pandas for sentiment result attach...
+Saved sentiment backfill CSV -> csv/final/sentiment_backfill_20260702_135723.csv (497 rows)
+Supabase env path: /Users/tsar/Library/Mobile Documents/com~apple~CloudDocs/main/college/pkl/.env
+Supabase update start: table=raw_news_articles, records=497
+Supabase update [1/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606150015/drainase-panggungrejo-ditarget-rampung-desember-2026-progres-baru-capai-30-persen
+Supabase update [2/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606150014/produksi-susu-sapi-dan-kambing-di-kabupaten-malang-tembus-153-ribu-ton-mulai-pulih-setelah-dihantam-wabah-pmk
+Supabase update [3/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606130014/inilah-rahasia-di-balik-alasan-sim-d-kian-diminati-di-kabupaten-malang
+Supabase update [4/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606130013/ketua-pkb-kabupaten-malang-bercita-cita-menguasai-kursi-bupati-mulai-kapan
+Supabase update [5/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606130011/wow-segini-setoran-pbb-dari-tiga-desa-di-malang
+Supabase update [6/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606130009/inilah-rute-baru-bus-trans-jatim-di-malang-yang-dikaji-pemprov-jatim
+Supabase update [7/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606130034/dipercaya-jadi-ketua-dpc-kholiq-target-kursi-bupati-malang-diisi-kader-pkb
+Supabase update [8/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606130019/diduga-rem-blong-saat-hindari-motor-truk-tebu-terguling-di-lawang
+Supabase update [9/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606120053/ini-alasan-dewan-panggil-perum-jasa-tirta-i-tuntaskan-polemik-bendungan-lahor-malang
+Supabase update [10/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606120050/31-persen-susu-jatim-dipasok-dari-kabupaten-malang
+Supabase update [11/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606110018/tahun-depan-warga-kabupaten-malang-mempunyai-310-kades-baru
+Supabase update [12/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606110037/pabrik-olahan-kayu-di-wajak-terbakar-diduga-karena-kipas-oven-overheat
+Supabase update [13/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606110014/gegara-ini-ratusan-kdkmp-di-kabupaten-malang-tak-bisa-beroperasi
+Supabase update [14/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606110010/batu-besar-di-singosari-malang-ini-ditengarai-peninggalan-zaman-megalitikum
+Supabase update [15/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606100034/warga-gondanglegi-malang-padamkan-kebakaran-tanpa-damkar
+Supabase update [16/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606090045/perkuat-semangat-pancasila-275-pemuda-dan-mahasiswa-ikuti-jagongan-lintas-iman-di-cakra-buana-lawang
+Supabase update [17/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606090007/anda-wajib-tahu-beginilah-cara-pdam-kabupaten-malang-menambah-5000-pelanggan-baru
+Supabase update [18/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606090003/belum-rampung-proyek-sekolah-rakyat-di-srigonco-malang-bakal-bangun-lagi-di-dampit
+Supabase update [19/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606080029/11891-relawan-sppg-di-kabupaten-malang-bakal-didaftarkan-bpjs-kesehatan
+Supabase update [20/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606080039/pemkab-malang-gandeng-universitas-al-qolam-kembangkan-desa-maslahah-fokus-pada-ekonomi-dan-sdm-desa
+Supabase update [21/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606070017/ratusan-gerai-koperasi-merah-putih-di-kabupaten-malang-belum-selesai-dibangun-cuaca-dianggap-jadi-sebab
+Supabase update [22/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606050060/ribuan-warga-malang-tak-punya-bpjs-ini-risikonya
+Supabase update [23/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606050059/inilah-lokasi-alun-alun-kepanjen-yang-terbaru
+Supabase update [24/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605200011/ini-penyebab-kebakaran-pengolahan-limbah-plastik-di-malang
+Supabase update [25/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606050055/lupa-mematikan-tungku-selesai-masak-rumah-warga-tajinan-malang-hangus-terbakar
+Supabase update [26/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606050053/setoran-pajak-hotel-di-kabupaten-malang-belum-ideal-besarnya-capai-segini
+Supabase update [27/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606050047/32-sppg-diberhentikan-sementara-oleh-bgn-ri
+Supabase update [28/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606040012/tambah-pelanggan-perumda-tirta-kanjuruhan-bangun-spam-dieng
+Supabase update [29/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605200019/prediksi-cuaca-kabupaten-malang-20-mei-2026-berpotensi-hujan-ringan-hingga-udara-kabur
+Supabase update [30/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606040011/update-polemik-portal-bendungan-lahor-di-karangkates-malang
+Supabase update [31/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606040009/mayoritas-kebakaran-di-kabupaten-malang-terjadi-pada-april-mei-kenapa
+Supabase update [32/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606030044/rp-50-miliar-untuk-pemeliharaan-jalan-di-kabupaten-malang
+Supabase update [33/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606030042/awas-pujon-malang-paling-sering-dilanda-bencana
+Supabase update [34/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605190016/horeee-warga-malang-terima-20-kursi-roda-sampai-40-paket-kewirausahaan
+Supabase update [35/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605190019/waduh-kdmp-di-malang-masih-dilarang-mengoperasikan-armada-bantuan-pusat
+Supabase update [36/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606030041/dua-jemaah-haji-kabupaten-malang-wafat-di-tanah-suci
+Supabase update [37/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606030043/beginilah-wujud-mesin-untuk-memproduksi-rokok-di-malang
+Supabase update [38/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606030038/di-malang-hutan-lebih-dari-4-ribu-hektare-rusak
+Supabase update [39/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606030037/duh-lokasi-alun-alun-kepanjen-malang-bergeser-lagi
+Supabase update [40/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606020016/inilah-daftar-kawasan-hutan-di-malang-yang-jadi-langganan-pembalakan-liar
+Supabase update [41/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606020015/heboh-ini-penyebab-bocah-14-tahun-tenggelam-di-embung-babadan-malang
+Supabase update [42/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606020013/dprd-kabupaten-malang-minta-bupati-sanusi-tak-korban-stadion-kanjuruhan-demi-bangun-alun-alun
+Supabase update [43/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606020003/prediksi-cuaca-kabupaten-malang-selasa-2-juni-2026-berpotensi-hujan-ringan
+Supabase update [44/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606010012/diduga-terlambat-antisipasi-truk-parkir-pemotor-tewas-di-lawang
+Supabase update [45/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2606010003/prediksi-cuaca-kabupaten-malang-1-juni-2026-didominasi-kondisi-berawan
+Supabase update [46/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605110003/84-aduan-mbg-masuk-ke-pemkab-malang-kualitas-menu-hingga-siswa-tak-kebagian-jadi-sorotan
+Supabase update [47/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605110002/dana-desa-dipotong-besar-besaran-pemdes-di-kabupaten-malang-mulai-kelabakan-atur-anggaran
+Supabase update [48/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605310027/waduh-470-ribu-pasangan-di-malang-menikah-tapi-tak-tercatat-di-kk
+Supabase update [49/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605310026/produksi-kakao-di-malang-melimpah-ruah-ini-rahasianya
+Supabase update [50/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605310025/pemkab-malang-raih-opini-wtp-12-kali
+Supabase update [51/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605310021/bencana-kabupaten-malang-didominasi-angin-kencang
+Supabase update [52/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605310003/prakiraan-cuaca-kabupaten-malang-minggu-31-mei-2026-didominasi-berawan
+Supabase update [53/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604290025/akses-tertutup-pasar-puskesmas-tajinan-ajukan-relokasi-ke-tempat-baru
+Supabase update [54/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605300016/santerra-de-laponte-serahkan-hewan-kurban-sapi-dan-kambing
+Supabase update [55/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605290039/berwisata-di-alun-alun-karangploso-malang-ini-manfaatnya
+Supabase update [56/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605290036/fantastis-ini-penghasilan-pemkab-malang-dari-sektor-pajak-parkir
+Supabase update [57/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605290033/rp-48-miliar-uang-kabupaten-malang-digondol-koruptor
+Supabase update [58/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605280027/aseeekkkwfh-asn-di-kabupaten-malang-diperpanjang-dua-bulan
+Supabase update [59/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605280033/25-persen-wajib-pajak-di-kabupaten-malang-tak-setor-ke-negara
+Supabase update [60/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605280026/lalu-lintas-tol-malang-naik-234-persen
+Supabase update [61/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605280025/di-malang-petugas-temukan-cacing-hati-di-hewan-kurban
+Supabase update [62/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605270041/bupati-malang-sanusi-janji-perbaiki-infrastruktur-puskesmas
+Supabase update [63/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605270028/kabupaten-malang-punya-99-ribu-hewan-kurban
+Supabase update [64/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605270025/ekamas-fortuna-berkurban-15-kambing-dan-1-ekor-sapi
+Supabase update [65/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605270003/prediksi-cuaca-kabupaten-malang-rabu-27-mei-2026-berawan
+Supabase update [66/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604220010/dprd-kabupaten-malang-akan-pelototi-kinerja-anak-bupati
+Supabase update [67/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605260060/400-personel-disiagakan-amankan-malam-takbir-dan-idul-adha-di-kabupaten-malang
+Supabase update [68/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605260006/ini-alasannya-domba-jadi-primadona-hewan-kurban-idul-adha-di-bumi-arema
+Supabase update [69/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605260007/begini-cara-pemkab-malang-mengejar-pajak-asn
+Supabase update [70/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605260015/prediksi-cuaca-kabupaten-malang-26-mei-2026-berawan-di-32-kecamatan
+Supabase update [71/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605250004/satpol-pp-kabupaten-malang-tertibkan-42-reklame-bermasalah-banyak-tak-berizin-dan-rusak
+Supabase update [72/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605250002/peracik-petasan-di-kepanjen-tewas-setelah-ledakan-dahsyat-rumah-hancur-dan-polisi-temukan-satu-ember-mercon
+Supabase update [73/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605250022/prediksi-cuaca-kabupaten-malang-senin-25-mei-2026-waspada-hujan-ringan
+Supabase update [74/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605240025/kabupaten-malang-butuh-lahan-dekat-sungai-untuk-psel
+Supabase update [75/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605240022/drainase-cepokomulyo-malang-harus-tuntas-150-hari-ini-alasannya
+Supabase update [76/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605220086/layani-kpr-user-skyland-group-di-malang-gandeng-bank-bca
+Supabase update [77/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604150003/panasi-rawon-warung-di-malang-ikut-gosong
+Supabase update [78/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604150002/rest-area-jalur-malang-bromo-ditutup-lagi
+Supabase update [79/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605220085/dpubm-kabupaten-malang-tahun-ini-fokus-optimalisasi-bangun-jembatan
+Supabase update [80/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605220079/tersangka-perusakan-bendungan-lahor-karangkates-diperiksa-45-menit
+Supabase update [81/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605220019/prediksi-cuaca-kabupaten-malang-22-mei-2026-hujan-ringan-guyur-sejumlah-kecamatan
+Supabase update [82/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605210004/ratusan-gram-sabu-sabu-dimusnahkan-di-kabupaten-malang
+Supabase update [83/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605210003/soal-tudingan-pungli-bendungan-lahor-dprd-kabupaten-malang-bakal-panggil-perum-jasa-tirta-i
+Supabase update [84/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605210001/katanya-efisiensi-anggaran-tapi-perdin-bupati-malang-habiskan-rp-800-juta
+Supabase update [85/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605210018/prediksi-cuaca-kabupaten-malang-21-mei-2026-udara-kabur-berpotensi-selimuti-sebagian-besar-wilayah
+Supabase update [86/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605200055/rsud-kanjuruhan-malang-tanda-tangani-pakta-integritas-dengan-bpjs-kesehatan
+Supabase update [87/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605190011/ini-alasan-pemkab-malang-makin-getol-bongkar-bongkar-reklame-liar
+Supabase update [88/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605190024/prediksi-cuaca-kabupaten-malang-19-mei-2026-udara-kabur-berpotensi-selimuti-sebagian-besar-wilayah
+Supabase update [89/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605180025/struktur-lapuk-dan-rawan-ambles-250-batu-candi-jago-diganti-saat-pemugaran
+Supabase update [90/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605180024/7-gerai-koperasi-merah-putih-di-kabupaten-malang-belum-dibangun-karena-tunggu-izin-perhutani
+Supabase update [91/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605180023/tol-malang-kepanjen-tambah-interchange-di-gondanglegi-untuk-topang-wisata-pantai-selatan
+Supabase update [92/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605180018/prediksi-cuaca-kabupaten-malang-18-mei-2026-didominasi-berawan-tujuh-kecamatan-hujan-ringan
+Supabase update [93/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605170025/222-lahan-belum-dibebaskan-perbaikan-jalur-menuju-wisata-balekambang-terpaksa-molor-lagi
+Supabase update [94/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605170023/pemkab-malang-siapkan-lima-usaha-knmp-pujiharjo-untuk-menyambut-presiden-prabowo
+Supabase update [95/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605170024/promosi-di-reklame-menurun-pilih-medsos-dan-media-massa
+Supabase update [96/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605170022/naik-19-persen-103946-kendaraan-keluar-masuk-tol-malang
+Supabase update [97/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605170021/gadis-asal-malang-terpaksa-layani-pacar-karena-takut-keluarga-dibunuh
+Supabase update [98/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605150021/ssttt-ini-alasan-dprd-batal-interpelasi-wabup-malang
+Supabase update [99/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605150019/reklame-misterius-di-malang-dibongkar-tengah-malam
+Supabase update [100/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605150018/setahun-setoran-nelayan-malang-dibanderol-rp-200-juta
+Supabase update [101/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605150017/ini-rencana-aturan-baru-penggunaan-sound-horeg-di-kabupaten-malang
+Supabase update [102/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605150026/prediksi-cuaca-kabupaten-malang-15-mei-2026-sejumlah-wilayah-berpotensi-hujan-ringan
+Supabase update [103/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605140055/waspadai-kopdes-merah-putih-kanibal-di-malang
+Supabase update [104/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605140054/jejak-trem-uap-di-turen-yang-hilang-ditelan-zaman-dulu-jadi-jalur-vital-angkut-singkong
+Supabase update [105/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605140035/pemuda-purwosari-cabuli-gadis-di-tempat-umum
+Supabase update [106/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605140046/kabupaten-malang-jadi-raja-pisang-jawa-timur-dengan-produksi-tembus-184-juta-ton
+Supabase update [107/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605140026/pujasera-jalur-singosari-batu-segera-buka-lagi
+Supabase update [108/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605140029/pria-asal-bululawang-tega-habisi-istri-karena-menolak-diajak-hubungan-badan
+Supabase update [109/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605140033/terbongkar-pembalakan-liar-di-tambakrejo-malang
+Supabase update [110/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605140024/desa-tirtomoyo-kabupaten-malang-kebagian-rp-1-miliar-dari-bagi-hasil-pajak-kendaraan
+Supabase update [111/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605140011/prediksi-cuaca-kabupaten-malang-14-mei-2026-udara-kabur-berpotensi-selimuti-sebelas-kecamatan
+Supabase update [112/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605130064/pemkab-malang-terima-rp-54-miliar-dari-opsen-pkb
+Supabase update [113/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605130063/alhamdulillah-kabupaten-malang-masih-nihil-hantavirus
+Supabase update [114/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605130062/duh-polres-malang-belum-berhasil-menangkap-pelaku-tabrak-lari-lansia-di-kepanjen-saat-mayday
+Supabase update [115/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605130018/prediksi-cuaca-kabupaten-malang-13-mei-2026-didominasi-cerah-enam-kecamatan-udara-kabur
+Supabase update [116/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605120014/puluhan-hektare-sawah-hijau-di-kabupaten-malang-berubah-jadi-beton
+Supabase update [117/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605120013/pemugaran-candi-jago-tumpang-garap-bebatuan-lapis-44
+Supabase update [118/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605120011/57-km-jalan-desa-di-kabupaten-malang-diusulkan-naik-status
+Supabase update [119/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605140002/truk-tebu-menghantam-warung-lalapan-di-lawang-sampai-hancur
+Supabase update [120/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605120041/bupati-malang-sanusi-apresiasi-asn-peraih-prestasi-mtq-korpri-tingkat-jawa-timur
+Supabase update [121/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605120010/dibutuhkan-dokter-baru-di-puskesmas-tumpang-malang
+Supabase update [122/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605120022/prediksi-cuaca-kabupaten-malang-12-mei-2026-sebagian-besar-wilayah-berpotensi-cerah
+Supabase update [123/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605110001/alokasi-dana-desa-kabupaten-malang-anjlok-rp-321-miliar-ini-detailnya
+Supabase update [124/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605110004/mulai-1-agustus-2026-pemotor-jadi-satu-satunya-kendaraan-yang-bisa-melintas-di-bendungan-lahor
+Supabase update [125/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605110006/diduga-korsleting-listrik-gudang-rongsokan-di-turen-terbakar-dan-merembet-ke-dua-rumah-warga
+Supabase update [126/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605110005/bupati-malang-sanusi-apresiasi-asn-peraih-prestasi-mtq-korpri-di-ampelgading-dalam-acara-suling
+Supabase update [127/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605110017/prediksi-cuaca-kabupaten-malang-11-mei-2026-didominasi-cerah-lima-kecamatan-hujan-ringan
+Supabase update [128/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605100031/tercatat-tiga-kali-gempa-guncang-malang-dalam-sepekan
+Supabase update [129/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605100023/pemkab-malang-ungkap-20-sapi-terjangkit-virus-lsd
+Supabase update [130/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605100021/awas-17-perlintasan-di-kabupaten-malang-tak-aman
+Supabase update [131/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605100020/bulan-depan-warga-malang-perlu-waspadai-ancaman-kebakaran
+Supabase update [132/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605100022/akses-menuju-stadion-kanjuruhan-dilebarkan
+Supabase update [133/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605100019/jalan-tol-malang-kepanjen-tingkatkan-konektivitas-antar-wilayah
+Supabase update [134/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605100013/prediksi-cuaca-kabupaten-malang-minggu-10-mei-2026-lima-kecamatan-berpotensi-gerimis
+Supabase update [135/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605090037/dividen-pemkab-malang-di-bank-jatim-tersedot-ke-alun-alun-kepanjen
+Supabase update [136/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605090007/prediksi-cuaca-kabupaten-malang-sabtu-9-mei-2026-tirtoyudo-hingga-poncokusumo-berpotensi-gerimis
+Supabase update [137/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605080021/demi-lindungi-pengonsumsi-daging-kurban-pemkab-terjunkan-tim-pengawas-anti-virus-pmk
+Supabase update [138/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605080020/terbongkar-ini-alasan-jembatan-termangu-malang-bikin-waswas
+Supabase update [139/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605080018/dari-penjara-belasan-napi-di-malang-jadi-petani
+Supabase update [140/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605080017/jalur-wonokerto-balekambang-bakal-rampung-september-2026
+Supabase update [141/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605080015/tower-42-meter-di-jabung-malang-mengganggu-lanud-abd-saleh
+Supabase update [142/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605080022/alun-alun-kepanjen-geser-ke-stadion-kanjuruhan
+Supabase update [143/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605080030/prediksi-cuaca-kabupaten-malang-8-mei-2026-didominasi-cerah-lima-kecamatan-udara-kabur
+Supabase update [144/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605070054/habis-dikeroyok-rombongan-wistawan-surabaya-malah-positif-narkoba
+Supabase update [145/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605070053/pemkab-malang-buka-opsi-tutup-jalur-gondanglegi-balekambang
+Supabase update [146/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605070055/waduh-bocah-2-tahun-dipaksa-orangtuanya-mengamen-di-stadion-kanjuruhan
+Supabase update [147/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605070052/38000-lulusan-sd-di-kabupaten-malang-berebut-kursi-smp-negeri
+Supabase update [148/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605070051/miris-ratusan-kelas-di-kabupaten-malang-rusak
+Supabase update [149/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605070019/prediksi-cuaca-kabupaten-malang-7-mei-2026-sebagian-besar-wilayah-berpotensi-cerah
+Supabase update [150/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605060065/menanti-janji-gubernur-jatim-perbaikan-terminal-landungsari
+Supabase update [151/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605060064/ini-penyebab-truk-ekspedisi-terguling-di-singosari-malang
+Supabase update [152/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605060063/seleksi-sekolah-negeri-di-malang-makin-ketat
+Supabase update [153/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605060066/rsud-lawang-malang-bakal-tambah-fasilitas-untuk-cuci-darah
+Supabase update [154/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605060062/satpol-pp-kabupaten-malang-segel-menara-bts-ilegal
+Supabase update [155/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605060011/prediksi-cuaca-kabupaten-malang-6-mei-2026-didominasi-cerah-berawan-waspada-udara-kabur-di-empat-kecamatan
+Supabase update [156/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605050008/pencari-ikan-ditemukan-meninggal-di-sungai-sumber-luluh-ngajum-penyebabnya-diduga-karena-terpeleset
+Supabase update [157/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605050024/prediksi-cuaca-kabupaten-malang-5-mei-2026-didominasi-cerah-dua-kecamatan-hujan-ringan
+Supabase update [158/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605040017/tiga-tahun-tanpa-perawatan-42-halte-di-kabupaten-malang-kian-kusam
+Supabase update [159/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605040016/jalibar-kepanjen-belum-diperbaiki-proyek-rp-2-miliar-masih-ditinjau-ulang
+Supabase update [160/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605040014/prediksi-cuaca-kabupaten-malang-4-mei-2026-sebagian-besar-wilayah-berpotensi-cerah
+Supabase update [161/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605030044/kejar-161-ribu-ton-pg-krebet-baru-dukung-swasembada-gula
+Supabase update [162/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605030034/targetkan-rendemen-12-persen-bupati-malang-katakan-hal-ini
+Supabase update [163/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605010018/kisah-rumah-tua-di-jalan-sultan-agung-kepanjen-sempat-jadi-kantor-pln-dulu-dirumorkan-bekas-klinik-aborsi
+Supabase update [164/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605010025/kabupaten-malang-dijatah-32000-dosis-vaksin-pmk
+Supabase update [165/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605010024/di-jabung-malang-lima-rumah-rusak-akibat-diterpa-angin-kencang
+Supabase update [166/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605010023/ribuan-anak-di-kabupaten-malang-positif-stunting-ini-detail-kasusnya
+Supabase update [167/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605010022/bupati-malang-sanusi-ungkap-344-jabatan-kosong
+Supabase update [168/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604290062/dlh-kabupaten-malang-limbah-sppg-harus-dikelola
+Supabase update [169/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2605010029/prediksi-cuaca-kabupaten-malang-1-mei-2026-berpotensi-cerah-hingga-hujan-ringan
+Supabase update [170/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604300006/600-lampu-tenaga-surya-terpasang-di-jalan-gondanglegi-balekambang-untuk-terangi-pengendara-saat-malam-hari
+Supabase update [171/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604300004/dana-hibah-tempat-ibadah-rp-287-miliar-di-kabupaten-malang-mulai-cair
+Supabase update [172/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604300023/prediksi-cuaca-kabupaten-malang-30-april-2026-hujan-ringan-berpotensi-guyur-16-kecamatan
+Supabase update [173/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604290023/2397-napi-lapas-lowokwaru-lolos-validasi-nik-siap-diusulkan-pbi-bpjs-kesehatan
+Supabase update [174/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604290022/prediksi-cuaca-kabupaten-malang-29-april-2026-berpotensi-berawan-hingga-hujan-ringan
+Supabase update [175/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604280028/minat-warga-kabupaten-malang-kerja-ke-luar-negeri-turun-hingga-april-baru-1426-tki-yang-berangkat
+Supabase update [176/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604280027/gate-bendungan-lahor-segera-dibuka-lagi-sistem-pembayaran-nontunai-berlaku-pekan-ini
+Supabase update [177/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604280007/lebih-dekat-dengan-grup-ludruk-organik-dari-kecamatan-jabung-pemerannya-berlatar-belakang-petani-dan-peternak
+Supabase update [178/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604280058/enam-kloter-haji-dari-malang-tiba-di-tanah-suci
+Supabase update [179/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604280025/disiplin-dalam-laporan-administrasi-pemkab-malang-raih-penghargaan-kinerja-tinggi-dari-kemendagri
+Supabase update [180/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604280040/kh-marzuqi-mustamar-beri-siraman-rohani-dalam-pembukaan-majelis-hubbun-nabi-desa-srigading-lawang
+Supabase update [181/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604280022/prediksi-cuaca-kabupaten-malang-28-april-2026-hujan-ringan-guyur-sejumlah-kecamatan
+Supabase update [182/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604270029/setahun-disnaker-tangani-35-tki-ilegal-asal-kabupaten-malang-13-orang-harus-dideportasi
+Supabase update [183/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604270026/bapenda-kabupaten-malang-catat-setoran-tiga-sektor-pajak-masih-seret
+Supabase update [184/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604270025/antrean-haji-makin-pendek-warga-kabupaten-malang-yang-daftar-tahun-ini-bisa-berangkat-2052
+Supabase update [185/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604270024/pengaspalan-jalan-gondanglegi-bantur-balekambang-tinggal-7-km-proyek-dikebut-hingga-2027
+Supabase update [186/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604270023/prediksi-cuaca-kabupaten-malang-27-april-2026-berpotensi-berawan-dan-hujan-ringan
+Supabase update [187/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604260015/dpubm-kabupaten-malang-gelontor-rp-7-miliar-untuk-pju
+Supabase update [188/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604240024/berdalih-pengobatan-tabib-cabul-di-malang-setubuhi-pasien-berkali-kali
+Supabase update [189/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604240022/kasian-mahasiswa-sidoarjo-terlindas-truk-di-malang
+Supabase update [190/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604240020/soal-kontroversi-promosi-anak-bupati-ini-kata-sekda-kabupaten-malang
+Supabase update [191/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604240018/soal-kontroversi-anak-bupati-malang-dprd-rekom-seleksi-pejabat-diawasi-rakyat
+Supabase update [192/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604240016/eksekusi-ruko-di-dau-malang-berujung-protes-rasis
+Supabase update [193/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604240015/hari-ini-380-cjh-kabupaten-malang-diberangkatkan
+Supabase update [194/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604240056/elf-hantam-truk-parkir-di-lawang-1-tewas-1-luka-polisi-selidiki-penyebab
+Supabase update [195/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604240023/tahun-ini-kabupaten-malang-ditarget-pbb-rp-125-miliar
+Supabase update [196/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604240029/prediksi-cuaca-kabupaten-malang-24-april-2026-langit-cerah-mendominasi
+Supabase update [197/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604230020/begini-pandangan-akademisi-hukum-tata-negara-uwg-dan-ub-soal-kontroversi-anak-bupati-malang-yang-dilantik-jadi-kepala-dlh
+Supabase update [198/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604230018/ribuan-reklame-ilegal-beredar-di-kabupaten-malang-langsung-ditertibkan-ini-detail-lokasinya
+Supabase update [199/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604230015/sdn-mulyoagung-2-di-malang-diperbaiki-tahun-ini
+Supabase update [200/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604230023/legislator-kabupaten-malang-gagas-perda-untuk-kesejahteraan-masyarakat
+Supabase update [201/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604230026/prediksi-cuaca-kabupaten-malang-23-april-2026-hujan-ringan-guyur-sejumlah-kecamatan
+Supabase update [202/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604230016/begini-strategi-bapenda-kabupaten-malang-dalam-mengejar-target-pajak
+Supabase update [203/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604220008/suruh-sang-kekasih-minum-obat-penggugur-kandungan-pria-di-malang-masuk-penjara
+Supabase update [204/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604220045/produksi-kentang-kabupaten-malang-melesat-tembus-32976-ton-dengan-pusat-pengembangan-di-poncokusmo
+Supabase update [205/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604220007/kejaksaan-negeri-kabupaten-malang-lelang-9-aset-koruptor-ini-daftarnya
+Supabase update [206/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604220006/215-lahan-mulai-proses-dibebaskan-untuk-proyek-jalur-gondanglegi-balekambang
+Supabase update [207/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604220005/museum-tragedi-kanjuruhan-belum-punya-konsep-sebagai-destinasi-wisata-dispora-masih-godok-skema-digital
+Supabase update [208/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604220026/prediksi-cuaca-kabupaten-malang-22-april-2026-sebagian-besar-wilayah-diguyur-hujan
+Supabase update [209/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604220004/ma-chung-ajari-pelajar-sma-soal-literasi-finansial
+Supabase update [210/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604210013/universitas-ma-chung-malang-cetak-mahasiswa-bermental-siap-kerja
+Supabase update [211/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604210012/bangunan-liar-di-lawang-malang-digusur-demi-normalisasi-sungai
+Supabase update [212/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604210011/di-bululawang-malang-minibus-terguling-setelah-driver-lihat-maps
+Supabase update [213/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604210010/pemkab-malang-tegaskan-pelantikan-anak-bupati-sesuai-prosedur
+Supabase update [214/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604210009/ramai-soal-bupati-malang-lantik-anaknya-jadi-kepala-dlh-begini-respons-dprd
+Supabase update [215/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604210008/telan-anggaran-hingga-rp-724-juta-food-court-stadion-kanjuruhan-belum-difungsikan
+Supabase update [216/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604210006/jalan-mulus-balekambang-gondanglegi-tuntas-awal-tahun-depan
+Supabase update [217/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604210022/prediksi-cuaca-kabupaten-malang-21-april-2026-berpotensi-berawan-hingga-hujan-ringan
+Supabase update [218/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604200021/tertemper-ka-penataran-di-singosari-lansia-65-tahun-selamat-meski-terjatuh-ke-saluran-air
+Supabase update [219/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604200014/prediksi-cuaca-kabupaten-malang-20-april-2026-berpotensi-hujan-ringan-di-sejumlah-wilayah
+Supabase update [220/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604180004/577-lahan-parkir-di-kabupaten-malang-sumbang-rp-440-juta
+Supabase update [221/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604170009/update-realisasi-pembangunan-tol-malang-kepanjen-masih-butuh-investor-agar-cepat-terlaksana
+Supabase update [222/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604170004/polres-malang-panggil-12-saksi-soal-kisruh-bendungan-lahor-ini-hasilnya
+Supabase update [223/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604170007/enaknya-16-kelompok-tani-di-malang-dapat-traktor-gratis
+Supabase update [224/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604170005/ini-penyebabnya-286-cjh-kabupaten-malang-gagal-berangkat
+Supabase update [225/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604170021/prediksi-cuaca-kabupaten-malang-17-april-2026-cerah-hingga-berawan-sepanjang-hari
+Supabase update [226/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604160021/12-ribu-bocah-di-malang-berpotensi-masuk-sekolah-rakyat
+Supabase update [227/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604160019/tak-biasa-begini-cara-ini-bupati-malang-sanusi-berdayakan-masyarakat-agar-lebih-sejahtera
+Supabase update [228/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604160018/status-pppk-di-kabupetan-malang-aman-dari-phk-meski-efisiensi-anggaran
+Supabase update [229/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604160017/warga-kabupaten-malang-sempat-keluhkan-kelangkaan-lpg-melon-begini-tanggapan-pertamina
+Supabase update [230/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604160016/pabrik-di-gondanglegi-malang-kebakaran
+Supabase update [231/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604160015/alun-alun-kepanjen-malang-telan-biaya-hingga-rp-300-miliar
+Supabase update [232/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604160024/prediksi-cuaca-kabupaten-malang-16-april-2026-berpotensi-cerah-hingga-hujan-ringan
+Supabase update [233/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604150005/wah-11-dinas-di-kabupaten-malang-tak-perlu-wfh
+Supabase update [234/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604150004/setoran-pajak-perusahaan-di-singosari-dan-kepanjen-capai-rp-294-miliar
+Supabase update [235/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604150022/prediksi-cuaca-kabupaten-malang-15-april-2026-berpotensi-berawan-hingga-hujan-ringan
+Supabase update [236/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604150001/bpr-artha-kanjuruhan-malang-dapat-modal-rp-50-miliar
+Supabase update [237/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604140011/psel-di-malang-raya-terombang-ambing-lokasi
+Supabase update [238/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604140010/lantik-anak-jadi-kepala-dlh-kabupaten-malang-bupati-malang-sanusi-bantah-ada-jual-beli-jabatan
+Supabase update [239/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604140009/pembobolan-smpn-1-pakisaji-malang-dirancang-sambil-tenggak-miras
+Supabase update [240/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604140008/pengaspalan-kepanjen-kendalpayak-malang-rampung-sebulan
+Supabase update [241/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604140025/prediksi-cuaca-kabupaten-malang-14-april-2026-sebagian-besar-wilayah-berpotensi-cerah
+Supabase update [242/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604130010/festival-busu-jaman-biyen-angkat-hikayat-keblek-setelah-absen-6-tahun
+Supabase update [243/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604130013/10-rumah-di-singosari-rusak-akibat-puting-beliung-begini-kondisinya
+Supabase update [244/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604130015/prediksi-cuaca-kabupaten-malang-13-april-2026-cuaca-cerah-mendominasi
+Supabase update [245/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604120004/opsi-tambah-bus-jurusan-malang-sendangbiru
+Supabase update [246/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604110021/batik-seng-kabupaten-malang-hasilkan-motif-kembang-srengenge
+Supabase update [247/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604100065/halal-bihalal-hikam-malang-raya-pasuruan-kiai-idris-ingatkan-alumni-untuk-terus-berdakwah
+Supabase update [248/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604100012/desa-ganjaran-malang-butuh-tambahan-dapur-mbg
+Supabase update [249/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604100014/20-desa-di-kabupaten-malang-tak-punya-kades
+Supabase update [250/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604100013/dua-rumah-di-kabupaten-malang-retak-akibat-tanah-ambles
+Supabase update [251/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604100009/warga-malang-keluhkan-pbb-yang-naik-setiap-tahun
+Supabase update [252/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604100011/wisatawan-bromo-sumbang-900-kilogram-sampah
+Supabase update [253/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604100010/ai-punya-andil-perkara-bullying-anak-di-kabupaten-malang
+Supabase update [254/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604100027/prediksi-cuaca-kabupaten-malang-10-april-2026-siang-berpotensi-hujan-ringan-hingga-petir
+Supabase update [255/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604090003/gamis-poncokusumo-malang-tembus-pasar-tiga-negara
+Supabase update [256/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604090002/bendungan-lahor-karangkates-malang-batasi-kendaraan-melintas
+Supabase update [257/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604090004/aksi-maling-bobol-smpn-1-pakisaji-malang-terekam-cctv
+Supabase update [258/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604090045/wakil-bupati-malang-lathifah-shohib-dorong-revolusi-pertanian-lewat-padi-hayati
+Supabase update [259/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604090005/angin-di-poncokusumo-malang-mengamuk-atap-23-rumah-remuk
+Supabase update [260/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604090022/prediksi-cuaca-kabupaten-malang-9-april-2026-pagi-berawan-siang-dan-sore-berpotensi-hujan-ringan
+Supabase update [261/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604080016/tiga-kecamatan-di-kabupaten-malang-dilanda-longsor-akibat-hujan-deras
+Supabase update [262/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604080018/prediksi-cuaca-kabupaten-malang-8-april-2026-siang-berpotensi-hujan-ringan-dan-petir
+Supabase update [263/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604070014/di-malang-93-bocah-mengidap-tbc
+Supabase update [264/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604070013/truk-terperosok-jalur-malang-batu-macet-tujuh-jam
+Supabase update [265/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604070012/pria-asal-pujon-malang-edarkan-39-gram-sabu-sabu
+Supabase update [266/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604070011/pemkab-malang-target-bedah-205-rumah-tak-layak
+Supabase update [267/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604070010/dua-opsen-pajak-motor-di-malang-setor-rp-54-miliar
+Supabase update [268/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604070026/prediksi-cuaca-kabupaten-malang-7-april-2026-berpotensi-cerah-hingga-hujan-ringan
+Supabase update [269/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604060025/prediksi-cuaca-kabupaten-malang-6-april-2026-siang-hari-didominasi-hujan-ringan
+Supabase update [270/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604050015/kabupaten-malang-masih-kekurangan-jumlah-satuan-pelayanan-pemenuhan-gizi
+Supabase update [271/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604050009/tiga-kios-di-pasar-landungsari-terbakar-pemiliknya-rugi-rp-300-juta
+Supabase update [272/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604050005/bibit-padi-unggul-di-kabupaten-malang-hasilkan-11-ton-per-hektare
+Supabase update [273/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604040014/bupati-malang-sanusihindari-skema-pengurangan-pppk
+Supabase update [274/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604040007/perolehan-pajak-reklame-kabupaten-malang-masih-minim
+Supabase update [275/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604040003/rp-215-m-untuk-125-titik-jalan-di-kabupaten-malang
+Supabase update [276/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604030008/di-malang-pelaku-curanmor-remaja-dituntut-7-bulan-bui
+Supabase update [277/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603300053/marak-pencurian-kelompok-nelayan-sendang-biru-keluarkan-imbauan-larangan-mancing-di-dermaga
+Supabase update [278/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604030009/di-kabupaten-malang-asn-wfh-wajib-dua-kali-foto-berbasis-geotag
+Supabase update [279/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604030006/ada-tarian-gunungsari-hingga-kisah-cinta-sejati-rahwana
+Supabase update [280/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604030005/bulog-malang-target-menyerap-76000-ton-gabah-petani
+Supabase update [281/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604030004/ampelgading-tirtoyudo-diterjang-longsor
+Supabase update [282/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603300022/bpom-bakal-buka-upt-di-kepanjen-permudah-perizinan-umkm-jadi-lebih-cepat-dan-murah
+Supabase update [283/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604030003/koperasi-desa-di-kabupaten-malang-siap-siap-terima-truk-negara
+Supabase update [284/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604030021/prediksi-cuaca-kabupaten-malang-3-april-2026-berpotensi-cerah-hingga-hujan-ringan
+Supabase update [285/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604020012/kabupaten-malang-panen-alpukat-hingga-83-ribu-ton
+Supabase update [286/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604020009/tiga-tpa-di-malang-disuntik-dana-rp-3-miliar
+Supabase update [287/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604020010/satpol-pp-kabupaten-malang-segel-tiga-reklame-ilegal
+Supabase update [288/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603300019/pakisaji-dilanda-pohon-tumbang-akibat-cuaca-ekstrem-pemotor-hingga-rumah-kos-jadi-korban
+Supabase update [289/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604020011/pria-asal-kepanjen-malang-akui-bakar-rumah-sendiri
+Supabase update [290/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604020021/prediksi-cuaca-kabupaten-malang-2-april-2026-berpotensi-hujan-di-sebagian-besar-wilayah
+Supabase update [291/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604010030/tahun-depan-310-desa-di-kabupaten-malang-ikut-pilkades-serentak
+Supabase update [292/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604010029/suami-istri-asal-malang-cekcok-rumah-hangus-terbakar
+Supabase update [293/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604010026/kemarau-panjang-intai-8-kecamatan-di-malang
+Supabase update [294/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2604010011/prediksi-cuaca-kabupaten-malang-1-april-2026-hujan-ringan-di-sembilan-kecamatan
+Supabase update [295/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603310004/universitas-brawijaya-dampingi-proyek-psel-malang-raya
+Supabase update [296/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603310003/kabupaten-malang-darurat-armada-pengangkut-sampah
+Supabase update [297/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603310002/di-malang-mensos-gus-ipul-ungkap-banyak-bansos-tak-tepat-sasaran
+Supabase update [298/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603310001/atap-tiga-ruang-kelas-smkn-1-ampelgading-malang-ambruk
+Supabase update [299/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603310021/prediksi-cuaca-kabupaten-malang-31-maret-2026-berpotensi-berawan-hingga-hujan-ringan
+Supabase update [300/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603300016/pt-ekamas-fortuna-bagikan-ribuan-paket-sembako
+Supabase update [301/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603300012/prediksi-cuaca-kabupaten-malang-30-maret-2026-hujan-ringan-di-sejumlah-wilayah
+Supabase update [302/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603290021/147-perkara-tilang-di-kejari-malang-belum-rampung-ratusan-pelanggar-masih-nunggak
+Supabase update [303/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603290028/jumlah-pengunjung-hotel-menurun-saat-libur-lebaran
+Supabase update [304/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603290023/pembangunan-rampung-jalur-malang-bromo-kini-miliki-2-titik-rest-area
+Supabase update [305/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603290015/sektor-pertanian-meningkat-kabupaten-malang-catat-tren-positif-produksi-buah-dan-kopi
+Supabase update [306/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603290013/pajak-restoran-kabupaten-malang-capai-27-persen-per-maret-2025
+Supabase update [307/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603290014/menanti-restu-bkn-pelantikan-pejabat-kabupaten-malang-masih-terganjal
+Supabase update [308/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603290010/akibat-tak-aktivasi-rekening-jatah-pip-untuk-667-siswa-di-kabupaten-malang-hangus
+Supabase update [309/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603280028/260-ribu-kendaraan-masuk-kabupaten-malang
+Supabase update [310/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603280026/apotek-kdmp-randugading-malang-butuh-investor
+Supabase update [311/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603280024/kabupaten-malang-dilanda-22-kali-gempa
+Supabase update [312/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603280021/pendapatan-daerah-di-kabupaten-malang-tembus-rp-48-triliun
+Supabase update [313/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603280020/pohon-tumbang-tutup-jalur-malang-lumajang
+Supabase update [314/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603280017/sekolah-rakyat-di-singosari-malang-tambah-dua-ekstrakurikuler-baru
+Supabase update [315/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603280016/tni-warga-binaan-tanam-250-bibit-pohon
+Supabase update [316/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603270061/lapas-lowokwaru-tanam-250-pohon-di-sae-ngajum-dengan-libatkan-tni-dan-warga-binaan
+Supabase update [317/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603270033/atap-rumah-ambruk-keluarga-di-pakis-malang-terpaksa-mengungsi
+Supabase update [318/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603250048/dishub-kabupaten-malang-beber-alasan-fokus-prioritaskan-bus-sekolah
+Supabase update [319/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603270045/23-istri-di-bumi-arema-ditelantarkan-suami
+Supabase update [320/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603270044/tiga-kugar-di-malang-raya-kejar-panen-garam-75-ton
+Supabase update [321/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603270042/pemkab-malang-rancang-tambah-10-persen-dana-infrastruktur
+Supabase update [322/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603270038/dana-pemkab-malang-rp-400-miliar-tak-bisa-dibelanjakan
+Supabase update [323/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603270035/uang-pemkab-malang-rp-400-miliar-tak-bisa-dibelanjakan
+Supabase update [324/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603260049/12-kendaraan-di-kabupaten-malang-dinyatakan-tak-lolos-uji-kir
+Supabase update [325/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603260048/78-kali-ular-masuk-pekarangan-warga-di-kabupaten-malang
+Supabase update [326/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603260043/strategi-menghidupkan-pasar-sumedang-kabupaten-malang
+Supabase update [327/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603260040/apbd-tertekan-gaji-pegawai-tekan-hingga-maksimal-30-persen
+Supabase update [328/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603260027/gudang-penyimpanan-telur-di-kecamatan-karangploso-terbakar
+Supabase update [329/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603250049/momen-berbagi-saat-ramadan-oleh-sman-1-bululawang
+Supabase update [330/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603160002/tol-malang-kepanjen-hingga-skytrain-berikut-lima-proyek-strategis-nasional-yang-akan-terealisasi-di-kabupaten-malang
+Supabase update [331/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603250047/mayoritas-kdmp-di-kabupaten-malang-belum-punya-gerai
+Supabase update [332/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603250046/rokok-ilegal-senilai-rp-48-m-gagal-beredar-di-kabupaten-malang
+Supabase update [333/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603250044/satpol-pp-kabupaten-malang-bersih-bersih-reklame-ilegal
+Supabase update [334/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603250042/jukir-wajib-setor-retribusi-pakai-qris-di-kabupaten-malang
+Supabase update [335/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603250041/awal-2026-setoran-pbb-di-kabupaten-malang-terseok
+Supabase update [336/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603090030/toleransi-di-desa-ngadas-warga-non-muslim-ikut-siapkan-takjil-untuk-buka-puasa
+Supabase update [337/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603240056/budidaya-ikan-dan-udang-ditarget-137-ribu-ton
+Supabase update [338/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603240055/limbah-batik-diolah-menjadi-malam-lerob
+Supabase update [339/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603240053/moch-zamroni-asal-pakis-kabupaten-malang-sukses-raih-144-ribu-pendengar-lewat-rekaman-mengaji-digital
+Supabase update [340/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603240050/pertumbuhan-ekonomi-tertinggi-kedua-se-jatim
+Supabase update [341/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603190033/hilal-di-malang-hanya-166-derajat-awal-bulan-syawal-berpotensi-mundur
+Supabase update [342/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603190032/sebagian-panti-pijat-di-kabupaten-malang-masih-buka-saat-ramadan-meski-satpol-pp-klaim-tutup
+Supabase update [343/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603180038/jangan-sampai-salah-ini-daftar-titik-lokasi-salat-idulfitri-muhammadiyah-di-kabupaten-malang
+Supabase update [344/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603180016/prediksi-cuaca-kabupaten-malang-18-maret-2026-berpotensi-berawan-hingga-hujan-ringan
+Supabase update [345/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603170029/polisi-tindak-8-truk-tiga-sumbu-jelang-lebaran-2026-di-lawang-karena-langgar-aturan
+Supabase update [346/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603090021/angin-kencang-di-ngantang-terbangkan-atap-rumah-dan-bikin-satu-keluarga-mengungsi
+Supabase update [347/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603170030/greenfields-support-mudik-gratis-pemkab-malang
+Supabase update [348/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603170008/agustus-pemkab-malang-targetkan-jalur-gondanglegi-balekambang-mulus
+Supabase update [349/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603170017/prediksi-cuaca-kabupaten-malang-17-maret-2026-berpotensi-hujan-ringan-di-sejumlah-wilayah
+Supabase update [350/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603160073/koppi-ingin-pengadilan-hukum-berat-dosen-ptn-cabuli-balita-di-malang
+Supabase update [351/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603160066/polres-malang-sediakan-penitipan-kendaraan-gratis-untuk-para-pemudik-catat-tanggal-dan-syaratnya
+Supabase update [352/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603160004/pemkab-malang-kaji-bangun-alun-alun-kepanjen-dengan-skema-pinjam-bank
+Supabase update [353/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603160056/5-proyek-strategis-nasional-masuk-tahap-penawaran
+Supabase update [354/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603160055/bupati-malang-sanusi-minta-usulan-program-pada-musrenbang-rkpd-2027-tak-muluk-muluk
+Supabase update [355/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603160054/rp-27-m-untuk-pabrik-olah-sampah
+Supabase update [356/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603160050/target-perbaikan-jalan-srimulyo-kabupaten-malang-tuntas-pekan-ini
+Supabase update [357/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603160048/15-pasar-di-kabupaten-malang-jadi-tempat-charging-becak-listrik
+Supabase update [358/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603160047/pemkab-malang-kaji-pakai-pinjaman-untuk-biayai-alun-alun-kepanjen
+Supabase update [359/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603160045/bangun-tpst-kapasitas-besar-di-dua-lokasi-kabupaten-malang
+Supabase update [360/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603160001/perbaikan-jalan-srimulyo-dampit-ditarget-tuntas-sebelum-lebaran-2026
+Supabase update [361/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603160006/prediksi-cuaca-kabupaten-malang-16-maret-2026-berawan-di-sebagian-besar-wilayah
+Supabase update [362/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603150034/pemkab-malang-siapkan-tpst-raksasa-di-dua-tpa-kapasitas-pengolahan-sampah-capai-189-ton-per-hari
+Supabase update [363/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603150026/transaksi-qris-di-kabupaten-malang-didominasi-umkm
+Supabase update [364/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603150024/60-ikm-ramaikan-pasar-lebaran-di-kepanjen
+Supabase update [365/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603150023/pemkab-malang-butuh-rp27-m-untuk-pabrik-olah-sampah-solusi-setelah-mesin-rdf-berhenti
+Supabase update [366/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603150022/anggota-kdmp-randugading-bertambah-224-orang
+Supabase update [367/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603140017/24-motor-hasil-balap-liar-masih-berstatus-ngandang-di-mapolres-malang
+Supabase update [368/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603140018/operasi-pekat-polres-malang-1659-botol-miras-dimusnahkan
+Supabase update [369/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603140019/terdampak-pemangkasan-tkd-insentif-guru-madrasah-di-malang-menyusut
+Supabase update [370/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603140020/tpa-paras-bernapas-kembali-15-ribu-ton-sampah-lama-dibongkar
+Supabase update [371/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603140021/satu-tahun-kepemimpinan-sanusi-lathifah-kabupaten-malang-borong-37-penghargaan
+Supabase update [372/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603130052/bupati-malang-ajak-masyarakat-pilah-sampah-dari-rumah-lewat-gerakan-asri
+Supabase update [373/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603130037/respons-bupati-malang-untuk-proyek-ub-kepanjen
+Supabase update [374/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603130036/dprd-kabupaten-malang-desak-alun-alun-harus-terealisasi-2027
+Supabase update [375/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603130034/tuntas-11-hari-ramadan-pt-aca-santuni-12080-anak-yatim
+Supabase update [376/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603130032/ub-kepanjen-malang-diproyeksi-tampung-1200-maba
+Supabase update [377/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603130031/kabupaten-malang-mulai-operasikan-alat-pengolah-sampah-senilai-rp-27-miliar
+Supabase update [378/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603130028/masyarakat-mulai-rasakan-manfaat-sumur-bor-bmh
+Supabase update [379/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603130018/polres-malang-musnahkan-1659-botol-miras-ilegal-hasil-operasi-pekat-semeru-2026
+Supabase update [380/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603130005/prediksi-cuaca-kabupaten-malang-13-maret-2026-berpotensi-cerah-di-sebagian-besar-wilayah
+Supabase update [381/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603120057/warga-kabupaten-malang-bisa-lapor-menu-mbg-bermasalah-via-whatsapp-ini-nomor-aduannya
+Supabase update [382/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603120045/hujan-deras-dan-angin-robohkan-rumpun-bambu-di-talangagung-kepanjen-bikin-lalu-lintas-ke-blitar-sempat-lumpuh
+Supabase update [383/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603120029/pantau-rumah-kosong-hingga-lalin-arus-mudik-di-kabupaten-malang
+Supabase update [384/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603120026/bapenda-kabupaten-malang-sebar-14-juta-sppt-tahun-ini
+Supabase update [385/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603120025/tuntas-jembatan-garuda-desa-ternyang-mangunrejo-mulai-garap-armco
+Supabase update [386/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603120004/prediksi-cuaca-kabupaten-malang-12-maret-2026-didominasi-cerah-dan-potensi-berkabut
+Supabase update [387/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603110028/sekolah-rakyat-di-kabupaten-malang-tersendat-listrik-air
+Supabase update [388/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603110027/pekan-islami-pt-aca-efektif-gugah-rasa-percaya-diri-anak-yatim
+Supabase update [389/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603110026/perbaikan-kios-terminal-tumpang-malang-tanpa-apbd
+Supabase update [390/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603110025/bongkar-reklame-nunggak-pajak-tiga-tahun-di-karanglo-kabupaten-malang
+Supabase update [391/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603110023/bmw-mengejar-pbb-rp-125-miliar-di-malang
+Supabase update [392/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603110005/prediksi-cuaca-kabupaten-malang-11-maret-2026-berawan-hingga-hujan-di-sejumlah-wilayah
+Supabase update [393/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603100049/warga-akui-jembatan-garuda-di-ternyang-sumberpucung-pangkas-waktu-perjalanan-ke-kepanjen
+Supabase update [394/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603100037/supervisor-depo-air-mineral-di-malang-divonis-3-tahun-penjara-karena-gelapkan-uang-perusahaan-rp-11-miliar
+Supabase update [395/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603100033/asn-pemerintah-kabupaten-malang-dilarang-mudik-bawa-mobil-dinas
+Supabase update [396/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603100031/di-malang-tiga-pohon-tumbang-dan-satu-rumah-rusak
+Supabase update [397/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603100030/ub-kepanjen-malang-mulai-dibangun-pemkab-hibahkan-aset-30-hektare
+Supabase update [398/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603100003/prediksi-cuaca-kabupaten-malang-10-maret-2026-waspada-hujan-di-sebagian-besar-kecamatan
+Supabase update [399/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603090044/gerai-20-koperasi-merah-putih-di-kabupaten-malang-tuntas-dibangun-bertahap-segera-beroperasi
+Supabase update [400/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603090035/baru-diresmikan-jembatan-garuda-di-sumberpucung-malang-pangkas-waktu-tempuh-ke-kepanjen-jadi-10-menit
+Supabase update [401/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603090004/prediksi-cuaca-kabupaten-malang-9-maret-2026-sejumlah-wilayah-berpotensi-hujan-ringan
+Supabase update [402/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603080030/pekan-islami-ke-19-santunan-anak-yatim-di-33-kecamatan-dan-390-desa-se-malang-raya
+Supabase update [403/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603080028/pekan-islami-ke-xix-ajang-memberi-contoh-kepada-pengusaha-lain
+Supabase update [404/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603080024/pariwisata-kabupaten-malang-turut-sumbang-pad-rp76-miliar
+Supabase update [405/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603080018/jual-aset-klien-senilai-rp47-miliar-notaris-kini-mendekam-di-penjara
+Supabase update [406/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603080005/pemprov-ikut-terlibat-pemkab-malang-menunggu-kelanjutan-jls-malang-lumajang
+Supabase update [407/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603070030/potret-toleransi-di-desa-peniwen-warga-beda-agama-saling-anjangsana-saat-hari-raya
+Supabase update [408/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603070027/djp-jatim-iii-naikkan-target-pajak-kabupaten-malang-jadi-rp-26-triliun
+Supabase update [409/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603070024/menteri-kkp-tinjau-progres-kampung-nelayan-merah-putih-pujiharjo
+Supabase update [410/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603070022/dua-bulan-berjalan-pajak-parkir-kabupaten-malang-baru-capai-12-persen
+Supabase update [411/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603070021/lonjakan-cabai-rawit-dominasi-inflasi-di-kabupaten-malang
+Supabase update [412/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603070020/ayah-angkat-di-karangploso-cabuli-anak-selama-2-tahun-divonis-13-tahun-penjara
+Supabase update [413/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603070019/ketakutan-orang-tua-jadi-penghambat-program-imunisasi-anak-di-kabupaten-malang
+Supabase update [414/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603070007/prediksi-cuaca-kabupaten-malang-7-maret-2026-lawang-pujon-dan-kasembon-hujan-ringan
+Supabase update [415/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603060029/tahun-depan-rencanakan-beri-beasiswa-1000-anak-yatim-berprestasi
+Supabase update [416/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603060028/proyek-alun-alun-kepanjen-malang-senilai-rp-700-miliar-sepi-peminat
+Supabase update [417/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603060011/merekam-indahnya-toleransi-saat-ramadan-di-kampung-kampung-heterogen-5
+Supabase update [418/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603060008/kebon-agung-santuni-anak-panti-asuhan
+Supabase update [419/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603060005/prediksi-cuaca-kabupaten-malang-6-maret-2026-berawan-hingga-hujan-petir-di-sejumlah-wilayah
+Supabase update [420/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603050034/poncokusumo-malang-porak-poranda-diamuk-angin-kencang
+Supabase update [421/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603050033/jaring-kaum-duafa-dengan-gandeng-tiktokers-kalipare
+Supabase update [422/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603050032/3049-program-berebut-anggaran-musrenbang-di-kabupaten-malang
+Supabase update [423/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603050029/habis-tilang-terbit-opsgab-pajak-kendaraan-di-kabupaten-malang
+Supabase update [424/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603050024/mau-mudik-sebaiknya-hindari-tiga-jalur-ini-di-kabupaten-malang
+Supabase update [425/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603050021/dokumen-studi-kelayakan-tol-malang-kepanjen-kabupaten-malang-dilelang-september-2026
+Supabase update [426/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603050004/prakiraan-cuaca-kabupaten-malang-5-maret-2026-berawan-hingga-hujan-ringan
+Supabase update [427/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603040034/yatim-berprestasi-bisa-bawa-pulang-mobil-listrik
+Supabase update [428/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603040033/dua-hari-bumi-kanjuruhan-dikepung-sembilan-bencana
+Supabase update [429/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603040032/kuota-mudik-gratis-kabupaten-malang-sudah-terisi-70-persen
+Supabase update [430/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603040030/perusahaan-di-kabupaten-malang-nihil-aduan-tunjangan-hari-raya
+Supabase update [431/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603040027/sendangbiru-kabupaten-malang-alami-musim-paceklik-ikan-besar
+Supabase update [432/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603040003/prediksi-cuaca-kabupaten-malang-4-maret-2026-malam-berpotensi-hujan-petir
+Supabase update [433/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603030010/prediksi-cuaca-kabupaten-malang-3-maret-2026-berawan-hingga-hujan-ringan
+Supabase update [434/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603030037/thr-rp-90-miliar-di-kabupaten-malang-tertahan-aturan
+Supabase update [435/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603030035/cuaca-ekstrem-masih-intai-bumi-kanjuruhan
+Supabase update [436/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603030034/31-maret-alarm-pajak-asn-kabupaten-malang
+Supabase update [437/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603030033/pekan-islami-ke-19-pt-aca-hadiahi-anak-yatim-beragam-mainan-edukasi
+Supabase update [438/497] ok: https://radarmalang.jawapos.com/kabupaten-malang/2603030032/gegara-belum-aktivasi-dana-pip-untuk-1073-siswa-di-malang-terancam-hangus
+Supabase update [439/497] ok: https://timesindonesia.co.id/pemerintahan/596799/setelah-tahap-pemenuhan-pagu-seluruh-kuota-sman-di-kabupaten-malang-terpenuhi
+Supabase update [440/497] ok: https://timesindonesia.co.id/indonesia-positif/596292/konfercab-perdana-hmi-kabupaten-malang-fahmi-aziz-terpilih-jadi-ketua
+Supabase update [441/497] ok: https://timesindonesia.co.id/pendidikan/596218/pesantren-dinilai-jadi-investasi-strategis-cetak-pemimpin-masa-depan-di-kabupaten-malang
+Supabase update [442/497] ok: https://timesindonesia.co.id/ekonomi/596174/sekda-ajak-warga-kabupaten-malang-ikut-awasi-peredaran-rokok-ilegal
+Supabase update [443/497] ok: https://timesindonesia.co.id/ekonomi/595697/populasi-ternak-kabupaten-malang-2025-bululawang-juara-ayam-pedaging-dampit-sentra-itik
+Supabase update [444/497] ok: https://timesindonesia.co.id/peristiwa-daerah/595589/muspimcab-1x-pmii-kabupaten-malang-susun-arah-baru-kaderisasi-dan-gerakan-organisasi
+Supabase update [445/497] ok: https://timesindonesia.co.id/politik/595457/dukung-yakuza-maneges-dprd-kabupaten-malang-desak-langkah-taktis-kemenag-soal-pesantren
+Supabase update [446/497] ok: https://timesindonesia.co.id/peristiwa-daerah/595171/dalam-sehari-dua-lansia-di-kabupaten-malang-ditemukan-meninggal-terjatuh
+Supabase update [447/497] ok: https://timesindonesia.co.id/peristiwa-daerah/595071/dprd-kabupaten-malang-beri-atensi-bagaimana-nasib-tersangka-kasus-lahor
+Supabase update [448/497] ok: https://timesindonesia.co.id/ekonomi/594966/populasi-unggas-di-kabupaten-malang-tembus-264-juta-ekor-pada-2025
+Supabase update [449/497] ok: https://timesindonesia.co.id/wisata/594933/tanaka-waterfall-wisata-main-air-dengan-vibes-jepang-di-kabupaten-malang
+Supabase update [450/497] ok: https://timesindonesia.co.id/politik/594763/mandeknya-rencana-alunalun-kepanjen-pdip-usulkan-uji-kompetensi-ulang-kepala-dpkpck-kabupaten-malang
+Supabase update [451/497] ok: https://timesindonesia.co.id/olahraga/594601/man-1-kabupaten-malang-b-juara-times-football-futsal-jatim-series-2026
+Supabase update [452/497] ok: https://timesindonesia.co.id/olahraga/594600/smas-diponegoro-tumpang-tantang-man-1-kabupaten-malang-b-di-final-times-football-futsal-jatim-series-2026
+Supabase update [453/497] ok: https://timesindonesia.co.id/olahraga/594514/putaran-kedua-times-football-futsal-jatim-series-2026-man-1-kabupaten-malang-dan-smas-diponegoro-tumpang-pastikan-tiket-delapan-besar
+Supabase update [454/497] ok: https://timesindonesia.co.id/pemerintahan/594387/dispendik-kabupaten-malang-ingatkan-guru-cegah-bullying-dan-pelecehan-seksual-di-lingkungan-sekolah
+Supabase update [455/497] ok: https://timesindonesia.co.id/pemerintahan/594384/dispendik-dorong-setiap-sekolah-negeri-di-kabupaten-malang-punya-keunggulan-khusus
+Supabase update [456/497] ok: https://timesindonesia.co.id/ekonomi/594295/pemkab-dorong-pabrik-infus-muhammadiyah-di-kabupaten-malang-serap-tenaga-lokal
+Supabase update [457/497] ok: https://timesindonesia.co.id/peristiwa-daerah/594281/muhammadiyah-bangun-pabrik-infus-di-kabupaten-malang-target-operasi-2027
+Supabase update [458/497] ok: https://timesindonesia.co.id/wisata/593787/pesisir-kabupaten-malang-jadi-allternatif-ekowisata-edukatif
+Supabase update [459/497] ok: https://timesindonesia.co.id/peristiwa-daerah/593714/dpubm-kabupaten-malang-tangani-ruas-lumbangsarisukorejo-sepanjang-28-km
+Supabase update [460/497] ok: https://timesindonesia.co.id/wisata/593689/jalur-offroad-dampittirtoyudo-disiapkan-jadi-wisata-minat-khusus-kabupaten-malang
+Supabase update [461/497] ok: https://timesindonesia.co.id/indonesia-positif/593583/milad-ke-109-di-kabupaten-malang-aisyiyah-perluas-dakwah-kemanusiaan
+Supabase update [462/497] ok: https://timesindonesia.co.id/peristiwa-daerah/593453/sanusi-dorong-lebih-banyak-siswa-dari-kabupaten-malang-masuk-sma-taruna-nusantara
+Supabase update [463/497] ok: https://timesindonesia.co.id/liputan-khusus/593376/psc-119-di-kabupaten-malang-sangat-diandalkan-namun-kini-ngosngosan
+Supabase update [464/497] ok: https://timesindonesia.co.id/peristiwa-daerah/593336/pemulangan-1635-jemaah-haji-kabupaten-malang-dua-dimakamkan-di-makkah
+Supabase update [465/497] ok: https://timesindonesia.co.id/pemerintahan/593315/dana-transfer-dipangkas-kabupaten-malang-andalkan-desa-digital-dan-bumdes
+Supabase update [466/497] ok: https://timesindonesia.co.id/pemerintahan/593294/sekda-kabupaten-malang-dorong-umkm-manfaatkan-ai-untuk-perkuat-daya-saing-produk-lokal
+Supabase update [467/497] ok: https://timesindonesia.co.id/peristiwa-daerah/593210/psc-119-kabupaten-malang-dalam-sorotan-dinkes-upayakan-penguatan
+Supabase update [468/497] ok: https://timesindonesia.co.id/pendidikan/593127/dinas-pendidikan-kabupaten-malang-tekankan-integritas-dan-larangan-bagi-asn
+Supabase update [469/497] ok: https://timesindonesia.co.id/pendidikan/593002/pemkab-dorong-mahasiswa-kkn-di-kabupaten-malang-bantu-desa-hadapi-ancaman-bencana
+Supabase update [470/497] ok: https://timesindonesia.co.id/indonesia-positif/592867/pcnu-kabupaten-malang-resmikan-faskes-1-dpm-di-wagir-siap-layani-masyarakat
+Supabase update [471/497] ok: https://timesindonesia.co.id/peristiwa-daerah/592746/pengurus-paw-perbasi-kabupaten-malang-dikukuhkan-fokus-pembinaan-atlet-basket
+Supabase update [472/497] ok: https://timesindonesia.co.id/peristiwa-daerah/592678/kabupaten-malang-jadi-lokasi-program-nasional-skrining-jantung-anak-370-siswa-sd-jalani-pemeriksaan
+Supabase update [473/497] ok: https://timesindonesia.co.id/pendidikan/592676/ribuan-anak-tk-kabupaten-malang-kampanyekan-7-kebiasaan-anak-indonesia-hebat
+Supabase update [474/497] ok: https://timesindonesia.co.id/politik/592652/kepengurusan-pac-lebih-muda-pkb-kabupaten-malang-ditantang-raih-14-kursi
+Supabase update [475/497] ok: https://timesindonesia.co.id/politik/592654/calon-ketua-dpc-pkb-kabupaten-malang-mengerucut-dua-figur-pac-mendukung
+Supabase update [476/497] ok: https://timesindonesia.co.id/wisata/592213/rekomendasi-wisata-edukasi-hewan-di-kabupaten-malang
+Supabase update [477/497] ok: https://timesindonesia.co.id/peristiwa-daerah/592184/salat-ied-jemaah-muhammadiyah-dan-nahdliyin-serentak-di-kabupaten-malang
+Supabase update [478/497] ok: https://timesindonesia.co.id/peristiwa-daerah/592032/dinas-kesehatan-penguatan-psc-119-dprd-kabupaten-malang-beri-dukungan
+Supabase update [479/497] ok: https://timesindonesia.co.id/pemerintahan/591997/harga-hewan-kurban-naik-15-persen-penjualan-turun-di-kabupaten-malang
+Supabase update [480/497] ok: https://timesindonesia.co.id/peristiwa-daerah/591879/atletnya-berprestasi-level-asean-npci-kabupaten-malang-getol-matangkan-pembinaan
+Supabase update [481/497] ok: https://timesindonesia.co.id/peristiwa-daerah/591874/mengenal-wilayah-kasembon-kecamatan-terjauh-dari-pusat-kabupaten-malang
+Supabase update [482/497] ok: https://timesindonesia.co.id/wisata/591835/rekomendasi-pantai-di-kabupaten-malang-dengan-spot-sunset-terbaik
+Supabase update [483/497] ok: https://timesindonesia.co.id/wisata/591804/jangan-cuma-ke-bantur-ini-deretan-pantai-eksotis-di-tirtoyudo-kabupaten-malang
+Supabase update [484/497] ok: https://timesindonesia.co.id/ekonomi/591794/produksi-padi-kabupaten-malang-2025-tembus-43-juta-ton
+Supabase update [485/497] ok: https://timesindonesia.co.id/pendidikan/591460/guru-nondapodik-digaji-dari-bos-ini-penjelasan-inspektorat-kabupaten-malang
+Supabase update [486/497] ok: https://timesindonesia.co.id/indonesia-positif/591403/pelajar-mts-almaarif-01-singosari-apel-rutin-bersama-bnn-kabupaten-malang
+Supabase update [487/497] ok: https://timesindonesia.co.id/liputan-khusus/591299/lorong-gelap-pembubaran-pt-kigumas-belasan-tahun-modal-apbd-kabupaten-malang-menguap
+Supabase update [488/497] ok: https://timesindonesia.co.id/peristiwa-daerah/591275/soal-portal-jembatan-lahor-dprd-kabupaten-malang-pastikan-panggil-pjt-i
+Supabase update [489/497] ok: https://timesindonesia.co.id/ekonomi/591274/bps-catat-579-ribu-penduduk-kabupaten-malang-berstatus-buruh
+Supabase update [490/497] ok: https://timesindonesia.co.id/sosok/591264/hm-sanusi-dari-anak-petani-tebu-hingga-jadi-orang-nomor-1-kabupaten-malang
+Supabase update [491/497] ok: https://timesindonesia.co.id/peristiwa-daerah/591218/demo-solidaritas-pak-dur-di-dprd-kabupaten-malang-memanas--massa-tuntut-kejelasan
+Supabase update [492/497] ok: https://timesindonesia.co.id/peristiwa-daerah/591099/menanti-realisasi-penanganan-jalan-sukodonodampit-kabupaten-malang
+Supabase update [493/497] ok: https://timesindonesia.co.id/pemerintahan/591035/ini-kekuatan-kabupaten-malang-tekan-stunting-hingga-dongkrak-investasi
+Supabase update [494/497] ok: https://timesindonesia.co.id/peristiwa-daerah/590971/produksi-garam-tunnel-sumberoto-kabupaten-malang-tembus-8-ton-per-bulan
+Supabase update [495/497] ok: https://timesindonesia.co.id/peristiwa-daerah/590967/kuatkan-ketahanan-pangan-100-petani-di-kabupaten-malang-dapat-bantuan-pupuk-hingga-cangkul-dari-tni
+Supabase update [496/497] ok: https://timesindonesia.co.id/peristiwa-daerah/590959/grib-jaya-kabupaten-malang-dukung-pak-dur-dalam-polemik-portal-bendungan-lahor
+Supabase update [497/497] ok: https://timesindonesia.co.id/peristiwa-daerah/590715/relawan-ambulans-di-kabupaten-malang-butuh-fasilitasi-penguatan-dan-kemudahan-kerja

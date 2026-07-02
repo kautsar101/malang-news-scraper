@@ -342,6 +342,7 @@ def fetch_news(
         "url",
         "published_date",
         "content",
+        "primary_kecamatan",
         "sentiment",
         "sentiment_score",
     ]
@@ -351,7 +352,8 @@ def fetch_news(
     }
 
     if only_pending:
-        params["sentiment"] = "eq.pending"
+        params["or"] = "(sentiment.is.null,sentiment.eq.pending)"
+        params["primary_kecamatan"] = "not.is.null"
 
     if limit is not None:
         params["limit"] = str(limit)
